@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>近くの神社まつり</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#1c1108;--paper:#fdf8f0;--red:#b51f1f;--red-lt:#fdf0ee;--gold:#c8860a;--gold-lt:#fef7e0;--blue:#1a56a0;--blue-lt:#eef3fb;--green:#1a7a3c;--green-lt:#edf7f1;--muted:#7a6a55;--border:#e8dcc8;--panel:#fff;--sans:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif}
+html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(--sans)}
+#shell{display:flex;flex-direction:column;height:100vh}
+#header{background:var(--ink);color:#fff;padding:0 14px;height:50px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+#header h1{font-size:15px;font-weight:600;flex:1}
+#header .sub{font-size:11px;opacity:.6}
+#toolbar{background:var(--panel);border-bottom:1px solid var(--border);padding:8px 12px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;flex-shrink:0}
+#toolbar2{background:var(--panel);border-bottom:1px solid var(--border);padding:6px 12px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;flex-shrink:0}
+.tb-btn{font-size:12px;padding:5px 12px;border-radius:20px;border:1px solid var(--border);background:var(--paper);color:var(--muted);cursor:pointer;white-space:nowrap;transition:.15s}
+.tb-btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tb-btn.active{background:var(--red);color:#fff;border-color:var(--red)}
+.sort-btn{font-size:12px;padding:4px 10px;border-radius:20px;border:1px solid var(--border);background:var(--paper);color:var(--muted);cursor:pointer;white-space:nowrap}
+.sort-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radius:8px;background:var(--paper);color:var(--ink);cursor:pointer}
+.lbl{font-size:11px;color:var(--muted)}
+#status-bar{margin-left:auto;font-size:11px;color:var(--muted);white-space:nowrap}
+#loading{position:fixed;inset:0;background:rgba(28,17,8,.75);display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column;gap:12px;color:#fff;font-size:14px}
+#loading.hide{display:none}
+.spin{width:32px;height:32px;border:3px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:sp .8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+#body{display:flex;flex:1;overflow:hidden}
+#map{flex:1}
+#panel{width:290px;background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+#ph{padding:10px 12px;border-bottom:1px solid var(--border);background:var(--paper)}
+#ph h2{font-size:13px;font-weight:600}
+#ph p{font-size:11px;color:var(--muted);margin-top:2px}
+#list{flex:1;overflow-y:auto}
+.card{padding:10px 12px;border-bottom:1px solid #f5ede0;cursor:pointer;position:relative;transition:background .1s}
+.card:hover{background:var(--paper)}
+.card.active{background:var(--red-lt);border-left:3px solid var(--red)}
+.card.this-month{border-left:3px solid var(--green)}
+.card-rank{position:absolute;top:10px;right:10px;font-size:10px;color:var(--muted)}
+.card-name{font-size:13px;font-weight:600}
+.card-pref{display:inline-block;font-size:10px;background:#f0ede8;color:var(--muted);border-radius:3px;padding:1px 5px;margin-top:2px}
+.badge{display:inline-block;font-size:11px;border-radius:4px;padding:1px 7px;margin-top:3px;margin-right:3px}
+.b-dist{background:var(--gold-lt);color:var(--gold)}
+.b-today{background:#e8f5e9;color:#1b5e20;font-weight:600}
+.b-soon{background:#fff3e0;color:#e65100}
+.b-month{background:var(--red-lt);color:var(--red)}
+.b-now{background:var(--green-lt);color:var(--green);font-weight:600}
+.card-fest{font-size:12px;color:var(--red);margin-top:3px;font-weight:500}
+.card-date{font-size:11px;color:var(--muted);margin-top:1px}
+.card-addr{font-size:11px;color:var(--muted);margin-top:3px}
+#empty{padding:32px 16px;text-align:center;color:var(--muted);font-size:13px;line-height:1.8;display:none}
+#hint{padding:20px 14px;font-size:12px;color:var(--muted);line-height:1.8;text-align:center}
+#legend{padding:8px 12px;border-top:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap}
+.leg{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted)}
+.leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+@media(max-width:600px){#panel{display:none}}
+</style>
+</head>
+<body>
+<div id="loading"><div class="spin"></div>神社データを読み込み中...</div>
+<div id="shell">
+  <header id="header">
+    <span style="font-size:20px">⛩</span>
+    <h1>近くの神社まつり</h1>
+    <span class="sub" id="total-sub">読み込み中...</span>
+  </header>
+  <div id="toolbar">
+    <button class="tb-btn primary" id="btn-gps">📍 現在地から探す</button>
+    <button class="tb-btn" id="btn-click">🗺 地図をクリックして探す</button>
+    <select id="sel-range">
+      <option value="5">5km以内</option>
+      <option value="10" selected>10km以内</option>
+      <option value="20">20km以内</option>
+      <option value="50">50km以内</option>
+      <option value="999">制限なし</option>
+    </select>
+    <select id="sel-pref">
+      <option value="all">都道府県: すべて</option>
+    </select>
+    <span id="status-bar">—</span>
+  </div>
+  <div id="toolbar2">
+    <span class="lbl">並び順:</span>
+    <button class="sort-btn active" data-sort="recommend">⭐ おすすめ</button>
+    <button class="sort-btn" data-sort="distance">📍 距離順</button>
+    <button class="sort-btn" data-sort="date">📅 開催順</button>
+    <span class="lbl" style="margin-left:6px">月:</span>
+    <select id="sel-month">
+      <option value="0">すべて</option>
+      <option value="1">1月</option><option value="2">2月</option>
+      <option value="3">3月</option><option value="4">4月</option>
+      <option value="5">5月</option><option value="6">6月</option>
+      <option value="7">7月</option><option value="8">8月</option>
+      <option value="9">9月</option><option value="10">10月</option>
+      <option value="11">11月</option><option value="12">12月</option>
+    </select>
+    <label style="font-size:11px;color:var(--muted);margin-left:6px;display:flex;align-items:center;gap:4px;cursor:pointer">
+      <input type="checkbox" id="chk-future" checked> 開催済み除外
+    </label>
+  </div>
+  <div id="body">
+    <div id="map"></div>
+    <div id="panel">
+      <div id="ph"><h2 id="ph-title">神社まつり検索</h2><p id="ph-sub">現在地または地図をクリックして検索</p></div>
+      <div id="list">
+        <div id="hint">📍「現在地から探す」をタップするか<br>地図をクリックすると検索できます<br><br>並び順ボタンで<br>距離順・開催日順に切り替え可能</div>
+        <div id="empty">条件に合うお祭りが<br>見つかりませんでした</div>
+      </div>
+      <div id="legend">
+        <div class="leg"><div class="leg-dot" style="background:#1a7a3c"></div>今月開催</div>
+        <div class="leg"><div class="leg-dot" style="background:#b51f1f"></div>祭典あり</div>
+        <div class="leg"><div class="leg-dot" style="background:#888"></div>位置情報のみ</div>
+        <div class="leg"><div class="leg-dot" style="background:#f59e0b;width:12px;height:12px"></div>検索地点</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+let SHRINES=[],map,markers=[],originMarker=null,clickMode=false;
+let originLat=null,originLng=null,sortMode="recommend";
+
+const now = new Date();
+const todayY = now.getFullYear();
+const todayM = now.getMonth()+1;
+const todayD = now.getDate();
+
+// 日付文字列から今年or来年の日付を推定して今日からの日数を返す
+// 曖昧な場合（「第2日曜」など）はnullを返す
+function daysUntil(dateStr, month) {
+  if (!month) return null;
+  // 「○月○日」形式を抽出
+  const m = dateStr.match(/(\d+)月(\d+)日/);
+  if (!m) return null; // 曖昧な日付
+  const festM = parseInt(m[1]);
+  const festD = parseInt(m[2]);
+  // 今年の日付
+  let festDate = new Date(todayY, festM-1, festD);
+  const todayDate = new Date(todayY, todayM-1, todayD);
+  // 過去なら来年に
+  if (festDate < todayDate) {
+    festDate = new Date(todayY+1, festM-1, festD);
+  }
+  return Math.round((festDate - todayDate) / 86400000);
+}
+
+function monthsUntil(m) {
+  if (!m) return 999;
+  let d = m - todayM;
+  if (d < 0) d += 12;
+  return d;
+}
+
+// 過去の日付かどうか（確定日付のみ判定）
+function isPast(fest) {
+  const m = (fest.date_str||"").match(/(\d+)月(\d+)日/);
+  if (!m) return false; // 曖昧→除外しない
+  const festM = parseInt(m[1]);
+  const festD = parseInt(m[2]);
+  if (festM < todayM) return true;
+  if (festM === todayM && festD < todayD) return true;
+  return false;
+}
+
+fetch("data.json").then(r=>r.json()).then(data=>{
+  SHRINES=data;
+  document.getElementById("total-sub").textContent=data.length.toLocaleString()+"社収録";
+  document.getElementById("loading").classList.add("hide");
+  // 都道府県セレクトを動的生成
+  const prefs=[...new Set(data.map(s=>s.pref).filter(Boolean))].sort();
+  const sel=document.getElementById("sel-pref");
+  prefs.forEach(p=>{const o=document.createElement("option");o.value=p;o.textContent=p;sel.appendChild(o);});
+}).catch(e=>{
+  document.getElementById("loading").innerHTML="<div style='color:#f99'>読み込み失敗: "+e+"</div>";
+});
+
+map=L.map("map").setView([36.5,137.5],6);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+  attribution:"© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",maxZoom:19
+}).addTo(map);
+
+const mkIcon=(color,size)=>L.divIcon({html:`<div style="width:${size}px;height:${size}px;border-radius:50%;background:${color};border:2px solid white;margin:${-size/2}px 0 0 ${-size/2}px;box-shadow:0 1px 3px rgba(0,0,0,.3)"></div>`,iconSize:[0,0],className:""});
+const IC={red:mkIcon("#b51f1f",14),green:mkIcon("#1a7a3c",16),gray:mkIcon("#888",10),gold:mkIcon("#f59e0b",18)};
+
+map.on("click",e=>{if(!clickMode)return;setOrigin(e.latlng.lat,e.latlng.lng,"クリックした地点");clickMode=false;document.getElementById("btn-click").classList.remove("active");});
+
+function dist(a,b,c,d){const R=6371,dL=(c-a)*Math.PI/180,dG=(d-b)*Math.PI/180,x=Math.sin(dL/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dG/2)**2;return R*2*Math.atan2(Math.sqrt(x),Math.sqrt(1-x));}
+
+function setOrigin(lat,lng,label){
+  originLat=lat;originLng=lng;
+  if(originMarker)map.removeLayer(originMarker);
+  originMarker=L.marker([lat,lng],{icon:IC.gold,zIndexOffset:1000}).addTo(map).bindPopup(label).openPopup();
+  map.setView([lat,lng],13);search();
+}
+
+function search(){
+  if(originLat===null)return;
+  markers.forEach(m=>map.removeLayer(m));markers=[];
+  const range=parseInt(document.getElementById("sel-range").value);
+  const month=parseInt(document.getElementById("sel-month").value);
+  const pref=document.getElementById("sel-pref").value;
+  const excludePast=document.getElementById("chk-future").checked;
+
+  let results=SHRINES.filter(s=>s.lat&&s.lng).map(s=>{
+    const km=dist(originLat,originLng,s.lat,s.lng);
+    // 過去除外フィルタ適用後の祭典リスト
+    let fests=(s.festivals||[]).filter(f=>f.name||f.date_str);
+    if(excludePast) fests=fests.filter(f=>!isPast(f));
+    // 最短日数を計算
+    let minDays=Infinity;
+    fests.forEach(f=>{
+      const d=daysUntil(f.date_str||"",f.month);
+      if(d!==null && d<minDays) minDays=d;
+    });
+    const nm=fests.length?Math.min(...fests.map(f=>monthsUntil(f.month))):999;
+    const isNow=nm===0;
+    return{...s,km,fests,nm,minDays:isFinite(minDays)?minDays:null,isNow};
+  }).filter(s=>{
+    if(s.km>range)return false;
+    if(pref!=="all"&&s.pref!==pref)return false;
+    if(month===0)return true;
+    return(s.festivals||[]).some(f=>f.month===month);
+  });
+
+  if(sortMode==="distance"){
+    results.sort((a,b)=>a.km-b.km);
+  }else if(sortMode==="date"){
+    results.sort((a,b)=>{
+      // 祭典なし→後ろ
+      const aHas=a.fests.length>0, bHas=b.fests.length>0;
+      if(!aHas&&bHas)return 1;
+      if(aHas&&!bHas)return-1;
+      if(!aHas&&!bHas)return a.km-b.km;
+      // 確定日付あり→日数で比較
+      const aD=a.minDays,bD=b.minDays;
+      if(aD!==null&&bD!==null)return aD-bD||a.km-b.km;
+      if(aD!==null&&bD===null)return-1;
+      if(aD===null&&bD!==null)return 1;
+      // 両方曖昧→月で比較
+      return a.nm-b.nm||a.km-b.km;
+    });
+  }else{
+    results.sort((a,b)=>{
+      const sa=(a.km/Math.max(range,1))*0.4+(a.nm/12)*0.6;
+      const sb=(b.km/Math.max(range,1))*0.4+(b.nm/12)*0.6;
+      return sa-sb;
+    });
+  }
+
+  document.getElementById("status-bar").textContent=results.length+"件";
+
+  results.slice(0,100).forEach(s=>{
+    const icon=s.isNow?IC.green:s.fests.length?IC.red:IC.gray;
+    const m=L.marker([s.lat,s.lng],{icon}).addTo(map);
+    const fh=s.fests.slice(0,3).map(f=>`<div style="color:#b51f1f;font-weight:600;font-size:12px;margin-top:4px">⛩ ${f.name||"祭典"}</div><div style="color:#888;font-size:11px">${f.date_str||""}</div>`).join("");
+    const links=[s.official_url?`<a href="${s.official_url}" target="_blank" style="font-size:11px;color:#1a56a0">公式サイト →</a>`:"",s.source_url?`<a href="${s.source_url}" target="_blank" style="font-size:11px;color:#b51f1f">神社庁 →</a>`:""].filter(Boolean).join(" ｜ ");
+    m.bindPopup(`<div style="font-family:sans-serif;min-width:190px;max-width:250px"><b style="font-size:14px">${s.name}</b><div style="font-size:11px;color:#888;margin:2px 0">${s.pref}</div><div style="color:#888;font-size:12px">距離: <b style="color:#333">${s.km.toFixed(1)}km</b></div><div style="color:#888;font-size:12px">${s.address||""}</div>${s.deity?`<div style="color:#888;font-size:12px">御祭神: ${s.deity}</div>`:""}`+
+      (fh||'<div style="color:#888;font-size:12px;margin-top:4px">祭典情報なし</div>')+
+      `<div style="margin-top:6px">${links}</div></div>`);
+    markers.push(m);
+  });
+  renderList(results);
+}
+
+function mkBadge(s){
+  if(!s.fests.length)return"";
+  if(s.minDays===0)return`<span class="badge b-today">今日！</span>`;
+  if(s.minDays===1)return`<span class="badge b-soon">明日</span>`;
+  if(s.minDays!==null&&s.minDays<=7)return`<span class="badge b-soon">${s.minDays}日後</span>`;
+  if(s.minDays!==null&&s.minDays<=30)return`<span class="badge b-soon">${s.minDays}日後</span>`;
+  if(s.isNow)return`<span class="badge b-now">今月</span>`;
+  if(s.nm<999)return`<span class="badge b-month">${s.nm}ヶ月後</span>`;
+  return"";
+}
+
+function renderList(results){
+  const list=document.getElementById("list"),empty=document.getElementById("empty");
+  document.getElementById("hint").style.display="none";
+  list.querySelectorAll(".card").forEach(c=>c.remove());
+  const label={recommend:"⭐ おすすめ順",distance:"📍 距離順",date:"📅 開催順"}[sortMode];
+  document.getElementById("ph-title").textContent=`検索結果 (${label})`;
+  document.getElementById("ph-sub").textContent=`${results.length}件 / ${document.getElementById("sel-range").value}km以内`;
+  if(!results.length){empty.style.display="block";return;}
+  empty.style.display="none";
+  results.slice(0,60).forEach((s,i)=>{
+    const card=document.createElement("div");
+    card.className="card"+(s.isNow?" this-month":"");
+    card.dataset.id=s.id;
+    const fh=s.fests.slice(0,2).map(f=>`<div class="card-fest">${f.name||"祭典"}</div><div class="card-date">${f.date_str||""}</div>`).join("");
+    card.innerHTML=`<div class="card-rank">${i+1}位</div><div class="card-name">${s.name}</div><span class="card-pref">${s.pref}</span><span class="badge b-dist">${s.km.toFixed(1)}km</span>${mkBadge(s)}${fh||'<div class="card-date" style="margin-top:4px;color:#bbb">祭典情報なし</div>'}<div class="card-addr">${s.address||""}</div>`;
+    card.addEventListener("click",()=>{map.setView([s.lat,s.lng],15);highlightCard(s.id);});
+    list.appendChild(card);
+  });
+}
+
+function highlightCard(id){
+  document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
+  const c=document.querySelector(`.card[data-id="${id}"]`);
+  if(c){c.classList.add("active");c.scrollIntoView({behavior:"smooth",block:"nearest"});}
+}
+
+document.getElementById("btn-gps").addEventListener("click",function(){
+  if(!navigator.geolocation){alert("位置情報が使えません");return;}
+  this.textContent="📍 取得中…";const btn=this;
+  navigator.geolocation.getCurrentPosition(
+    pos=>{setOrigin(pos.coords.latitude,pos.coords.longitude,"現在地");btn.textContent="📍 現在地から探す";},
+    ()=>{alert("位置情報の取得に失敗しました");btn.textContent="📍 現在地から探す";}
+  );
+});
+document.getElementById("btn-click").addEventListener("click",function(){clickMode=!clickMode;this.classList.toggle("active",clickMode);});
+document.querySelectorAll(".sort-btn").forEach(btn=>{
+  btn.addEventListener("click",function(){
+    document.querySelectorAll(".sort-btn").forEach(b=>b.classList.remove("active"));
+    this.classList.add("active");sortMode=this.dataset.sort;search();
+  });
+});
+document.getElementById("sel-range").addEventListener("change",search);
+document.getElementById("sel-month").addEventListener("change",search);
+document.getElementById("sel-pref").addEventListener("change",search);
+document.getElementById("chk-future").addEventListener("change",search);
+</script>
+</body>
+</html>
