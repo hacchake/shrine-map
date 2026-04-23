@@ -206,7 +206,10 @@ function search(){
   let results=SHRINES.filter(s=>s.lat&&s.lng).map(s=>{
     const km=dist(originLat,originLng,s.lat,s.lng);
     // 過去除外フィルタ適用後の祭典リスト
-    let fests=(s.festivals||[]).filter(f=>f.name||f.date_str);
+    let fests=(s.festivals||[]).filter(f=>f.name||f.date_str).map(f=>{
+      if(!f.month&&f.date_str){const mm=f.date_str.match(/(\d+)月/);if(mm)return{...f,month:parseInt(mm[1])};}
+      return f;
+    });
     if(excludePast) fests=fests.filter(f=>!isPast(f));
     // 最短日数を計算
     let minDays=Infinity;
@@ -221,7 +224,11 @@ function search(){
     if(s.km>range)return false;
     if(pref!=="all"&&s.pref!==pref)return false;
     if(month===0)return true;
-    return(s.festivals||[]).some(f=>f.month===month);
+    return(s.festivals||[]).some(f=>{
+      if(f.month===month)return true;
+      if(f.date_str){const mm=f.date_str.match(/(\d+)月/);if(mm&&parseInt(mm[1])===month)return true;}
+      return false;
+    });
   });
 
   if(sortMode==="distance"){
