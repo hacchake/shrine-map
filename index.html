@@ -191,11 +191,18 @@ function daysUntil(dateStr,month){
   return Math.round((d-today)/86400000);
 }
 
-function monthsUntil(m){
+function monthsUntil(m,dateStr){
+  // parseFestDateが来年を返す場合は月数を正しく計算
+  const d=dateStr?parseFestDate(dateStr):null;
+  if(d){
+    const today=new Date(todayY,todayM-1,todayD);
+    const months=(d.getFullYear()-today.getFullYear())*12+(d.getMonth()-today.getMonth());
+    return Math.max(0,months);
+  }
   if(!m)return 999;
-  let d=m-todayM;
-  if(d<0)d+=12;
-  return d;
+  let diff=m-todayM;
+  if(diff<0)diff+=12;
+  return diff;
 }
 
 // 毎年繰り返しなのでisPastは常にfalse
@@ -262,7 +269,7 @@ function search(){
       const d=daysUntil(f.date_str||"",f.month);
       if(d!==null && d<minDays) minDays=d;
     });
-    const nm=fests.length?Math.min(...fests.map(f=>monthsUntil(f.month))):999;
+    const nm=fests.length?Math.min(...fests.map(f=>monthsUntil(f.month,f.date_str))):999;
     const isNow=nm===0;
     return{...s,km,fests,nm,minDays:isFinite(minDays)?minDays:null,isNow};
   }).filter(s=>{
