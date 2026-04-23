@@ -127,41 +127,86 @@ const todayY = now.getFullYear();
 const todayM = now.getMonth()+1;
 const todayD = now.getDate();
 
-// 日付文字列から今年or来年の日付を推定して今日からの日数を返す
-// 曖昧な場合（「第2日曜」など）はnullを返す
-function daysUntil(dateStr, month) {
-  if (!month) return null;
-  // 「○月○日」形式を抽出
-  const m = dateStr.match(/(\d+)月(\d+)日/);
-  if (!m) return null; // 曖昧な日付
-  const festM = parseInt(m[1]);
-  const festD = parseInt(m[2]);
-  // 今年の日付
-  let festDate = new Date(todayY, festM-1, festD);
-  const todayDate = new Date(todayY, todayM-1, todayD);
-  // 過去なら来年に
-  if (festDate < todayDate) {
-    festDate = new Date(todayY+1, festM-1, festD);
+// 第N曜日を実際の日付に変換
+function resolveNthWeekday(year,month,nth,wd){
+  const wdMap={日:0,月:1,火:2,水:3,木:4,金:5,土:6};
+  const w=typeof wd==='string'?(wdMap[wd]??-1):wd;
+  if(w<0)return null;
+  if(nth==='last'){
+    let d=new Date(year,month,0);
+    while(d.getDay()!==w)d.setDate(d.getDate()-1);
+    return d;
   }
-  return Math.round((festDate - todayDate) / 86400000);
+  let d=new Date(year,month-1,1),count=0;
+  while(true){
+    if(d.getDay()===w){count++;if(count===nth)return d;}
+    d.setDate(d.getDate()+1);
+    if(d.getMonth()!==month-1)return null;
+  }
 }
 
-function monthsUntil(m) {
-  if (!m) return 999;
-  let d = m - todayM;
-  if (d < 0) d += 12;
+// 日付文字列→Dateオブジェクト（毎年繰り返し・来年も考慮）
+function parseFestDate(dateStr){
+  if(!dateStr)return null;
+  const today=new Date(todayY,todayM-1,todayD);
+  // ○月○日
+  const m1=dateStr.match(/(\d+)月(\d+)日/);
+  if(m1){
+    const fm=parseInt(m1[1]),fd=parseInt(m1[2]);
+    let d=new Date(todayY,fm-1,fd);
+    if(d<today)d=new Date(todayY+1,fm-1,fd);
+    return d;
+  }
+  // ○月第N曜日
+  const m2=dateStr.match(/(\d+)月.*?第(\d+|最終)[^\d]*(日|月|火|水|木|金|土)/);
+  if(m2){
+    const fm=parseInt(m2[1]),nth=m2[2]==='最終'?'last':parseInt(m2[2]),wd=m2[3];
+    let d=resolveNthWeekday(todayY,fm,nth,wd);
+    if(d&&d<today)d=resolveNthWeekday(todayY+1,fm,nth,wd);
+    return d;
+  }
+  // ○月上旬/中旬/下旬
+  const m3=dateStr.match(/(\d+)月(上旬|中旬|下旬)/);
+  if(m3){
+    const fm=parseInt(m3[1]),fd=m3[2]==='上旬'?5:m3[2]==='中旬'?15:25;
+    let d=new Date(todayY,fm-1,fd);
+    if(d<today)d=new Date(todayY+1,fm-1,fd);
+    return d;
+  }
+  // ○月のみ
+  const m4=dateStr.match(/(\d+)月/);
+  if(m4){
+    const fm=parseInt(m4[1]);
+    let d=new Date(todayY,fm-1,15);
+    if(d<today)d=new Date(todayY+1,fm-1,15);
+    return d;
+  }
+  return null;
+}
+
+function daysUntil(dateStr,month){
+  const d=parseFestDate(dateStr);
+  if(!d)return null;
+  const today=new Date(todayY,todayM-1,todayD);
+  return Math.round((d-today)/86400000);
+}
+
+function monthsUntil(m){
+  if(!m)return 999;
+  let d=m-todayM;
+  if(d<0)d+=12;
   return d;
 }
 
-// 過去の日付かどうか（確定日付のみ判定）
-function isPast(fest) {
-  const m = (fest.date_str||"").match(/(\d+)月(\d+)日/);
-  if (!m) return false; // 曖昧→除外しない
-  const festM = parseInt(m[1]);
-  const festD = parseInt(m[2]);
-  if (festM < todayM) return true;
-  if (festM === todayM && festD < todayD) return true;
-  return false;
+// 毎年繰り返しなのでisPastは常にfalse
+function isPast(fest){return false;}
+
+// 表示用：第N曜日を解決した日付を括弧付きで返す
+function resolvedDateStr(fest){
+  const d=parseFestDate(fest.date_str);
+  if(!d)return fest.date_str;
+  if(/第|旬/.test(fest.date_str))return fest.date_str+'（'+(d.getMonth()+1)+'/'+(d.getDate())+'）';
+  return fest.date_str;
 }
 
 fetch("data.json").then(r=>r.json()).then(data=>{
@@ -267,7 +312,7 @@ function search(){
     const icon=s.isNow?IC.green:s.fests.length?IC.red:IC.gray;
     const m=L.marker([s.lat,s.lng],{icon}).addTo(map);
     m._shrineId=s.id;
-    const fh=s.fests.slice(0,3).map(f=>`<div style="color:#b51f1f;font-weight:600;font-size:12px;margin-top:4px">⛩ ${f.name||"祭典"}</div><div style="color:#888;font-size:11px">${f.date_str||""}</div>`).join("");
+    const fh=s.fests.slice(0,3).map(f=>`<div style="color:#b51f1f;font-weight:600;font-size:12px;margin-top:4px">⛩ ${f.name||"祭典"}</div><div style="color:#888;font-size:11px">${resolvedDateStr(f)||""}</div>`).join("");
     const links=[s.official_url?`<a href="${s.official_url}" target="_blank" style="font-size:11px;color:#1a56a0">公式サイト →</a>`:"",s.source_url?`<a href="${s.source_url}" target="_blank" style="font-size:11px;color:#b51f1f">神社庁 →</a>`:""].filter(Boolean).join(" ｜ ");
     m.bindPopup(`<div style="font-family:sans-serif;min-width:190px;max-width:250px"><b style="font-size:14px">${s.name}</b><div style="font-size:11px;color:#888;margin:2px 0">${s.pref}</div><div style="color:#888;font-size:12px">距離: <b style="color:#333">${s.km.toFixed(1)}km</b></div><div style="color:#888;font-size:12px">${s.address||""}</div>${s.deity?`<div style="color:#888;font-size:12px">御祭神: ${s.deity}</div>`:""}`+
       (fh||'<div style="color:#888;font-size:12px;margin-top:4px">祭典情報なし</div>')+
@@ -301,7 +346,7 @@ function renderList(results){
     const card=document.createElement("div");
     card.className="card"+(s.isNow?" this-month":"");
     card.dataset.id=s.id;
-    const fh=s.fests.slice(0,2).map(f=>`<div class="card-fest">${f.name||"祭典"}</div><div class="card-date">${f.date_str||""}</div>`).join("");
+    const fh=s.fests.slice(0,2).map(f=>`<div class="card-fest">${f.name||"祭典"}</div><div class="card-date">${resolvedDateStr(f)||""}</div>`).join("");
     card.innerHTML=`<div class="card-rank">${i+1}位</div><div class="card-name">${s.name}</div><span class="card-pref">${s.pref}</span><span class="badge b-dist">${s.km.toFixed(1)}km</span>${mkBadge(s)}${fh||'<div class="card-date" style="margin-top:4px;color:#bbb">祭典情報なし</div>'}<div class="card-addr">${s.address||""}</div>`;
     card.addEventListener("click",()=>{map.setView([s.lat,s.lng],15);highlightCard(s.id);const mk=markers.find(m=>m._shrineId===s.id);if(mk){mk.openPopup();}});
     list.appendChild(card);
