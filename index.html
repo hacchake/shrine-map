@@ -216,7 +216,7 @@ function resolvedDateStr(fest){
   return fest.date_str;
 }
 
-fetch("data.json").then(r=>r.json()).then(data=>{
+fetch("data.json?v=" + Date.now()).then(r=>r.json()).then(data=>{
   SHRINES=data;
   document.getElementById("total-sub").textContent=data.length.toLocaleString()+"社収録";
   document.getElementById("loading").classList.add("hide");
