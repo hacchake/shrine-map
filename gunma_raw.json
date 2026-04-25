@@ -1,0 +1,8290 @@
+[
+  {
+    "name": "上樹神社",
+    "address": "伊勢崎市上植木本町929番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "伊勢崎市今泉町1丁目1102番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "渕名神社",
+    "address": "伊勢崎市境上渕名993番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "伊勢崎市境東新井150番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "伊勢崎市宮前町1582番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "米岡神社",
+    "address": "伊勢崎市境米岡149番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "伊勢崎市境平塚1206番地の2",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "伊勢崎市境東202番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "豊武神社",
+    "address": "伊勢崎市大正寺町272番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市馬見塚町903番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "伊勢崎市戸谷塚町335番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三柱神社",
+    "address": "伊勢崎市下蓮町767番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "伊勢崎市八斗島町1406番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八郎神社",
+    "address": "伊勢崎市福島町2番地1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "伊勢崎市長沼町24番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宮子神社",
+    "address": "伊勢崎市宮子町1710番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "伊勢崎市連取町591番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市連取町1826番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "今村神社",
+    "address": "伊勢崎市稲荷町甲368番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "伊勢崎市田中町703番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "田中島神社",
+    "address": "伊勢崎市田中島町858番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "倭文神社",
+    "address": "伊勢崎市東上之宮町甲380番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯福神社",
+    "address": "伊勢崎市茂呂3412番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "千本木神社",
+    "address": "伊勢崎市茂呂字千木2280番地1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "伊勢崎市市場町1丁目1593番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市堀下町95番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "伊勢崎市下触町404番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "今井神社",
+    "address": "伊勢崎市赤堀今井町2丁目1304番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "火雷神社",
+    "address": "伊勢崎市香林町2丁目甲789番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "西野神社",
+    "address": "伊勢崎市西野町390番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "伊勢崎市間野谷町甲546番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大雷神社",
+    "address": "伊勢崎市西久保町3丁目859番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊勢崎神社",
+    "address": "伊勢崎市本町21番地1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "蓮神社",
+    "address": "伊勢崎市豊城町1988番地1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "伊勢崎市境萩原1784番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "伊勢崎市境小此木2167番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "伊勢崎市境島村373番地の277",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "伊勢崎市境島村2153番地の1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "瑳珂比神社",
+    "address": "伊勢崎市境493番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市境百々90番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "伊勢崎市境伊与久3581番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "伊勢崎市境木島713番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三社神社",
+    "address": "伊勢崎市境下武士1055番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大國神社",
+    "address": "伊勢崎市境下渕名2827番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "伊勢崎市柴町693番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "五郎神社",
+    "address": "伊勢崎市太田町623番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士神社",
+    "address": "伊勢崎市安堀町799番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "伊勢崎市波志江町1523番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿嶋宮",
+    "address": "伊勢崎市田部井町1丁目1126番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小泉稲荷神社",
+    "address": "伊勢崎市小泉町155番地1",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大東神社",
+    "address": "伊勢崎市東小保方町3297番地2",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "伊勢崎市西小保方町2番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三室神社",
+    "address": "伊勢崎市三室町4639番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "伊勢崎市国定町2丁目1528番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "薬王神社",
+    "address": "伊勢崎市阿弥大寺町427番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "伊勢崎市今井町213番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "伊勢崎市中町57番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市韮塚町864番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "伊勢崎市山王町589番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "佐波郡玉村町大字樋越1363番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "伊勢崎市堀口町472番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "佐波郡玉村町大字板井1021番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "佐波郡玉村町大字角渕2075番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "住吉神社",
+    "address": "佐波郡玉村町大字南玉760番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "佐波郡玉村町大字上新田1590番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "佐波郡玉村町大字下茂木244番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "貫前神社",
+    "address": "佐波郡玉村町大字箱石373番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "火雷神社",
+    "address": "佐波郡玉村町大字下之宮甲524番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "佐波郡玉村町大字五料1010番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "佐波郡玉村町大字飯倉甲342番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "佐波郡玉村町大字川井1033番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "佐波郡玉村町大字川井831番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八千矛神社",
+    "address": "佐波郡玉村町大字川井1092番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "佐波郡玉村町大字飯塚376番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "佐波郡玉村町大字藤川115番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "佐波郡玉村町大字宇貫585番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "玉村八幡宮",
+    "address": "佐波郡玉村町大字下新田1番地",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "勝山神社",
+    "address": "伊勢崎市境保泉226",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武士神社",
+    "address": "伊勢崎市境上武士251番地2",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯福神社",
+    "address": "伊勢崎市境中島407",
+    "shibu": "伊勢崎佐波支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市大館町1078番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二柱神社",
+    "address": "太田市武蔵島町1番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "太田市二ツ小屋町1番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "太奈荷神社",
+    "address": "太田市新田上田中町1077番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "田中神社",
+    "address": "太田市新田下田中町513番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "矢拔神社",
+    "address": "太田市新田中江田町1134番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "矢拔神社",
+    "address": "太田市新田下江田町甲500番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "太田市古戸町429番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "太田市八重笠町360番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "太田市龍舞町3859番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御靈神社",
+    "address": "太田市茂木町702番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市龍舞町1929番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "太田市龍舞町4370番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市下小林町753番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "江文神社",
+    "address": "太田市新島町703番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊勢神社",
+    "address": "太田市内ケ島町589番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "勝神社",
+    "address": "太田市新田上江田町1070番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "太田市堀口町甲111番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯靈神社",
+    "address": "太田市出塚町122番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市大久保町135番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "太田市世良田町1497番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東照宮",
+    "address": "太田市徳川町387番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東照宮",
+    "address": "太田市世良田町3119番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "髙山神社",
+    "address": "太田市本町48番32号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "太田市安良岡町542番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "太田市藪塚町3903番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "滝野神社",
+    "address": "太田市藪塚町663番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "太田市藪塚町3842番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "生品神社",
+    "address": "太田市藪塚町2258番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "太田市新田上中町435番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "生品神社",
+    "address": "太田市新田市野井町1972番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市新田赤堀町341番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大根神社",
+    "address": "太田市新田大根町407番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "太田市藪塚町1043番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "太田市山之神町乙298番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "母衣輪神社",
+    "address": "太田市藪塚町2964番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白髭神社",
+    "address": "太田市藪塚町3191番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市新田市町3060番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "貴先神社",
+    "address": "太田市新田木崎町甲637番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "太田市鳥山上町1509番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "十二所神社",
+    "address": "太田市別所町599番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市脇屋町227番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "重殿神社",
+    "address": "太田市脇屋町1239番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市寺井町694番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳥崇神社",
+    "address": "太田市鳥山中町850番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "太田市熊野町23番25号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "太田市石原町389番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市東長岡町1876番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "太田市台之郷町893番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "太田市藤阿久町292番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷神社",
+    "address": "太田市飯田町775番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市西矢島町292番地2",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市新井町546番地の3",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "太田市上小林町338番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "太田市富若町733番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "太田市富若町528番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雀神社",
+    "address": "太田市植木野町252番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "住吉神社",
+    "address": "太田市矢場町2945番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿島宮",
+    "address": "太田市東今泉町2233番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市東金井町107番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "太田市矢田堀町124番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "太田市緑町2043番地ノ乙",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市市場町738番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "太田市丸山町1426番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "住吉神社",
+    "address": "太田市吉沢町1739番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "太田市只上町929番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市緑町48番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿島宮",
+    "address": "太田市吉沢町2209番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "太田市丸山町甲271番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市只上町121番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市只上町1789番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "太田市原宿町3382番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "只上神社",
+    "address": "太田市只上町1706番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市新田花香塚町871番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "太田市前小屋町1937番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "生品神社",
+    "address": "太田市富沢町438番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "太田市本町32番5号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊佐須美神社",
+    "address": "太田市浜町8番21号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "太田市東金井町1096番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二柱神社",
+    "address": "太田市東金井町505番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御嶽神社",
+    "address": "太田市金山町40番44号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市大島町1129番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "太田市上強戸町1711番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "金山浅間神社",
+    "address": "太田市長手町1744番地25",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市鶴生田町747番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "太田市成塚町792番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡社",
+    "address": "太田市強戸町956番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "太田市飯塚町1351番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "太田市岩瀬川町279番地1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "新田神社",
+    "address": "太田市金山町40番44号",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "太田市東矢島町1108番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "碓神社",
+    "address": "太田市沖之郷町683番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "太田市東別所町237番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "金山神社",
+    "address": "太田市新田金井町467番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "温泉神社",
+    "address": "太田市藪塚町169番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "太田市六千石町58番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "駒形神社",
+    "address": "太田市北金井町402番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "太田市西長岡町1367番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "太田市菅塩町665番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "太田市大原町391番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "松尾神社",
+    "address": "太田市新田小金井町1112番地",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "太田市龍舞町4751-1",
+    "shibu": "太田新田支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "みどり市大間々町塩沢41番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "塩原神社",
+    "address": "みどり市大間々町塩原1381番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嵯峨宮",
+    "address": "みどり市大間々町小平348番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "みどり市大間々町浅原1263番地の1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "貴船神社",
+    "address": "みどり市大間々町塩原783番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "黒峯神社",
+    "address": "桐生市黒保根町水沼336番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市黒保根町八木原492番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "栗生神社",
+    "address": "桐生市黒保根町上田沢2238番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東宮神社",
+    "address": "みどり市東町沢入31番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "みどり市東町草木253番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "みどり市東町座間215番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "豊郷神社",
+    "address": "みどり市東町小夜戸543番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "みどり市東町小夜戸961番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城御靈神社",
+    "address": "みどり市東町花輪731番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "みどり市東町荻原200番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "六合神社",
+    "address": "みどり市大間々町上神梅634番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神梅神社",
+    "address": "みどり市大間々町上神梅60番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三嶋神社",
+    "address": "みどり市東町花輪193番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "金山神社",
+    "address": "みどり市笠懸町西鹿田839番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "みどり市笠懸町鹿385番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "みどり市笠懸町鹿2693番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "百品神社",
+    "address": "みどり市笠懸町鹿1210番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "みどり市笠懸町阿左美1800番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "みどり市笠懸町久宮321番地の1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "みどり市笠懸町久宮482番地の1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "みどり市笠懸町阿左美2007番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "生品神社",
+    "address": "みどり市笠懸町阿左美210番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市新里町関381番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市新里町大久保406番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市相生町3丁目80番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "要害神社",
+    "address": "みどり市大間々町高津戸1089番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八宮神社",
+    "address": "みどり市大間々町桐原550番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "琴平宮",
+    "address": "みどり市大間々町大間々1143番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "みどり市大間々町桐原327番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "みどり市大間々町桐原589番地1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "みどり市大間々町桐原1040番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "みどり市大間々町大間々2245番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市川内町2丁目甲262番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "桐生市川内町3丁目726番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市川内町5丁目1149番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市川内町5丁目2352番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白瀧神社",
+    "address": "桐生市川内町5丁目3288番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "桐生市相生町2丁目甲486番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "桐生市相生町1丁目37番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪機神社",
+    "address": "桐生市東1丁目12番6号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白髭神社",
+    "address": "桐生市堤町2丁目2番41号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "天沼稲荷神社",
+    "address": "桐生市相生町5丁目212番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "桐生市境野町4丁目854番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "桐生市境野町3丁目1361番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市境野町6丁目605番地1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "常祗稲荷神社",
+    "address": "桐生市仲町3丁目16番9号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市黒保根町下田沢2952番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "護國神社",
+    "address": "桐生市梅田町2丁目518番地2",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷神岳神社",
+    "address": "桐生市梅田町3丁目486番地3",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "兼宮神社",
+    "address": "桐生市梅田町1丁目816番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "桐生市梅田町1丁目481番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二渡神社",
+    "address": "桐生市梅田町4丁目721番5号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市新宿2丁目4番30号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三峯神社",
+    "address": "桐生市浜松町1丁目841番10号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "美和神社",
+    "address": "桐生市宮本町2丁目1番1号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市宮本町4丁目9番3号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "天満宮",
+    "address": "桐生市天神町1丁目2番1号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "桐生市広沢町間野島361番地2",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "加茂神社",
+    "address": "桐生市境野町7丁目114番地1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市川内町1丁目甲552番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八王子神社",
+    "address": "桐生市広沢町4丁目4585番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賀茂神社",
+    "address": "桐生市広沢町6丁目833番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "桐生市錦町1丁目3番6号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "みどり市笠懸町阿左美1175番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "比呂佐和神社",
+    "address": "桐生市広沢町3丁目3811番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市菱町4丁目2345番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市菱町5丁目374番地の1",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "桐生市菱町2丁目1855番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宇都宮神社",
+    "address": "桐生市菱町3丁目1333番地イ号",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宇都宮神社",
+    "address": "桐生市菱町1丁目18番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市新里町板橋180番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳥海神社",
+    "address": "みどり市東町小中733番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "みどり市東町花輪1363番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "太郎神社",
+    "address": "みどり市東町神戸378番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "天滿宮",
+    "address": "桐生市梅田町5丁目560番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市梅田町4丁目6914番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御嶽神社",
+    "address": "桐生市宮本町2665番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "塩宮神社",
+    "address": "桐生市菱町上菱5丁目187番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "桐生市新里町新川2991番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "桐生市新里町新川1876番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "桐生市新里町新川3461番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "桐生市新里町武井715番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "桐生市新里町新川509番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "奥澤神社",
+    "address": "桐生市新里町奥沢476番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹽竃神社",
+    "address": "桐生市新里町野68番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "桐生市新里町山上1982番地",
+    "shibu": "桐生みどり支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡大泉町大字寄木戸1099番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡大泉町大字古海2209番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "児島神社",
+    "address": "邑楽郡大泉町大字古海775番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡邑楽町大字石打1683番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "邑楽郡邑楽町大字石打218番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "邑楽郡邑楽町大字石打1017番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "邑楽郡邑楽町大字藤川1599番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "四祀開神社",
+    "address": "邑楽郡邑楽町大字藤川352番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小泉神社",
+    "address": "邑楽郡大泉町城之内1丁目13番5号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市野辺町984番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡千代田町大字瀬戸井797番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "邑楽郡千代田町大字上五箇835番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "邑楽郡千代田町大字上中森1129番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "邑楽郡千代田町大字萱野1195番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡千代田町大字木崎534番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "邑楽郡千代田町大字赤岩1094番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡千代田町大字舞木甲267番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中島神社",
+    "address": "邑楽郡千代田町大字舞木897番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "邑楽郡千代田町大字新福寺525番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡千代田町大字福島579番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡千代田町大字鍋谷319番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡千代田町大字下中森86番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大島神社",
+    "address": "館林市大島町3835番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "館林市大島町4563番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "太日稲神社",
+    "address": "館林市大島町5192番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "館林市田谷町941番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "邑楽護国神社",
+    "address": "館林市代官町11番45号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字中谷91番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字江黒1434番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字田島476番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "邑楽郡明和町大字千津井289番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "巌島神社",
+    "address": "邑楽郡明和町大字南大島1276番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "邑楽郡明和町大字江口56番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三嶋神社",
+    "address": "邑楽郡明和町大字梅原262番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字大佐貫94番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "粟島神社",
+    "address": "邑楽郡明和町大字川俣67番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字矢島1450番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "邑楽郡明和町大字須賀310番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡明和町大字大輪26番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "西丘神社",
+    "address": "邑楽郡板倉町大字西岡1552番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "邑楽郡板倉町大字大曲444番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "除川神社",
+    "address": "邑楽郡板倉町大字除川998番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字細谷甲1846番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字離1057番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字板倉514番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "邑楽郡板倉町大字板倉1094番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "原宿神社",
+    "address": "邑楽郡板倉町大字岩田1291番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "邑楽郡板倉町大字板倉2334番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "館林市上三林町1392番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "城之宮神社",
+    "address": "邑楽郡板倉町大字籾谷2185番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字岩田2224番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "邑楽郡板倉町大字内蔵新田319番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字籾谷甲1431番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "邑楽郡板倉町大字岩田2498番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "邑楽郡邑楽町大字光善寺332番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "館林市高根町1060番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "邑楽郡明和町大字新里907番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡大泉町大字吉田965番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡大泉町大字古氷500番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "邑楽郡大泉町大字吉田1838番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "邑楽郡大泉町大字吉田587番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡大泉町大字坂田804番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "邑楽郡大泉町大字仙石1390番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "一峯神社",
+    "address": "邑楽郡板倉町大字海老瀬885番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大杉神社",
+    "address": "邑楽郡板倉町大字海老瀬4708番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡板倉町大字海老瀬4685番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡板倉町大字海老瀬5765番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "加茂神社",
+    "address": "邑楽郡板倉町大字海老瀬7368番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "邑楽郡板倉町大字海老瀬6078番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡板倉町大字海老瀬6459番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "邑楽郡板倉町大字海老瀬2444番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡板倉町大字海老瀬2599番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "邑楽郡板倉町大字海老瀬1296番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "天満神社",
+    "address": "邑楽郡板倉町大字海老瀬1597番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "邑楽郡板倉町大字飯野2459番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字飯野555番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡板倉町大字下五箇1番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宇那根神社",
+    "address": "邑楽郡板倉町大字大高島1416番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "十二所神社",
+    "address": "邑楽郡板倉町大字下五箇724番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "髙鳥神社",
+    "address": "邑楽郡板倉町大字大高島1665番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市赤生田本町1149番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "子神社",
+    "address": "館林市赤生田町2215番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "館林市羽附町679番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "駒方神社",
+    "address": "館林市上赤生田町3526番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "冨士嶽神社",
+    "address": "館林市花山町2210番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "楠木神社",
+    "address": "館林市楠町3415番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市岡野町562番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市日向町239番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市青柳町1783番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "館林市西本町9番59号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡邑楽町大字鶉250番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡邑楽町大字赤堀476番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士嶽神社",
+    "address": "館林市富士原町1127番地の1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市代官町11番38号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "館林市堀工町734番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "館林市傍示塚町478番地１",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "館林市下早川田町1147番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "館林市上早川田町566番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大谷神社",
+    "address": "館林市成島町371番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市台宿町5番39号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "館林市下三林町777番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "館林市台宿町2番8号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宵稲荷神社",
+    "address": "館林市本町3丁目12番11号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "竹生島神社",
+    "address": "館林市本町3丁目8番6号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "青梅神社",
+    "address": "館林市本町2丁目8番22号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "館林市入ケ谷町119番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡邑楽町大字狸塚1377番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "當郷神社",
+    "address": "館林市当郷町202番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "館林市千塚町526番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "館林市当郷町311番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "館林市四ﾂ谷町367番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "館林市傍示塚町147番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "館林市足次町494番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "館林市木戸町522番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "尾曳稲荷神社",
+    "address": "館林市尾曳町10番1号",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長良神社",
+    "address": "邑楽郡邑楽町大字中野3572番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "玉取神社",
+    "address": "邑楽郡邑楽町大字秋妻1047番地1",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長柄神社",
+    "address": "邑楽郡邑楽町大字篠塚2907番地",
+    "shibu": "館林邑楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "柴宮神社",
+    "address": "吾妻郡中之条町大字西中之条901番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白鳥神社",
+    "address": "吾妻郡中之条町大字市城字塔本861番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊勢宮",
+    "address": "吾妻郡中之条町大字中之条町429番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡長野原町大字横壁383番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡長野原町大字長野原241番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明神社",
+    "address": "吾妻郡長野原町大字大津乙1477番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "羽根尾神社",
+    "address": "吾妻郡長野原町大字羽根尾字宮原100番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡長野原町大字応桑字新田16番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "牧宮神社",
+    "address": "吾妻郡長野原町大字北軽井沢1987番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡長野原町大字応桑1305番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "吾妻郡長野原町大字応桑字小宿665番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡嬬恋村大字今井字上前原812番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "吾妻郡嬬恋村大字門貝字鳴尾乙499番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鎌原神社",
+    "address": "吾妻郡嬬恋村大字鎌原字宅地東398番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "西窪神社",
+    "address": "吾妻郡嬬恋村大字西窪字上ノ山161番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡嬬恋村大字大前字神前277番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大笹神社",
+    "address": "吾妻郡嬬恋村大字大笹字塩ノ島176番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "吾妻山神社",
+    "address": "吾妻郡嬬恋村大字田代字村内34番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白根神社",
+    "address": "吾妻郡草津町大字草津538番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡草津町大字前口字十二前296番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡六合村大字入山字諏訪原4031番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤岩神社",
+    "address": "吾妻郡六合村大字赤岩字中野651番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "吾妻郡六合村大字日影1013番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡六合村大字小雨649番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "王城山神社",
+    "address": "吾妻郡長野原町大字林字宮原502番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "吾妻郡東吾妻町岡崎183番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "吾妻郡東吾妻町岡崎1659番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "吾妻郡東吾妻町泉沢乙1413番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡東吾妻町大柏木字殿原2226番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳥頭神社",
+    "address": "吾妻郡東吾妻町矢倉字宮ノ脇899番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "太田神社",
+    "address": "吾妻郡東吾妻町厚田字馬渡1477番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "吾妻郡東吾妻町郷原字中村396番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "松谷神社",
+    "address": "吾妻郡東吾妻町松谷516番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳥頭神社",
+    "address": "吾妻郡東吾妻町三島3552番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡東吾妻町三島6504番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "養蠶神社",
+    "address": "吾妻郡長野原町大字与喜屋字萩原314番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡長野原町大字川原畑656番地1",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "川原湯神社",
+    "address": "吾妻郡長野原町大字川原湯521番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "佐奈神社",
+    "address": "吾妻郡東吾妻町大柏木3946番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "吾妻郡東吾妻町岩下1581番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲裹神社",
+    "address": "吾妻郡中之条町大字四万字貫湯平1594番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "吾嬬神社",
+    "address": "吾妻郡中之条町大字山田572番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "澤渡神社",
+    "address": "吾妻郡中之条町大字上沢渡2192番地2",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡中之条町大字下沢渡934番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡中之条町大字上沢渡1011番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "報德折田神社",
+    "address": "吾妻郡中之条町大字折田1170番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "吾妻郡中之条町大字蟻川2334番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡中之条町大字岩本331番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白鳥神社",
+    "address": "吾妻郡東吾妻町奥田967番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "吾妻郡東吾妻町新巻1296番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白鳥神社",
+    "address": "吾妻郡東吾妻町小泉344番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "吾妻郡東吾妻町原町字稲荷城甲2747番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "川戸神社",
+    "address": "吾妻郡東吾妻町川戸字上之宮1072番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "吾妻郡東吾妻町岩井1026番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "吾妻郡東吾妻町川戸字七澤66番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "一宮神社",
+    "address": "吾妻郡東吾妻町金井字市敷481番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "吾妻郡東吾妻町五町田515番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "親都神社",
+    "address": "吾妻郡中之条町大字五反田字親都220番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大宮巌鼓神社",
+    "address": "吾妻郡東吾妻町原町字大宮811番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "甲波宿祢神社",
+    "address": "吾妻郡東吾妻町箱島1136番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "吉岡神社",
+    "address": "吾妻郡東吾妻町本宿656番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "畔宇治神社",
+    "address": "吾妻郡東吾妻町大戸字畔宇治3487番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "淺間神社",
+    "address": "吾妻郡東吾妻町萩生401番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "吾妻郡東吾妻町須賀尾1269番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡東吾妻町須賀尾1550番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡嬬恋村大字芦生田字上芦生田73番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "吾妻郡嬬恋村大字干俣365番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三原神社",
+    "address": "吾妻郡嬬恋村大字三原1108番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿島宮",
+    "address": "吾妻郡東吾妻町植栗278番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊勢宮",
+    "address": "吾妻郡中之条町大字伊勢町1386番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "吾妻神社",
+    "address": "吾妻郡中之条町大字横尾1354番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中山神社",
+    "address": "吾妻郡高山村大字中山2202番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "尻高神社",
+    "address": "吾妻郡高山村大字尻高2193番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "吾妻郡高山村大字中山5546番地",
+    "shibu": "吾妻支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市北橘町上南室261番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "渋川市赤城町棚下138番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町長井小川田1320番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "千石稲荷神社",
+    "address": "渋川市赤城町津久田3538番地2",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町津久田2866番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町津久田313番地2",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御前神社",
+    "address": "渋川市赤城町敷島535番地1",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "十二神社",
+    "address": "渋川市赤城町北上野192番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "金山八幡宮",
+    "address": "渋川市赤城町深山甲537番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "渋川市赤城町溝呂木168番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宮田神社",
+    "address": "渋川市赤城町宮田1495番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "渋川市赤城町勝保沢甲644番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "見瀧神社",
+    "address": "渋川市赤城町見立390番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町三原田甲491番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町樽3番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市赤城町上三原田217番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市赤城町持柏木甲197番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市赤城町津久田363番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "渋川市金井1番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "作間神社",
+    "address": "渋川市村上135番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "七社神社",
+    "address": "渋川市小野子2158番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "甲波宿禰神社",
+    "address": "渋川市川島1287番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "渋川市北橘町上箱田1135番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市北橘町下南室311番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市北橘町真壁846番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "渋川市北橘町真壁44番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市北橘町分郷八崎甲376番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "渋川市北橘町八崎1000番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "木曽三社神社",
+    "address": "渋川市北橘町下箱田甲1番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "木曽三柱神社",
+    "address": "渋川市北橘町箱田777番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "早尾神社",
+    "address": "渋川市中村31番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "早尾神社",
+    "address": "渋川市半田1439番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祗神社",
+    "address": "渋川市石原2060番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "猿田彦神社",
+    "address": "渋川市石原754番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "甲波宿称神社",
+    "address": "渋川市行幸田673番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御前神社",
+    "address": "渋川市上白井2188番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "玉山神社",
+    "address": "渋川市上白井1063番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "渋川市上白井3892番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "渋川市中郷497番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市中郷1556番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大・ 神社",
+    "address": "渋川市中郷239番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "渋川市中郷1733番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大宮姫神社",
+    "address": "渋川市白井390番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "渋川市白井756番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若子持神社",
+    "address": "渋川市北牧1654番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祗神社",
+    "address": "渋川市横堀992番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大鳥神社",
+    "address": "渋川市横堀399番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "子持神社",
+    "address": "渋川市中郷2910番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "渋川市八木原570番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若伊香保神社",
+    "address": "渋川市有馬1549番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "渠口神社",
+    "address": "渋川市有馬1330番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武内神社",
+    "address": "渋川市祖母島499番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "渋川市阿久津122番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "渋川市並木町628番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "渋川市並木町84番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "渋川市伊香保町湯中子941番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊香保神社",
+    "address": "渋川市伊香保町伊香保1番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "子安神社",
+    "address": "渋川市伊香保町水沢213番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "渋川市北原甲1番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡社",
+    "address": "北群馬郡榛東村大字新井674番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "聖宮神社",
+    "address": "北群馬郡榛東村大字広馬場1421番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "漆原神社",
+    "address": "北群馬郡吉岡町大字漆原814番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三宮神社",
+    "address": "北群馬郡吉岡町大字大久保1番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小出神社",
+    "address": "北群馬郡吉岡町大字陣場137番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "北群馬郡吉岡町大字南下字鬼ｹ橋1378番地2",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "北群馬郡吉岡町大字北下505番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "北群馬郡吉岡町大字小倉甲281番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "瀧泉神社",
+    "address": "北群馬郡吉岡町大字上野田950番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "北群馬郡榛東村大字広馬場4195番地6",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "常将神社",
+    "address": "北群馬郡榛東村大字山子田2527番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "北群馬郡榛東村大字新井2855番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "北群馬郡吉岡町大字南下848番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "北群馬郡吉岡町大字南下180番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "野田神社",
+    "address": "北群馬郡吉岡町大字下野田996番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大宮神社",
+    "address": "北群馬郡榛東村大字長岡481番地",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三柱神社",
+    "address": "渋川市北橘町小室284番地2",
+    "shibu": "渋川北群馬支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡みなかみ町石倉1717番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小川神社",
+    "address": "利根郡みなかみ町小川1049番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "利根郡みなかみ町相俣2170番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "利根郡みなかみ町新巻589番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "利根郡みなかみ町師田317番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明神社",
+    "address": "利根郡みなかみ町猿ｹ京温泉1501番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "利根郡みなかみ町布施2013番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "野々宮神社",
+    "address": "利根郡みなかみ町東峰978番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "利根郡みなかみ町須川798番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "利根郡みなかみ町相俣1457番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "利根郡みなかみ町新巻1326番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "利根郡みなかみ町羽場588番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "沼田市下之町827番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "沼田市材木町1番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "沼田市高橋場町2165番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御搗家稲荷神社",
+    "address": "沼田市東倉内町557番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "篠尾神社",
+    "address": "沼田市屋形原町2207番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "岩本神社",
+    "address": "沼田市岩本町458番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "沼田市横塚町113番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "沼田市下久屋町312番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "上久屋神社",
+    "address": "沼田市上久屋町1375番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "沼田市上沼須町682番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "沼田市屋形原町635番地2",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "平出神社",
+    "address": "沼田市白沢町平出751番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "尾合神社",
+    "address": "沼田市白沢町尾合994番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白佐波神社",
+    "address": "沼田市白沢町高平154番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "沼田市白沢町下古語父609番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二荒山神社",
+    "address": "沼田市白沢町上古語父2085番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "生枝神社",
+    "address": "沼田市白沢町生枝1189番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "岩室神社",
+    "address": "沼田市白沢町岩室326番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡川場村大字天神441番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡川場村大字生品966番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "利根郡川場村大字中野55番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小高神社",
+    "address": "利根郡昭和村大字糸井1295番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡昭和村大字貝野瀬1132番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "沼田市坊新田町1036番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "沼田市榛名町2851番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市利根町穴原212番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市利根町園原464番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市利根町老神157番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大原神社",
+    "address": "沼田市利根町大原1224番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二荒山神社",
+    "address": "沼田市利根町大楊241番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "産土神社",
+    "address": "沼田市利根町高戸谷511番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日光神社",
+    "address": "沼田市利根町平川甲777番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三社神社",
+    "address": "沼田市利根町日向南郷159番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "沼田市利根町青木621番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡片品村大字幡谷282番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡片品村大字御座入339番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡片品村大字戸倉211番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡片品村大字土出84番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡片品村大字花咲2021番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "利根郡片品村大字土出2017番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大國神社",
+    "address": "利根郡片品村大字土出862番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二荒神社",
+    "address": "利根郡片品村大字菅沼1番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日光神社",
+    "address": "利根郡片品村大字下平525番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "築地神社",
+    "address": "利根郡片品村大字築地223番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "笠科神社",
+    "address": "利根郡片品村大字鎌田4078番地5",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "利根郡片品村大字針山108番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "池田神社",
+    "address": "沼田市発知新田町917番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市下沼田町287番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "沼田市恩田町364番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "羽黒神社",
+    "address": "沼田市石墨町978番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "莊田神社",
+    "address": "沼田市井土上町923番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "川田神社",
+    "address": "沼田市下川田町465番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡川場村大字立岩415番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "利根郡川場村大字萩室833番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "子持神社",
+    "address": "利根郡みなかみ町上牧528番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小高諏訪神社",
+    "address": "利根郡みなかみ町後閑2531番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "利根郡みなかみ町真庭1番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "利根郡みなかみ町川上170番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "利根郡みなかみ町小日向473番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "朝日神社",
+    "address": "利根郡みなかみ町湯桧曽179番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大峯神社",
+    "address": "利根郡みなかみ町小仁田74番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "羽黒神社",
+    "address": "利根郡みなかみ町幸知200番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士浅間神社",
+    "address": "利根郡みなかみ町谷川533番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "須賀神社",
+    "address": "沼田市中町1141番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "砥石神社",
+    "address": "沼田市沼須町694番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "沼田市戸鹿野町800番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "河内神社",
+    "address": "沼田市宇楚井町646番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中川場神社",
+    "address": "利根郡川場村大字門前695番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "西宮神社",
+    "address": "沼田市西原新町76番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "砥石神社",
+    "address": "沼田市上川田町2251番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市利根町輪組332番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡昭和村大字生越401番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祗神社",
+    "address": "沼田市利根町多那1029番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "沼田市利根町日影南郷166番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡川場村大字川場湯原649番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "利根郡川場村大字谷地353番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "天満宮",
+    "address": "利根郡みなかみ町下津2332番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若宮八幡宮",
+    "address": "利根郡みなかみ町下津1314番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "利根郡みなかみ町下津4299番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "月夜野神社",
+    "address": "利根郡みなかみ町月夜野1259番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "牧野神社",
+    "address": "利根郡みなかみ町下牧1189番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "湯原神社",
+    "address": "利根郡みなかみ町湯原268番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "武尊神社",
+    "address": "利根郡みなかみ町藤原918番地利根郡昭和村大字橡久保101番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "千賀戸神社",
+    "address": "利根郡昭和村大字橡久保101番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "利根郡昭和村大字川額1007番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大森神社",
+    "address": "利根郡昭和村大字森下747番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "利根郡みなかみ町上津1234番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大國神社",
+    "address": "沼田市利根町追貝398番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三峯神社",
+    "address": "利根郡みなかみ町師1589番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "箱根神社",
+    "address": "利根郡昭和村大字川額2666番地",
+    "shibu": "沼田利根支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "前橋市日輪寺町419番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市下小出町1丁目22番1号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市青柳町949番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市関根町28番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "前橋市川端町215番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "市杵島神社",
+    "address": "前橋市川原町406番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "荒牧神社",
+    "address": "前橋市荒牧町451番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "橘神社",
+    "address": "前橋市田口町甲461番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小出神社",
+    "address": "前橋市上小出町2丁目21番10号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "前橋市端気町333番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "勝城神社",
+    "address": "前橋市勝沢町387番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市小神明町578番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大峯神社",
+    "address": "前橋市嶺町1番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "五代神社",
+    "address": "前橋市五代町453番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大鳥神社",
+    "address": "前橋市鳥取町310番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "前橋市小坂子町598番地1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "今井神社",
+    "address": "前橋市今井町818番地の3",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市荒口町30番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大室神社",
+    "address": "前橋市西大室町甲1711番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三柱神社",
+    "address": "前橋市富田町812番地の1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "泉澤神社",
+    "address": "前橋市泉沢町41番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大室神社",
+    "address": "前橋市東大室町715番地の1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "荒子神社",
+    "address": "前橋市荒子町字中屋敷960番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市新井町24番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "井出上神社",
+    "address": "前橋市飯土井町甲1番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪若御子神社",
+    "address": "前橋市城東町2丁目8番15号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "前橋市平和町1丁目8番1号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "前橋市文京町2丁目21番12号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市文京町1丁目39番5号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市本町2丁目9番21号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "上野神社",
+    "address": "前橋市東上野町76番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "近戸神社",
+    "address": "前橋市上増田町乙859番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "近戸神社",
+    "address": "前橋市上大島町607番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "前橋市天川大島町1416番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "前橋市山王町14番地2",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市上長磯町116番地1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "桃川神社",
+    "address": "前橋市女屋町80番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市野中町210番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市下長磯町132番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市小屋原町969番地の2",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "冨士嶽浅間神社",
+    "address": "前橋市上増田町303番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "駒形神社",
+    "address": "前橋市駒形町710番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "近戸神社",
+    "address": "前橋市笂井町1156番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "六所神社",
+    "address": "前橋市江木町9番地1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "産泰神社",
+    "address": "前橋市下大屋町569番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市古市町1丁目38番地12",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤烏神社",
+    "address": "前橋市古市町1丁目38番地12",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市石倉町4丁目10番地6",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "王守神社",
+    "address": "前橋市大渡町1丁目23番地7",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "前橋市鳥羽町813番地5",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "巣烏神社",
+    "address": "前橋市総社町総社1138番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市問屋町2丁目3番地4",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "前橋市総社町総社2408番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市総社町総社2020番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市総社町総社1059番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市総社町総社1230番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市総社町総社乙1475番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "總社神社",
+    "address": "前橋市元総社町1丁目31番地45",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小石神社",
+    "address": "前橋市敷島町255番地1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市岩神町2丁目21番1号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "岩神稲荷神社",
+    "address": "前橋市昭和町3丁目29番6号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "琴平宮",
+    "address": "前橋市国領町1丁目1番18号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市若宮町4丁目8番24号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "片貝神社",
+    "address": "前橋市東片貝町464-1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東照宮",
+    "address": "前橋市大手町3丁目13番19号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市六供町332番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "前橋市紅雲町2丁目16番11号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "尾曳稲荷神社",
+    "address": "前橋市朝日町1丁目5番16号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市若宮町1丁目14番16号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "代田神社",
+    "address": "前橋市南町3丁目21番13号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "水神社",
+    "address": "前橋市南町2丁目32番14号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市北代田町323番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "細井神社",
+    "address": "前橋市上細井町884番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市竜蔵寺町171番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若一王子神社",
+    "address": "前橋市下沖町71番地2",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "前橋市上佐鳥町1121番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市下佐鳥町291番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市朝倉町3丁目28番6号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市宮地町224番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市橳島町384番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "新堀神社",
+    "address": "前橋市新堀町258番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市亀里町1683番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "前橋市公田町807番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市横手町601番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市上沖町89番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市広瀬町2丁目28番地2号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "前橋市堤町49番地の1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "今宮八幡宮",
+    "address": "前橋市下増田町1624番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "二宮赤城神社",
+    "address": "前橋市二之宮町886番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "前橋市青梨子町1364番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "前橋市青梨子町7番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市青梨子町861番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市青梨子町805番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若宮八幡宮",
+    "address": "前橋市青梨子町1573番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市清野町346番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市池端町157番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市総社町植野464番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "前橋市総社町桜ケ丘1230番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市高井町1－32－15",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市総社町桜ケ丘1039番地2",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "淡島神社",
+    "address": "前橋市上青梨子町218番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市稲荷新田町57番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雷電神社",
+    "address": "前橋市上新田町1085番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市箱田町字河東1503番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市後家町34番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市下新田町1番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市下新田町813番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "前橋市箱田町1618番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市前箱田町195番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市川曲町388番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士淺間神社",
+    "address": "前橋市小相木町118番地の4",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御霊神社",
+    "address": "前橋市元総社町1901番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大友神社",
+    "address": "前橋市大友町803番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "前橋市石倉町729番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鏡神社",
+    "address": "前橋市江田町689番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "前橋市文京町4丁目1番16号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "前橋市住吉町2丁目5番22号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市千代田町1丁目13番16号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市千代田町5丁目15番8号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "前橋市千代田町3丁目8番12号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市三河町2丁目16番23号",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "荻窪神社",
+    "address": "前橋市荻窪町187番地1",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市亀泉町451番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市上泉町199番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "前橋市力丸町870番地",
+    "shibu": "前橋支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市富士見町横室甲55番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市富士見町引田261番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市富士見町市之木場136番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市富士見町漆窪182番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小暮神社",
+    "address": "前橋市富士見町小暮815番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士原神社",
+    "address": "前橋市富士見町原之郷1756番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "時澤神社",
+    "address": "前橋市富士見町時沢1694番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市富士見町赤城山4番地2",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "前橋市富士見町石井甲209番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市富士見町米野甲551番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市富士見町田島586番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "山口神社",
+    "address": "前橋市富士見町山口甲438番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "前橋市馬場町小太郎29番地の1",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市柏倉町甲諏訪1023番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八雲神社",
+    "address": "前橋市粕川町室沢209番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "村主神社",
+    "address": "前橋市粕川町前皆戸179番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "近戸神社",
+    "address": "前橋市粕川町月田1261番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白河神社",
+    "address": "前橋市富士見町時沢2715番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "住吉神社",
+    "address": "前橋市市之関町665番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "前橋市大前田町814番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "前橋市粕川町込皆戸字白山131番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大胡神社",
+    "address": "前橋市河原浜町615番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市粕川町中130番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "前橋市粕川町膳120番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "前橋市鼻毛石町132番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "近戸神社",
+    "address": "前橋市粕川町深津1437番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "前橋市粕川町深津560番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稻荷神社",
+    "address": "前橋市粕川町稲里494番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "前橋市粕川町上東田面127番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御靈神社",
+    "address": "前橋市粕川町女渕1174番地1",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "前橋市粕川町新屋376番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "苗島神社",
+    "address": "前橋市苗ケ島町1088番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "前橋市三夜沢町境内114番地",
+    "shibu": "前橋赤城支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町新井609番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "安中市松井田町土塩222番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "安中市松井田町上増田2926番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "津雲神社",
+    "address": "安中市松井田町下増田993番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "碓村神社",
+    "address": "安中市松井田町高梨子1490番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "安中市松井田町小日向1874番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "安中市松井田町峠1番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中後閑神社",
+    "address": "安中市中後閑1479番地4",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "安中市上後閑1559番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大森神社",
+    "address": "安中市中秋間741番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "安中市下秋間2143番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "安中市下秋間1399番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町人見3161番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "氣佐石神社",
+    "address": "安中市松井田町行田1番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "先倉神社",
+    "address": "安中市松井田町八城164番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "威德神社",
+    "address": "安中市下後閑1247番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "入山神社",
+    "address": "安中市松井田町北野牧乙18232番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町二軒在家571番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "琴平神社",
+    "address": "安中市松井田町松井田甲1187番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町新堀1055番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "安中市松井田町新堀1497番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "安中市松井田町坂本928番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町入山170番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "碓氷神社",
+    "address": "安中市松井田町五料2131番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白鬚神社",
+    "address": "安中市松井田町原226番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御靈神社",
+    "address": "安中市松井田町西野牧17289番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市松井田町横川604番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "安中市安中689番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中野谷神社",
+    "address": "安中市中野谷2069番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "羊神社",
+    "address": "安中市中野谷1751番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榎下神社",
+    "address": "安中市原市3451番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "安中市郷原2804番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "安中市簗瀬651番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "礒部神社",
+    "address": "安中市下磯部137番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "野後神社",
+    "address": "安中市古屋530番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飽馬神社",
+    "address": "安中市西上秋間1851番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東神社",
+    "address": "安中市東上秋間1729番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "安中市安中3020番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山比咩神社",
+    "address": "安中市大谷267番地1",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山比咩神社",
+    "address": "安中市野殿1910番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山比咩神社",
+    "address": "安中市岩井616番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鷹巣神社",
+    "address": "安中市板鼻2650番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "安中市磯部1丁目12番21号",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "安中市中宿690番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大宮神社",
+    "address": "安中市松井田町人見1691番地1",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "咲前神社",
+    "address": "安中市鷺宮3308番地",
+    "shibu": "安中碓氷支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "群馬縣護國神社",
+    "address": "高崎市乗附町2000番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "高崎市南町1番地3",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "火雷若御子神社",
+    "address": "高崎市東中里町277番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市矢中町997番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市台新田町33番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "高崎市岩鼻町211番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市上大類町1239番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大住神社",
+    "address": "高崎市南大類町692番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳴子神社",
+    "address": "高崎市綿貫町742番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "高崎市綿貫町2071番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "高崎市綿貫町1478番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市綿貫町1947番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市綿貫町2040番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市栗崎町609番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市下斉田町76番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "高崎市下滝町641番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "彦島神社",
+    "address": "高崎市矢島町703番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市宿横手町377番地1",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市西横手町301番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市上滝町431番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "高崎市中島町561番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市中島町518番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士神社",
+    "address": "高崎市西横手町292番地9",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "滝宮神社",
+    "address": "高崎市上滝町1004番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "進雄神社",
+    "address": "高崎市柴崎町801番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿島宮",
+    "address": "高崎市根小屋町847番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白髯神社",
+    "address": "高崎市根小屋町1497番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "山名八幡宮",
+    "address": "高崎市山名町甲1581番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "江木神社",
+    "address": "高崎市江木町1174番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市飯塚町544番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "賴政神社",
+    "address": "高崎市宮元町143番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "定家神社",
+    "address": "高崎市下佐野町873番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "放光神社",
+    "address": "高崎市下佐野町845番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "高崎市上並榎町1150番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雀宮神社",
+    "address": "高崎市芝塚町1963番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市岩押町44番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市高関町185番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "髙﨑神社",
+    "address": "高崎市赤坂町93番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市新町甲447番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市新町247番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市新町2522番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "高崎市倉賀野町1437番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市倉賀野町1967番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "幸宮神社",
+    "address": "高崎市下小鳥町2番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市沖町99番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "抜鉾神社",
+    "address": "高崎市菊地町195番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市楽間町96番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市行力町304番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市北新波町300番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市南新波町636番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市浜川町1121番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市下小塙町991番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "高崎市下小塙町386番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市上小鳥町565番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市大八木町712番地3",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "地神社",
+    "address": "高崎市筑縄町38番地3",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "烏子稲荷神社",
+    "address": "高崎市上小塙町564番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市下之城町363番地1",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市新後閑町甲258番地乙258番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小祝神社",
+    "address": "高崎市石原町1247番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鏡宮神社",
+    "address": "高崎市小八木町14番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市正観寺町981番地の1",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "高崎市我峰町263番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "五靈神社",
+    "address": "高崎市貝沢町332番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "高崎市新保町字山王1411番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "冨士神社",
+    "address": "高崎市日高町702番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "村主神社",
+    "address": "高崎市日高町646番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市中尾町字熊野巡り1056番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市中尾町506番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市日高町1107番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日高神社",
+    "address": "高崎市日高町276番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市宿大類町字内宮1429番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鈴宮神社",
+    "address": "高崎市矢島町220番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市浜尻町962番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "井野神社",
+    "address": "高崎市井野町1312番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市中尾町347番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市八幡町655番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "若宮八幡宮",
+    "address": "高崎市中豊岡町1428番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大嶋神社",
+    "address": "高崎市下大島町1番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡神社",
+    "address": "高崎市新保田中町557番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市萩原町字八幡巡485番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "島名神社",
+    "address": "高崎市元島名町162番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市下中居町454番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "島名神社",
+    "address": "高崎市島野町676番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市上中居町1228番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "和泉神社",
+    "address": "高崎市京目町1741番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市八幡原町2152番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市新町557番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "倉賀野神社",
+    "address": "高崎市倉賀野町1263番地",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "高崎市小八木町1010番地1",
+    "shibu": "高崎支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祗神社",
+    "address": "高崎市中室田町乙190番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "黒髪山神社",
+    "address": "高崎市榛名湖町844番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "高崎市上里見町1657番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "淺間神社",
+    "address": "高崎市中里見町1844番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "郷見神社",
+    "address": "高崎市下里見町1443番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市榛名山町甲849番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市金古町1351番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市箕郷町富岡254番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "高崎市箕郷町生原1番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "高崎市箕郷町生原1739番地1",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "高崎市箕郷町生原1728番地1",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市保渡田町乙318番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市保渡田町1800番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市保渡田町905番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鈷守稲荷神社",
+    "address": "高崎市金古町1929番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城若御子神社",
+    "address": "高崎市箕郷町柏木沢1261番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "高崎市箕郷町柏木沢700番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "向滝八幡宮",
+    "address": "高崎市箕郷町柏木沢1942番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市箕郷町柏木沢108番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "車持神社",
+    "address": "高崎市十文字町289番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名若御子神社",
+    "address": "高崎市箕郷町松之沢371番地1",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "月波神社",
+    "address": "高崎市箕郷町善地1641番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "戸春名神社",
+    "address": "高崎市倉渕町三ノ倉4040番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市倉渕町川浦1304番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "石上神社",
+    "address": "高崎市倉渕町三ノ倉1925番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "高崎市倉渕町三ノ倉1043番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "高崎市倉渕町岩氷155番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市下室田町559番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市下室田町2326番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名神社",
+    "address": "高崎市上室田町2885番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "井堤神社",
+    "address": "高崎市井出町1795番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市三ツ寺町1120番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市中泉町1番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "胸形神社",
+    "address": "高崎市棟高町1番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "拔鉾神社",
+    "address": "高崎市宮澤町847番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市三ツ子沢町3番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "榛名木戸神社",
+    "address": "高崎市本郷町644番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "本郷神社",
+    "address": "高崎市本郷町1086番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市高浜町997番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市高浜町1981番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "駒形神社",
+    "address": "高崎市高浜町955番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市箕郷町和田山104番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白川神社",
+    "address": "高崎市箕郷町白川951番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市中泉町566番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "高崎市福島町254番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "猿田彦神社",
+    "address": "高崎市中里町49番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市中里町528番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市箕郷町東明屋512番地2",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市箕郷町上芝923番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市箕郷町上芝1019番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "高崎市箕郷町上芝891番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "高崎市箕郷町上芝1072番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "龍宮神社",
+    "address": "高崎市箕郷町下芝277番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "高崎市箕郷町金敷平487番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市箕郷町矢原209番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大山祇神社",
+    "address": "高崎市箕郷町矢原146番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市箕郷町矢原843番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市箕郷町西明屋4番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "水沼神社",
+    "address": "高崎市倉渕町水沼352番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "高崎市倉渕町川浦3083番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "椿名神社",
+    "address": "高崎市倉渕町権田60番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "戸榛名神社",
+    "address": "高崎市神戸町589番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大森神社",
+    "address": "高崎市下室田町919番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "高崎市北原町439番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "瀧宮神社",
+    "address": "高崎市菅谷町1275番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "高崎市塚田町208番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "高崎市足門町529番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市引間町772番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "高崎市稲荷台町347番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "高崎市箕郷町和田山227番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "高崎市西国分町474番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "福守神社",
+    "address": "高崎市後疋間町127番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "高崎市東国分町530番地1",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "高崎市冷水町1番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市上室田町甲2615番地",
+    "shibu": "高崎榛名支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "甘楽郡甘楽町大字善慶寺甲1番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "石上神社",
+    "address": "甘楽郡甘楽町大字国峰2250番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白倉神社",
+    "address": "甘楽郡甘楽町大字白倉3512番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小幡八幡宮",
+    "address": "甘楽郡甘楽町大字小幡1番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "南西神社",
+    "address": "富岡市南蛇井1143番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宇藝神社",
+    "address": "富岡市神成1178番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯縄神社",
+    "address": "富岡市蚊沼241番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鳥總神社",
+    "address": "富岡市中沢229番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "甘楽郡南牧村大字小沢1080番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "千原神社",
+    "address": "甘楽郡南牧村大字千原594番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "磐戸神社",
+    "address": "甘楽郡南牧村大字磐戸333番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "檜澤神社",
+    "address": "甘楽郡南牧村大字桧沢651番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "尾佐波神社",
+    "address": "甘楽郡南牧村大字羽沢72番地1",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "砥澤神社",
+    "address": "甘楽郡南牧村大字砥沢277番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小澤神社",
+    "address": "甘楽郡南牧村大字小沢1302番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "甘楽郡下仁田町大字下仁田700番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "甘楽郡下仁田町大字風口786番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中之嶽神社",
+    "address": "甘楽郡下仁田町大字上小坂1246番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "甘楽郡下仁田町大字下仁田319番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鏑神社",
+    "address": "甘楽郡下仁田町大字西野牧5815番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "一之宮貫前神社",
+    "address": "富岡市一ノ宮1535番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "曽木神社",
+    "address": "富岡市曽木201番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "富岡市曽木688番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "富岡市別保89番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "西小野神社",
+    "address": "富岡市藤木1029番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "富岡市下高尾19番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "雨宮神社",
+    "address": "富岡市黒川字雨宮521番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "蛇宮神社",
+    "address": "富岡市七日市1003番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "額部神社",
+    "address": "富岡市南後箇1187番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "君川神社",
+    "address": "富岡市君川858番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "富岡市君川171番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "甘楽郡甘楽町大字天引524番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "富岡市富岡1130番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "富岡市原353番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹耒宇神社",
+    "address": "富岡市原852番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "上丹生神社",
+    "address": "富岡市上丹生2854番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹生神社",
+    "address": "富岡市下丹生1番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "富岡市上丹生2695番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "富岡市妙義町菅原1423番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "富岡市妙義町上高田字熊野谷津610番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "足日神社",
+    "address": "富岡市妙義町八木連甲41番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "波古曽神社",
+    "address": "富岡市妙義町行沢139番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "吾妻神社",
+    "address": "富岡市妙義町諸戸甲963番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大日向神社",
+    "address": "甘楽郡南牧村大字大日向1571番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大仁田神社",
+    "address": "甘楽郡南牧村大字大仁田1668番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "六車神社",
+    "address": "甘楽郡南牧村大字六車1486番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "甘楽郡南牧村大字星尾410番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "砥山神社",
+    "address": "甘楽郡南牧村大字砥沢1301番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲含神社",
+    "address": "甘楽郡下仁田町大字栗山1622番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "靑倉神社",
+    "address": "甘楽郡下仁田町大字青倉156番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "甘楽郡下仁田町大字大桑原389番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "妙義神社",
+    "address": "富岡市妙義町妙義6番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "小舟神社",
+    "address": "富岡市富岡928番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "荒舩神社",
+    "address": "甘楽郡下仁田町大字南野牧8786番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "烏神社",
+    "address": "甘楽郡甘楽町大字秋畑字森戸7174番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "野栗神社",
+    "address": "甘楽郡甘楽町大字秋畑字来波4447番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "一幡神社",
+    "address": "甘楽郡甘楽町大字秋畑字東梅木平1657番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲含神社",
+    "address": "甘楽郡甘楽町大字秋畑字稲含山6016番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "藤塚稲荷神社",
+    "address": "富岡市上黒岩1862番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "東小野神社",
+    "address": "富岡市後賀131番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宮崎神社",
+    "address": "富岡市宮崎547番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御霊神社",
+    "address": "富岡市黒川162番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "黒岩神社",
+    "address": "富岡市上黒岩523番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "高瀨神社",
+    "address": "富岡市中高瀬363番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "冨士神社",
+    "address": "富岡市神農原甲800番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "富岡市星田140番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "高太神社",
+    "address": "富岡市妙義町下高田661番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伏見神社",
+    "address": "富岡市妙義町下高田甲1312番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "馬山神社",
+    "address": "甘楽郡下仁田町大字馬山乙2689番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "甘楽郡甘楽町大字轟210番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "甘楽郡甘楽町大字小幡1081番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "甘楽郡甘楽町大字小幡1425番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "甘楽郡甘楽町大字庭谷567番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "菅原神社",
+    "address": "甘楽郡甘楽町大字金井331番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "今宮神社",
+    "address": "甘楽郡甘楽町大字上野305番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "笹森稲荷神社",
+    "address": "甘楽郡甘楽町大字福島1350番地",
+    "shibu": "富岡甘楽支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "藤岡市下栗須415番地の1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "藤岡市森140番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "藤岡市立石1488番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "立石神社",
+    "address": "藤岡市立石乙1400番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "岩崎神社",
+    "address": "高崎市吉井町大字岩崎69番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "奥平神社",
+    "address": "高崎市吉井町大字上奥平10番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "坂口神社",
+    "address": "高崎市吉井町大字坂口103番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "春日神社",
+    "address": "藤岡市上日野119番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "辛科神社",
+    "address": "藤岡市上日野1308番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八王子神社",
+    "address": "藤岡市上日野952番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鹿島神社",
+    "address": "藤岡市上日野1816番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "嚴島神社",
+    "address": "藤岡市上日野2110番地2",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "熊野神社",
+    "address": "藤岡市金井756番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鷲神社",
+    "address": "藤岡市下日野696番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "椹神社",
+    "address": "多野郡神流町船子1672番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御鉾神社",
+    "address": "多野郡神流町生利1425番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "麻生神社",
+    "address": "多野郡神流町麻生329番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "柏木神社",
+    "address": "多野郡神流町柏木52番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹生神社",
+    "address": "多野郡神流町塩沢223番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "土生神社",
+    "address": "多野郡神流町小平460番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹生神社",
+    "address": "多野郡神流町相原95番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹生神社",
+    "address": "多野郡神流町黒田138番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "船子神社",
+    "address": "多野郡神流町船子1025番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "多野郡神流町青梨892番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "乃久里神社",
+    "address": "多野郡上野村大字新羽988番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "新羽神社",
+    "address": "多野郡上野村大字新羽540番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "勝山神社",
+    "address": "多野郡上野村大字勝山257番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "宇佐八幡宮",
+    "address": "多野郡上野村大字乙母293番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "多野郡上野村大字川和230番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "乙父神社",
+    "address": "多野郡上野村大字乙父503番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "楢原神社",
+    "address": "多野郡上野村大字楢原218番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "川上神社",
+    "address": "多野郡上野村大字楢原1370番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "水上神社",
+    "address": "多野郡上野村大字楢原1752番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中之沢神社",
+    "address": "多野郡上野村大字楢原2091番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "虎王神社",
+    "address": "多野郡上野村大字楢原2150番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "多野郡上野村大字川和80番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "野栗沢神社",
+    "address": "多野郡上野村大字野栗沢255番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "多野郡神流町万場72番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "管原神社",
+    "address": "藤岡市坂原1364番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "藤岡市坂原2344番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "中山神社",
+    "address": "多野郡神流町魚尾719番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "住吉神社",
+    "address": "高崎市吉井町大字東谷大沢入会地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "長根神社",
+    "address": "高崎市吉井町大字長根535番地2",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "穂積神社",
+    "address": "高崎市吉井町大字本郷832番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八幡宮",
+    "address": "高崎市吉井町大字吉井甲372番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "愛宕神社",
+    "address": "高崎市吉井町大字吉井38番地1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大宮神社",
+    "address": "高崎市吉井町大字池1226番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日枝神社",
+    "address": "高崎市吉井町大字矢田424番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市吉井町大字矢田999番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "多比良神社",
+    "address": "高崎市吉井町大字多比良2238番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "高崎市吉井町大字多比良3217番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "常木神社",
+    "address": "高崎市吉井町大字多比良3040番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "辛科神社",
+    "address": "高崎市吉井町大字神保435番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "藤岡市東平井1108番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "藤岡市白石甲760番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "白山神社",
+    "address": "藤岡市藤岡乙2814番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "藤岡市中67番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "北野神社",
+    "address": "藤岡市鮎川乙689番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "平地神社",
+    "address": "藤岡市中大塚1番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "戸塚神社",
+    "address": "藤岡市上戸塚363番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "藤岡市藤岡1163番地1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "山崎神社",
+    "address": "藤岡市藤岡2697番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "藤岡市藤岡3135番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "富士淺間神社",
+    "address": "藤岡市藤岡1152番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "泡輪神社",
+    "address": "藤岡市中乙234番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "黒田神社",
+    "address": "藤岡市中133番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "諏訪神社",
+    "address": "藤岡市藤岡甲495番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "美國神社",
+    "address": "藤岡市緑野264番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "藤岡市上大塚1450番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "篠塚神社",
+    "address": "藤岡市篠塚350番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "赤城神社",
+    "address": "藤岡市上栗須281番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御靈神社",
+    "address": "藤岡市高山1616番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "水沼神社",
+    "address": "藤岡市下戸塚623番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御巡部神社",
+    "address": "藤岡市矢場512番地1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "椿杜神社",
+    "address": "藤岡市本郷1867番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "風天神社",
+    "address": "藤岡市小林838番地1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "土師神社",
+    "address": "藤岡市本郷168番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "水宮神社",
+    "address": "藤岡市岡之郷532番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "地守神社",
+    "address": "藤岡市下日野2238番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "神明宮",
+    "address": "藤岡市中栗須615番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "藤岡市神田1495番地矢場1026番地三本木752番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "八坂神社",
+    "address": "藤岡市下日野101番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "稲荷神社",
+    "address": "藤岡市下日野200番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "日技神社",
+    "address": "藤岡市浄法寺651番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "丹生神社",
+    "address": "藤岡市浄法寺1259番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "伊勢島神社",
+    "address": "藤岡市立石新田3番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "三島神社",
+    "address": "藤岡市西平井1742番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "豊受神社",
+    "address": "藤岡市三ﾂ木408番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "飯玉神社",
+    "address": "高崎市吉井町馬庭226番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "大武神社",
+    "address": "高崎市吉井町石神1-1",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "浅間神社",
+    "address": "高崎市吉井町黒熊877",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "鬼石神社",
+    "address": "藤岡市鬼石721番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "御倉御子神社",
+    "address": "藤岡市浄法寺204番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "姥神社",
+    "address": "藤岡市三波川114番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "子寳神社",
+    "address": "藤岡市譲原甲644番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  },
+  {
+    "name": "拔鉾神社",
+    "address": "藤岡市保美濃山399番地",
+    "shibu": "藤岡多野支部",
+    "pref": "群馬県",
+    "source": "gunma_jinjacho"
+  }
+]
