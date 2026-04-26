@@ -1,0 +1,643 @@
+[
+  {
+    "name": "八坂神社",
+    "address": "茨城県取手市東1-2-9",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/15033.html",
+    "lng": 140.06633,
+    "lat": 35.890305
+  },
+  {
+    "name": "稲田神社",
+    "address": "茨城県笠間市稲田763",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/03116.html",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月17日",
+    "lng": 140.201553,
+    "lat": 36.370251
+  },
+  {
+    "name": "鹿島神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/04067.htm",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "�燗c神社",
+    "address": "茨城県稲敷市高田1348",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09045.htm",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月15日",
+    "lng": 140.345917,
+    "lat": 35.956718
+  },
+  {
+    "name": "大井神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01042.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "大宮大神",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09072.htm",
+    "festivals": [
+      {
+        "month": 2,
+        "date_str": "2月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "2月17日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "鹿島香取神社",
+    "address": "茨城県水戸市青柳町434",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01039.html",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月7日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月7日",
+    "lng": 140.480453,
+    "lat": 36.394707
+  },
+  {
+    "name": "香取神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10067.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "鹿嶋八幡神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/04047.htm",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "側高神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09163.htm",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月1日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "常磐神社",
+    "address": "茨城県水戸市常磐町1-3-1",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01001.html",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "５月１２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "５月１２日",
+    "lng": 140.450745,
+    "lat": 36.376099
+  },
+  {
+    "name": "石井神社",
+    "address": "茨城県笠間市石井1074",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/03103.html",
+    "lng": 140.241486,
+    "lat": 36.388142
+  },
+  {
+    "name": "天録稲荷神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10021.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "日枝神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/11043.html",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月1日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "関戸神社",
+    "address": "茨城県久慈郡大子町頃藤6506",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/05125.html",
+    "lng": 140.393463,
+    "lat": 36.720573
+  },
+  {
+    "name": "素鵞神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/02112.html",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月23日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "茨城県護国神社",
+    "address": "茨城県水戸市見川1-2-1",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01003.html",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月1日",
+    "lng": 140.447281,
+    "lat": 36.375057
+  },
+  {
+    "name": "鹿嶋神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10190.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "須賀神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10119.html",
+    "festivals": [
+      {
+        "month": 2,
+        "date_str": "2月27日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "2月27日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "筑波山神社",
+    "address": "茨城県つくば市筑波1-1",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/11001.html",
+    "lng": 140.105164,
+    "lat": 36.220688
+  },
+  {
+    "name": "八坂神社",
+    "address": "茨城県土浦市真鍋5丁目9-1",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10001.html",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月20日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月20日",
+    "lng": 140.200302,
+    "lat": 36.098377
+  },
+  {
+    "name": "吉田神社",
+    "address": "茨城県水戸市宮内町3193-2",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01015.html",
+    "festivals": [
+      {
+        "month": 2,
+        "date_str": "2月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "2月17日",
+    "lng": 140.482407,
+    "lat": 36.361485
+  },
+  {
+    "name": "笠間稲荷神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/03001.html",
+    "festivals": [
+      {
+        "month": 2,
+        "date_str": "2月14日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "2月14日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "稲荷神社",
+    "address": "茨城県取手市宮和田100",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/15038.html",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月1日",
+    "lng": 140.124008,
+    "lat": 35.92786
+  },
+  {
+    "name": "鷲神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/04053.htm",
+    "festivals": [
+      {
+        "month": 3,
+        "date_str": "3月14日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "3月14日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "飯綱神社",
+    "address": "茨城県水戸市東赤塚2173",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01058.html",
+    "lng": 140.421982,
+    "lat": 36.384968
+  },
+  {
+    "name": "一ノ矢八坂神社",
+    "address": "茨城県つくば市玉取2617",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/11180.html",
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "6月7日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "6月7日",
+    "lng": 140.098587,
+    "lat": 36.125061
+  },
+  {
+    "name": "八幡宮",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/06061.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "富士神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09020.htm",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "蛟虫罔神社",
+    "address": "茨城県北相馬郡利根町立木882",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/15084.html",
+    "lng": 140.177856,
+    "lat": 35.871346
+  },
+  {
+    "name": "藤内神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01048.html",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月10日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月10日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "八幡宮",
+    "address": "茨城県水戸市八幡町8-54",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01019.html",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月25日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月25日",
+    "lng": 140.460938,
+    "lat": 36.38681
+  },
+  {
+    "name": "日枝神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10136.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "諏訪神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/05104.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "總社神社",
+    "address": "茨城県石岡市総社2-8-1",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10031.html",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月15日",
+    "lng": 140.269577,
+    "lat": 36.188885
+  },
+  {
+    "name": "金刀比羅神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10059.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "手子后神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01054.html",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月1日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "貴布禰神社",
+    "address": "茨城県小美玉市堅倉992",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/02082.html",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月22日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月22日",
+    "lng": 140.35614,
+    "lat": 36.238384
+  },
+  {
+    "name": "鹿嶋神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/05113.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "鹿島神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01053.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "八坂神社",
+    "address": "茨城県かすみがうら市深谷",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/10147.html",
+    "lng": 140.306915,
+    "lat": 36.091076
+  },
+  {
+    "name": "女化神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09001.htm",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "稲荷神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/02021.html",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "八坂神社",
+    "address": "茨城県守谷市本町629",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/15016.html",
+    "lng": 139.998474,
+    "lat": 35.946426
+  },
+  {
+    "name": "吉田神社",
+    "address": "茨城県水戸市開江町499番地",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01043.html",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月3日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月3日",
+    "lng": 140.394577,
+    "lat": 36.405373
+  },
+  {
+    "name": "大井神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/03010.html",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "東照宮",
+    "address": "茨城県水戸市宮町2-5-13",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenou/jinja/01004.html",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月17日",
+    "lng": 140.47345,
+    "lat": 36.371956
+  },
+  {
+    "name": "水神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kennan/jinja/09136.htm",
+    "lng": 140.344345,
+    "lat": 36.369831
+  },
+  {
+    "name": "八龍神社",
+    "address": "茨城県水戸市三湯1108-300 TEL029-257-0111 FAX029-257-0112",
+    "pref": "茨城県",
+    "source": "ibaraki_jinjacho",
+    "source_url": "https://www.ibarakiken-jinjacho.or.jp/ibaraki/kenhoku/jinja/05117.html",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月1日",
+    "lng": 140.344345,
+    "lat": 36.369831
+  }
+]
