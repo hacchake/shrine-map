@@ -1,0 +1,1680 @@
+[
+  {
+    "name": "高男荷渡神社（たかおにわたしじんじゃ）",
+    "address": "栃木県日光市轟1239",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=941",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月最終日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月最終日曜日",
+    "lng": 139.730347,
+    "lat": 36.751678
+  },
+  {
+    "name": "薬師寺八幡宮（やくしじはちまんぐう）",
+    "address": "栃木県下野市薬師寺1505",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=597",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月2日・3日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月2日・3日",
+    "lng": 139.878754,
+    "lat": 36.401005
+  },
+  {
+    "name": "大前神社（おおさきじんじゃ）",
+    "address": "栃木県真岡市東郷",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=467",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月9日、10日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月9日、10日",
+    "lng": 140.02803,
+    "lat": 36.450474
+  },
+  {
+    "name": "雄琴神社（おことじんじゃ）",
+    "address": "栃木県下都賀郡壬生町",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=759",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月29日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月29日",
+    "lng": 139.814667,
+    "lat": 36.442177
+  },
+  {
+    "name": "大前恵比寿神社（おおさきえびすじんじゃ）",
+    "address": "栃木県真岡市東郷",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=511",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月10日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月10日",
+    "lng": 140.02803,
+    "lat": 36.450474
+  },
+  {
+    "name": "篠塚稲荷神社（しのづかいなりじんじゃ）",
+    "address": "栃木県小山市大本６１５",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=788",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.782242,
+    "lat": 36.36134
+  },
+  {
+    "name": "祖母井神社（うばがいじんじゃ）",
+    "address": "栃木県芳賀郡芳賀町祖母井749番地",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=2705",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 140.066849,
+    "lat": 36.548355
+  },
+  {
+    "name": "安住神社（やすずみじんじゃ）",
+    "address": "栃木県塩谷郡高根沢町上高根沢2313",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=969",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月17日",
+    "lng": 140.0298,
+    "lat": 36.590504
+  },
+  {
+    "name": "中村八幡宮（なかむらはちまんぐう）",
+    "address": "栃木県真岡市中556",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=505",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月第3日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月第3日曜日",
+    "lng": 139.954147,
+    "lat": 36.414146
+  },
+  {
+    "name": "宇都宮二荒山神社（うつのみやふたあらやまじんじゃ）",
+    "address": "栃木県宇都宮市馬場通り1-1-1",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=617",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月21日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月21日",
+    "lng": 139.885818,
+    "lat": 36.561317
+  },
+  {
+    "name": "大原神社（おおはらじんじゃ）",
+    "address": "栃木県日光市鬼怒川温泉大原503",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=948",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.718567,
+    "lat": 36.818687
+  },
+  {
+    "name": "那須温泉神社（なすおんせんじんじゃ）",
+    "address": "栃木県那須郡那須町大字湯本182",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=700",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月8・9日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月8・9日",
+    "lng": 139.992386,
+    "lat": 37.106594
+  },
+  {
+    "name": "村檜神社（むらひじんじゃ）",
+    "address": "栃木市岩舟町小野寺4697",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=547",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月17日",
+    "lng": 139.617111,
+    "lat": 36.366753
+  },
+  {
+    "name": "神社庁について",
+    "address": "",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=14"
+  },
+  {
+    "name": "八雲神社（やくもじんじゃ）",
+    "address": "栃木県芳賀郡茂木町大字茂木1609",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=498",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月25日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月25日",
+    "lng": 140.183975,
+    "lat": 36.531223
+  },
+  {
+    "name": "那須神社（なすじんじゃ）",
+    "address": "栃木県大田原市南金丸1628",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=717",
+    "lng": 140.088013,
+    "lat": 36.865116
+  },
+  {
+    "name": "小川温泉神社（おがわゆぜんじんじゃ）",
+    "address": "栃木県那須郡那珂川町小川2486",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=686",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月29日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月29日",
+    "lng": 140.126801,
+    "lat": 36.765774
+  },
+  {
+    "name": "藤原町護国神社（ふじわらまちごこくじんじゃ）",
+    "address": "栃木県日光市鬼怒川温泉",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=954",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月18日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月18日",
+    "lng": 139.717804,
+    "lat": 36.813736
+  },
+  {
+    "name": "三祖神社（さんそじんじゃ）",
+    "address": "栃木県宇都宮市満美穴町32",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=614",
+    "festivals": [
+      {
+        "month": 3,
+        "date_str": "3月13日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "3月13日",
+    "lng": 139.976608,
+    "lat": 36.57119
+  },
+  {
+    "name": "山口祭（やまぐちさい)　５月",
+    "address": "",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=194"
+  },
+  {
+    "name": "小藤神社（こふじじんじゃ）",
+    "address": "栃木県佐野市中町449",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=923",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月15日",
+    "lng": 139.616043,
+    "lat": 36.385269
+  },
+  {
+    "name": "小林瀧尾神社（こばやしたきおじんじゃ）",
+    "address": "栃木県日光市小林2169",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=935",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日",
+    "lng": 139.822144,
+    "lat": 36.723103
+  },
+  {
+    "name": "三箇神社（さんがじんじゃ）",
+    "address": "栃木県那須烏山市三箇1273",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=692",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月17日",
+    "lng": 140.067169,
+    "lat": 36.692715
+  },
+  {
+    "name": "八坂神社（やさかじんじゃ）",
+    "address": "栃木県佐野市葛生西1-10-36",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=557",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月第3土曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月第3土曜日",
+    "lng": 139.609375,
+    "lat": 36.402248
+  },
+  {
+    "name": "岩崎神社（いわさきじんじゃ）",
+    "address": "栃木県日光市岩崎526",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=676",
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "1月7日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "1月7日",
+    "lng": 139.738632,
+    "lat": 36.632996
+  },
+  {
+    "name": "清瀧神社（きよたきじんじゃ）",
+    "address": "栃木県日光市清瀧",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=682",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月15日",
+    "lng": 139.567886,
+    "lat": 36.743904
+  },
+  {
+    "name": "栃木県護国神社（とちぎけんごこくじんじゃ）",
+    "address": "栃木県宇都宮市陽西町1-37",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=594",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月28日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月28日",
+    "lng": 139.860962,
+    "lat": 36.570396
+  },
+  {
+    "name": "賀蘇山神社（がそやまじんじゃ）",
+    "address": "栃木県鹿沼市入粟野尾鑿713",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=655",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月23日",
+    "lng": 139.572708,
+    "lat": 36.58749
+  },
+  {
+    "name": "天満宮（てんまんぐう）",
+    "address": "栃木県芳賀郡芳賀町西水沼1723番地",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=471",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月22日、23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月22日、23日",
+    "lng": 140.016068,
+    "lat": 36.524651
+  },
+  {
+    "name": "塩竈神社（しおがまじんじゃ）",
+    "address": "栃木県矢板市上町6-11",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=972",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月20日以降の日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月20日以降の日曜日",
+    "lng": 139.920883,
+    "lat": 36.810902
+  },
+  {
+    "name": "髙椅神社（たかはしじんじゃ）",
+    "address": "栃木県小山市高椅７０２",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=783",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "春4月、秋10月",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "春4月、秋10月",
+    "lng": 139.892029,
+    "lat": 36.337269
+  },
+  {
+    "name": "黒磯神社（くろいそじんじゃ）",
+    "address": "栃木県那須塩原市",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=960",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月10日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月10日",
+    "lng": 140.046127,
+    "lat": 36.961666
+  },
+  {
+    "name": "高男神社（たかおじんじゃ）",
+    "address": "栃木県日光市芹沼1400",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=1026",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月下旬の日曜",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月下旬の日曜",
+    "lng": 139.719162,
+    "lat": 36.744259
+  },
+  {
+    "name": "大神神社（おおみわじんじゃ）",
+    "address": "栃木県栃木市惣社町477",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=538",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月16日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月16日",
+    "lng": 139.782303,
+    "lat": 36.406178
+  },
+  {
+    "name": "星宮神社（ほしのみやじんじゃ）",
+    "address": "栃木県佐野市大蔵町2928",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=553",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月25日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月25日",
+    "lng": 139.574036,
+    "lat": 36.315514
+  },
+  {
+    "name": "宮原八幡宮（みやはらはちまんぐう）",
+    "address": "栃木県那須烏山市宮原578",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=668",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月15日",
+    "lng": 140.169403,
+    "lat": 36.657116
+  },
+  {
+    "name": "湯泉神社（ゆぜんじんじゃ）",
+    "address": "栃木県矢板市沢351",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=620",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "旧9月9日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "旧9月9日",
+    "lng": 139.960953,
+    "lat": 36.822887
+  },
+  {
+    "name": "氏家今宮神社（うじいえいまみやじんじゃ）",
+    "address": "栃木県さくら市馬場43",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=623",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月19日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月19日",
+    "lng": 139.962341,
+    "lat": 36.690159
+  },
+  {
+    "name": "八坂神社（やさかじんじゃ）",
+    "address": "栃木県宇都宮市今泉4-16-28",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=608",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月15日",
+    "lng": 139.899246,
+    "lat": 36.565956
+  },
+  {
+    "name": "唐澤山神社（からさわやまじんじゃ）",
+    "address": "栃木県佐野市富士町1409",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=914",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月25日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月25日",
+    "lng": 139.599472,
+    "lat": 36.352905
+  },
+  {
+    "name": "長沼八幡宮（ながぬまはちまんぐう）",
+    "address": "栃木県真岡市長沼1083",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=508",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月15日",
+    "lng": 139.929092,
+    "lat": 36.369423
+  },
+  {
+    "name": "高龗神社（たかおじんじゃ）",
+    "address": "栃木県真岡市下籠谷780",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=975",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日",
+    "lng": 139.980316,
+    "lat": 36.493473
+  },
+  {
+    "name": "古峯神社（ふるみねじんじゃ）",
+    "address": "栃木県鹿沼市草久3027",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=651",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月27日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月27日",
+    "lng": 139.543411,
+    "lat": 36.663918
+  },
+  {
+    "name": "日光二荒山神社(にっこうふたらさんじんじゃ)",
+    "address": "栃木県日光市山内2307(本社)",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=1888",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月13日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月13日",
+    "lng": 139.597214,
+    "lat": 36.759941
+  },
+  {
+    "name": "烏森神社（からすがもりじんじゃ）",
+    "address": "栃木県那須塩原市三区町635番地",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=720",
+    "festivals": [
+      {
+        "month": 2,
+        "date_str": "2月3日、4月15日、",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "2月3日、4月15日、",
+    "lng": 139.962219,
+    "lat": 36.891422
+  },
+  {
+    "name": "報徳二宮神社（ほうとくにのみやじんじゃ）",
+    "address": "栃木県日光市今市743",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=926",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月17日",
+    "lng": 139.688309,
+    "lat": 36.726086
+  },
+  {
+    "name": "日光大室高靇神社（にっこうおおむろたかおじんじゃ）",
+    "address": "栃木日光市大室1619",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=978",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日",
+    "lng": 143.716019,
+    "lat": 43.918755
+  },
+  {
+    "name": "磯山神社（いそやまじんじゃ）",
+    "address": "栃木県鹿沼市磯町66",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=664",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月29日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月29日",
+    "lng": 139.749695,
+    "lat": 36.494579
+  },
+  {
+    "name": "大山祇神社（おおやまづみじんじゃ）",
+    "address": "栃木県足利市大沼田町2268",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=661",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "春（4月第4日曜）",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "春（4月第4日曜）",
+    "lng": 139.501801,
+    "lat": 36.332268
+  },
+  {
+    "name": "津嶋神社（つしまじんじゃ）",
+    "address": "栃木県塩谷郡高根沢町太田611",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=967",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月18～19前の日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月18～19前の日曜日",
+    "lng": 140.038147,
+    "lat": 36.627106
+  },
+  {
+    "name": "三島神社（みしまじんじゃ／奥宮母智丘神社）",
+    "address": "栃木県那須塩原市三島5-336-5",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=698",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月体育の日の前日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月体育の日の前日",
+    "lng": 139.967438,
+    "lat": 36.89888
+  },
+  {
+    "name": "賀茂別雷神社（かもわけいかづちじんじゃ）",
+    "address": "栃木県佐野市多田町1501",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=563",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月15日",
+    "lng": 139.593994,
+    "lat": 36.386562
+  },
+  {
+    "name": "髙龗神社（たかおじんじゃ）",
+    "address": "栃木県宇都宮市下小池町1127",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=584",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日",
+    "lng": 139.810959,
+    "lat": 36.683468
+  },
+  {
+    "name": "一瓶塚稲荷神社(いっぺいづかいなりじんじゃ)",
+    "address": "栃木県佐野市田沼町1404",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=566",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月15日(春祭)",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月15日(春祭)",
+    "lng": 139.579208,
+    "lat": 36.368168
+  },
+  {
+    "name": "磐裂根裂神社（いわさくねさくじんじゃ）",
+    "address": "栃木県下都賀郡壬生町安塚1772",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=526",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月3日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月3日",
+    "lng": 139.831192,
+    "lat": 36.499443
+  },
+  {
+    "name": "高龗神社（たかおじんじゃ）",
+    "address": "栃木県宇都宮市芦沼町970",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=577",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月第3土曜",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月第3土曜",
+    "lng": 139.936722,
+    "lat": 36.670338
+  },
+  {
+    "name": "涌釜神社（わっかまじんじゃ）",
+    "address": "栃木県佐野市出流原町2123",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=2527",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月第2日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月第2日曜日",
+    "lng": 139.536255,
+    "lat": 36.366001
+  },
+  {
+    "name": "朝日森天満宮（あさひもりてんまんぐう）",
+    "address": "栃木県佐野市天神町807",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=919",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月25日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月25日",
+    "lng": 139.574982,
+    "lat": 36.32066
+  },
+  {
+    "name": "浅間神社（せんげんじんじゃ）",
+    "address": "栃木県佐野市嘉多山町1786",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=550",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月1日",
+    "lng": 139.613724,
+    "lat": 36.411465
+  },
+  {
+    "name": "八幡宮（はちまんぐう）",
+    "address": "栃木県栃木市藤岡町部屋",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=780",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日前直近の土曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日前直近の土曜日",
+    "lng": 139.697937,
+    "lat": 36.256023
+  },
+  {
+    "name": "大宮神社（おおみやじんじゃ）",
+    "address": "栃木県栃木市西方町真名子3110",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=1567",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月第2日曜",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月第2日曜",
+    "lng": 139.677887,
+    "lat": 36.478161
+  },
+  {
+    "name": "愛宕神社（あたごじんじゃ）",
+    "address": "栃木県下野市仁良川1311",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=800",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月10日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月10日",
+    "lng": 139.877258,
+    "lat": 36.38081
+  },
+  {
+    "name": "荒橿神社（あらかしじんじゃ）",
+    "address": "栃木県芳賀郡茂木町",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=249",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月17日",
+    "lng": 140.187576,
+    "lat": 36.532135
+  },
+  {
+    "name": "星宮神社（ほしのみやじんじゃ）",
+    "address": "栃木県下野市下古山1553",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=534",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "春の例祭（4月10日近くの日曜日）、秋の例祭（11月15日）",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "春の例祭（4月10日近くの日曜日）、秋の例祭（11月15日）",
+    "lng": 139.852753,
+    "lat": 36.451805
+  },
+  {
+    "name": "神明宮（しんめいぐう）",
+    "address": "栃木県栃木市旭町２６－３",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=774",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月16日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月16日",
+    "lng": 139.735428,
+    "lat": 36.380138
+  },
+  {
+    "name": "大宮温泉神社（おおみやおんせんじんじゃ）",
+    "address": "栃木県大田原市中野内",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=711",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月第2日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月第2日曜日",
+    "lng": 140.148483,
+    "lat": 36.918304
+  },
+  {
+    "name": "太平山神社（おおひらさんじんじゃ）",
+    "address": "栃木県栃木市平井町６５９",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=771",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月18日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月18日",
+    "lng": 139.692093,
+    "lat": 36.362694
+  },
+  {
+    "name": "鹿島神社（かしまじんじゃ）",
+    "address": "栃木県芳賀郡益子町益子1685-1",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=242",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月15日",
+    "lng": 140.103409,
+    "lat": 36.45826
+  },
+  {
+    "name": "金井神社（かないじんじゃ）",
+    "address": "栃木県下野市小金井",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=765",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月18日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月18日",
+    "lng": 139.843796,
+    "lat": 36.391445
+  },
+  {
+    "name": "平出雷電神社（ひらいでらいでんじんじゃ）",
+    "address": "栃木県宇都宮市平出町3848",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=611",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月第3日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月第3日曜日",
+    "lng": 139.940109,
+    "lat": 36.573627
+  },
+  {
+    "name": "高尾神社（たかおじんじゃ）",
+    "address": "栃木県日光市鬼怒川温泉滝字中居615",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=951",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.687332,
+    "lat": 36.863564
+  },
+  {
+    "name": "日光鹿島神社（にっこうかしまじんじゃ）",
+    "address": "栃木県足利市大久保町1317",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=665",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "春（4月第3日曜）",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "春（4月第3日曜）",
+    "lng": 139.502533,
+    "lat": 36.31728
+  },
+  {
+    "name": "貴船神社（きふねじんじゃ）",
+    "address": "栃木県日光市大渡487",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=938",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.754776,
+    "lat": 36.761322
+  },
+  {
+    "name": "鷲宮神社（わしのみやじんじゃ）",
+    "address": "栃木県栃木市都賀町家中４５１－２",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=768",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.77005,
+    "lat": 36.42701
+  },
+  {
+    "name": "足利織姫神社（あしかがおりひめじんじゃ）",
+    "address": "栃木県足利市西宮町3889",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=963",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月5日春祭、11月3日秋祭",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月5日春祭、11月3日秋祭",
+    "lng": 139.442505,
+    "lat": 36.345867
+  },
+  {
+    "name": "鷲子山上神社（とりのこさんしょうじんじゃ）",
+    "address": "栃木県那須郡那珂川町矢又1948",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=677",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月17日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月17日",
+    "lng": 140.21553,
+    "lat": 36.711922
+  },
+  {
+    "name": "日吉神社（ひよしじんじゃ）",
+    "address": "栃木県宇都宮市古賀志町352",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=588",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月3日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月3日",
+    "lng": 139.768188,
+    "lat": 36.610168
+  },
+  {
+    "name": "靜神社（しずじんじゃ）",
+    "address": "栃木県那須郡那珂川町",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=683",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月1日～5月3日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月1日～5月3日",
+    "lng": 140.172318,
+    "lat": 36.736267
+  },
+  {
+    "name": "八坂神社（やさかじんじゃ）",
+    "address": "栃木県足利市島田町984",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=645",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月海の日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月海の日",
+    "lng": 139.445297,
+    "lat": 36.303642
+  },
+  {
+    "name": "岩戸別神社（いわとわけじんじゃ）",
+    "address": "栃木県塩谷郡塩谷町船生8171",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=2714",
+    "festivals": [
+      {
+        "month": 3,
+        "date_str": "旧暦3月3日(現行は4月第3日曜日)",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "旧暦3月3日(現行は4月第3日曜日)",
+    "lng": 139.793884,
+    "lat": 36.77631
+  },
+  {
+    "name": "瀧尾神社（たきおじんじゃ）",
+    "address": "栃木県日光市小佐越404",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=944",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.695724,
+    "lat": 36.811485
+  },
+  {
+    "name": "磐根神社（いわねじんじゃ）",
+    "address": "栃木県栃木市都賀町大字合戦場字星の宮534",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=541",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月29日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月29日",
+    "lng": 139.690033,
+    "lat": 36.45459
+  },
+  {
+    "name": "下野の杜　55号",
+    "address": "",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=2885"
+  },
+  {
+    "name": "諏訪神社（すわじんじゃ）",
+    "address": "栃木県栃木市大平町真弓",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=777",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月9日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月9日",
+    "lng": 139.727539,
+    "lat": 36.33342
+  },
+  {
+    "name": "森友瀧尾神社（もりともたきのおじんじゃ）",
+    "address": "栃木県日光市森友995",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=648",
+    "festivals": [
+      {
+        "month": 12,
+        "date_str": "12月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "12月15日",
+    "lng": 139.719162,
+    "lat": 36.721821
+  },
+  {
+    "name": "大田原神社（おおたわらじんじゃ）",
+    "address": "栃木県大田原市",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=708",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月第3日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月第3日曜日",
+    "lng": 140.015839,
+    "lat": 36.870922
+  },
+  {
+    "name": "御厨神社（みくりやじんじゃ）",
+    "address": "栃木県足利市福富町2018",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=658",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "春（4月第３日曜）",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "春（4月第３日曜）",
+    "lng": 139.462418,
+    "lat": 36.318291
+  },
+  {
+    "name": "智賀都神社（ちかつじんじゃ）",
+    "address": "栃木県宇都宮市徳次郎町2478",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=581",
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "8月1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "8月1日",
+    "lng": 139.837875,
+    "lat": 36.649288
+  },
+  {
+    "name": "白鷺神社（しらさぎじんじゃ）",
+    "address": "栃木県河内郡上三川町しらさぎ",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=605",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月9日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月9日",
+    "lng": 139.911255,
+    "lat": 36.440697
+  },
+  {
+    "name": "手水の作法",
+    "address": "",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=32"
+  },
+  {
+    "name": "間々田八幡宮（ままだはちまんぐう）",
+    "address": "栃木県小山市大字間々田2330",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=544",
+    "lng": 139.765656,
+    "lat": 36.274338
+  },
+  {
+    "name": "猿田彦神社（さるたひこじんじゃ）",
+    "address": "栃木県日光市足尾町5497",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=697",
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "5月第3土・日曜",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "5月第3土・日曜",
+    "lng": 139.474472,
+    "lat": 36.665745
+  },
+  {
+    "name": "下野國一社　八幡宮（しもつけのくにいっしゃ　はちまんぐう）",
+    "address": "栃木県足利市八幡町387",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=642",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月10日・10月16日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月10日・10月16日",
+    "lng": 139.44194,
+    "lat": 36.326214
+  },
+  {
+    "name": "雀神社（すずめじんじゃ）",
+    "address": "栃木県佐野市高橋町2041",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=560",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月15日",
+    "lng": 139.52417,
+    "lat": 36.292423
+  },
+  {
+    "name": "乃木神社（のぎじんじゃ）",
+    "address": "栃木県那須塩原市石林795",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=714",
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "9月13日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "9月13日",
+    "lng": 140.002869,
+    "lat": 36.889202
+  },
+  {
+    "name": "今市総鎮守　瀧尾神社（いまいちそうちんじゅ　たきのおじんじゃ）",
+    "address": "栃木県日光市今市531",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=930",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月第2土・日曜",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月第2土・日曜",
+    "lng": 139.680176,
+    "lat": 36.726143
+  },
+  {
+    "name": "十二神社（じゅうにじんじゃ）",
+    "address": "栃木県日光市藤原572",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=957",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月23日",
+    "lng": 139.727463,
+    "lat": 36.856529
+  },
+  {
+    "name": "磐裂神社（いわさくじんじゃ）",
+    "address": "栃木県日光市遠下3-1",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=703",
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "4月15日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "4月15日",
+    "lng": 139.697617,
+    "lat": 36.720013
+  },
+  {
+    "name": "喜連川神社（きつれがわじんじゃ）",
+    "address": "栃木県さくら市喜連川4491",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=981",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月28日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月28日",
+    "lng": 140.008545,
+    "lat": 36.731621
+  },
+  {
+    "name": "芳賀安住神社（はがやすずみじんじゃ）",
+    "address": "栃木県芳賀郡芳賀町下高根沢4079",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=502",
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "11月22日～23日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "11月22日～23日",
+    "lng": 140.023834,
+    "lat": 36.576286
+  },
+  {
+    "name": "須賀神社（すがじんじゃ）",
+    "address": "栃木県小山市宮本町1-2-4",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=531",
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "7月14日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "7月14日",
+    "lng": 139.799606,
+    "lat": 36.311699
+  },
+  {
+    "name": "鹿沼今宮神社（かぬまいまみやじんじゃ）",
+    "address": "栃木県鹿沼市今宮町1692",
+    "pref": "栃木県",
+    "source": "tochigi_jinjacho",
+    "source_url": "http://www.tochigi-jinjacho.or.jp/?p=673",
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "10月祝日（体育の日）前の土・日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "10月祝日（体育の日）前の土・日曜日",
+    "lng": 139.743912,
+    "lat": 36.566959
+  }
+]
