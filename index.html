@@ -150,7 +150,7 @@ function parseFestDate(dateStr){
   if(!dateStr)return null;
   const today=new Date(todayY,todayM-1,todayD);
   // ○月○日
-  const m1=dateStr.match(/(\d+)月(\d+)日/);
+  const m1=dateStr.match(/(\d+)月\s*(\d+)日/);
   if(m1){
     const fm=parseInt(m1[1]),fd=parseInt(m1[2]);
     let d=new Date(todayY,fm-1,fd);
