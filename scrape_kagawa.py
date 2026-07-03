@@ -29,14 +29,19 @@ MUNICIPALITIES = [
 ]
 
 # ラベル ： 値 形式（区切りは全角コロン、前後に空白/全角空白が入る）
-# 空欄フィールドで\s*が改行を越えて次行を拾わないよう、行内空白のみ許可
-_SP = r'[ \t\u3000]*'
+# 実ページはラベルと「：値」が別行にレンダリングされる（get_text('\n')で
+# 「鎮座地\n ： さぬき市...」）。ラベル〜コロン間は\s*で改行を跨ぐが、
+# コロン〜値は同一行に限定（行内空白のみ）。値が空欄だと「：」の直後が
+# 空行続きで次フィールドのラベル文字列に達してしまい、\s*だと次ラベル名
+# を値として誤取得するため（例: 御祭神が空欄なのに「URL」を拾う実例あり）
+_SP_LABEL = r'\s*'
+_SP_VAL = r'[ \t　]*'
 FIELD_RE = {
-    'code':    re.compile(r'神社コード' + _SP + r'[：:]' + _SP + r'(\S+)'),
-    'name':    re.compile(r'神社名' + _SP + r'[：:]' + _SP + r'(.+)'),
-    'address': re.compile(r'鎮座地' + _SP + r'[：:]' + _SP + r'(.+)'),
-    'deity':   re.compile(r'御祭神' + _SP + r'[：:]' + _SP + r'(.+)'),
-    'notes':   re.compile(r'特記事項' + _SP + r'[：:]' + _SP + r'(.+)'),
+    'code':    re.compile(r'神社コード' + _SP_LABEL + r'[：:]' + _SP_VAL + r'(\S+)'),
+    'name':    re.compile(r'神社名' + _SP_LABEL + r'[：:]' + _SP_VAL + r'(.+)'),
+    'address': re.compile(r'鎮座地' + _SP_LABEL + r'[：:]' + _SP_VAL + r'(.+)'),
+    'deity':   re.compile(r'御祭神' + _SP_LABEL + r'[：:]' + _SP_VAL + r'(.+)'),
+    'notes':   re.compile(r'特記事項' + _SP_LABEL + r'[：:]' + _SP_VAL + r'(.+)'),
 }
 
 
