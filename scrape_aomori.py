@@ -167,6 +167,50 @@ def get_shrine_links(list_url):
         return []
 
 
+def get_list_only_shrines(list_url):
+    """一覧ページのテーブル行から、個別詳細ページへのリンクを持たない神社を
+    名前＋住所のみで抽出する（2026-07-03確認: 全行が[番号,名前,住所]の3セル形式。
+    名前セルに<a>があれば詳細ページ有り＝scrape_detail側で取得済みなのでスキップ）。
+    例祭・御祭神は一覧に無いため空のまま。
+    """
+    shrines = []
+    try:
+        r = requests.get(list_url, timeout=15, headers=HEADERS)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        for table in soup.find_all('table'):
+            for row in table.find_all('tr'):
+                cells = row.find_all(['td', 'th'])
+                if len(cells) != 3:
+                    continue
+                name_cell, addr_cell = cells[1], cells[2]
+                if name_cell.find('a'):
+                    continue  # 詳細ページありはscrape_detail側で取得済み
+                name = name_cell.get_text(strip=True)
+                address = addr_cell.get_text(strip=True)
+                if not name or not address:
+                    continue
+                if not address.startswith('青森県'):
+                    address = '青森県' + address
+                shrines.append({
+                    'name': name,
+                    'pref': '青森県',
+                    'address': address,
+                    'deity': '',
+                    'lat': None,
+                    'lng': None,
+                    'festivals': [],
+                    'festivals_raw': '',
+                    'notes': '',
+                    'official_url': '',
+                    'source': 'aomori_jinjacho_list',
+                    'source_url': list_url,
+                })
+        return shrines
+    except Exception as e:
+        print(f"  ERROR (list-only) {list_url}: {e}")
+        return []
+
+
 def geocode(shrines):
     no_coords = [s for s in shrines if not s.get('lat') and s.get('address')]
     print(f"ジオコーディング対象: {len(no_coords)}件")
@@ -201,7 +245,14 @@ def main():
                 print(f"  {j+1}/{len(links)} 完了")
             time.sleep(0.5)
 
+        list_only = get_list_only_shrines(list_url)
+        print(f"  → 詳細ページなし(名前+住所のみ): {len(list_only)}件")
+        all_shrines.extend(list_only)
+        time.sleep(0.5)
+
     print(f"\n=== 取得完了: {len(all_shrines)}件 ===")
+    list_only_count = sum(1 for s in all_shrines if s.get('source') == 'aomori_jinjacho_list')
+    print(f"  うち詳細ページなし(名前+住所のみ): {list_only_count}件")
     reisai = sum(1 for s in all_shrines if s.get('festivals'))
     if all_shrines:
         print(f"例祭データあり: {reisai}件 ({reisai/len(all_shrines)*100:.1f}%)")
