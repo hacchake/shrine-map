@@ -94,10 +94,14 @@ def get_article_urls():
     return sorted(urls)
 
 
-def grab(src, label, stop_labels):
-    """label直後〜次のラベルまでを抽出"""
+def grab(src, label, stop_labels, max_len=200):
+    """label直後〜次のラベルまでを抽出。
+    meta descriptionが途中で切れて次ラベルが見つからない場合、
+    本文側の無関係なナビ/サイドバーまで際限なく拾ってしまうため、
+    キャプチャ長は上限を設けて打ち切る（値は元々短いフィールドのみ対象）。
+    """
     stops = '|'.join(re.escape(s) for s in stop_labels)
-    m = re.search(re.escape(label) + r'\s*(.+?)(?=' + stops + r'|$)', src, re.S)
+    m = re.search(re.escape(label) + r'\s*(.{1,%d}?)(?=' % max_len + stops + r'|$)', src, re.S)
     if not m:
         return ''
     val = re.sub(r'\s+', ' ', m.group(1)).strip()
@@ -131,6 +135,8 @@ def parse_article(url):
         if md:
             desc = md.get('content', '') or ''
         src = desc + '\n' + soup.get_text('\n')
+        # サイトは郵便番号・電話番号を全角数字で書くため、以降の \d ベース処理のために半角化
+        src = src.translate(str.maketrans('０１２３４５６７８９', '0123456789'))
 
         # 神社記事でなければスキップ（例: 「このサイトの検索方法について」）
         if '神社名' not in src or '鎮座地' not in src:
@@ -141,10 +147,11 @@ def parse_article(url):
             name = name2
         deity = grab(src, '御祭神', ['例祭日', '鎮座地', '由緒'])
         reisai_raw = grab(src, '例祭日', ['鎮座地', '由緒', '御祭神'])
-        loc = grab(src, '鎮座地', ['由緒', 'タグ'])
+        loc = grab(src, '鎮座地', ['連絡先', '由緒', 'タグ'])
 
-        # 郵便番号を除去して県名を付与
-        address = re.sub(r'〒\s*\d{3}[-−ーｰ]?\d{4}', '', loc)
+        # 郵便番号・連絡先(TEL/FAX)を除去して県名を付与
+        address = re.sub(r'〒\s*\d{3}[-−ーｰ－]?\d{4}', '', loc)
+        address = re.split(r'連絡先|TEL|ＴＥＬ', address)[0]
         address = re.sub(r'\s+', '', address).strip()
         if not address and district:
             address = district
