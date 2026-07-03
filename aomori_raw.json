@@ -1,0 +1,1944 @@
+[
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県青森市沖館五丁目5-6",
+    "deity": "倉稲魂命\n須佐之男命\n大市姫命",
+    "lat": 40.832367,
+    "lng": 140.723145,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Tosei/sub_1a_003.html"
+  },
+  {
+    "name": "諏訪神社",
+    "pref": "青森県",
+    "address": "青森県青森市栄町一丁目4-26",
+    "deity": "武御名方神　（たけみなかたのかみ） 猿田彦神　（さるたひこのかみ）",
+    "lat": 40.823841,
+    "lng": 140.762711,
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "元旦祭　　　1月 1日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "元旦祭　　　1月 1日\n焼納祭　　　1月 7日\n節分祭　　　2月 3日\n紀元祭　　　2月11日\n祈年祭　　　4月27日\n大祓式　　　6月30日\n招魂祭　　　7月24・25日\n例　祭　　　 7月26・27日\n新嘗祭　　　11月23日\n天長祭　　　12月23日\n除夜祭　　　12月31日\n月次祭　　　毎月27日\n春祈祷　　　正月\n厄　祓　　　 2月\n七五三祭　10・11月",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Tosei/sub_1a_027.html"
+  },
+  {
+    "name": "廣田神社",
+    "pref": "青森県",
+    "address": "青森県青森市長島二丁目１３－５",
+    "deity": "天照大神 (荒魂)､大国主命、事代主命、蛭子命、藤原實方公、進藤庄兵衛正次翁 天児屋根命、表筒男命､中筒男命､底筒男命、倉稲魂命､猿田彦命､大宮能売命 市杵島姫命",
+    "lat": 40.822952,
+    "lng": 140.742889,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月２０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月２０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Tosei/sub_1a_037.html"
+  },
+  {
+    "name": "今別八幡宮",
+    "pref": "青森県",
+    "address": "青森県東津軽郡今別町今別字今別2－5",
+    "deity": "譽田別尊",
+    "lat": 41.167816,
+    "lng": 140.480637,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Tosei/sub_1a_047.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町下遠山字松本68",
+    "deity": "倉稲魂命",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "（旧）　５月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　５月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_003.html"
+  },
+  {
+    "name": "宇賀神社",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町善積字萩田18",
+    "deity": "倉稲魂神\n保食神",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月９日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月９日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_009.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県つがる市木造大畑宮崎32-4",
+    "deity": "武甕槌神",
+    "lat": 40.838005,
+    "lng": 140.358734,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_011.html"
+  },
+  {
+    "name": "鹿嶋神社",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町菰槌字磯ノ松17",
+    "deity": "武甕槌神",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_012.html"
+  },
+  {
+    "name": "神明宮",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町永田字千代15",
+    "deity": "天照大御神",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_019.html"
+  },
+  {
+    "name": "月夜見神社",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町蓮川字清川63",
+    "deity": "月夜見尊\n豊受姫命",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_025.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町舘岡字上稲元175",
+    "deity": "誉田別尊",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "（旧）　５月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　５月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_030.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町兼館字高取17",
+    "deity": "誉田別尊",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_031.html"
+  },
+  {
+    "name": "山神社",
+    "pref": "青森県",
+    "address": "青森県つがる市木造町筒木坂字松本110",
+    "deity": "大山祇神",
+    "lat": 40.808033,
+    "lng": 140.38562,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_033.html"
+  },
+  {
+    "name": "石上",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町建石町字石神13－1",
+    "deity": "上筒男命\n中筒男命\n底筒男命",
+    "lat": 40.75238,
+    "lng": 140.306381,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_058.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町長平町字乙音羽山59－2",
+    "deity": "倉稲魂神",
+    "lat": 40.69022,
+    "lng": 140.296768,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_061.html"
+  },
+  {
+    "name": "高倉神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町南浮田町字米山25",
+    "deity": "高皇産靈命",
+    "lat": 40.78793,
+    "lng": 140.241882,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月３１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月３１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_078.html"
+  },
+  {
+    "name": "高倉神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町北浮田字今須16",
+    "deity": "高皇産霊命\n高倉下命",
+    "lat": 40.789558,
+    "lng": 140.24498,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_079.html"
+  },
+  {
+    "name": "高倉神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町湯舟町字七尾196－1",
+    "deity": "高皇産霊命",
+    "lat": 40.753979,
+    "lng": 140.277679,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_080.html"
+  },
+  {
+    "name": "舞戸正八幡宮",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町大字舞戸町字上富田148",
+    "deity": "譽田別尊 倉稲魂命",
+    "lat": 40.776596,
+    "lng": 140.220291,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_087.html"
+  },
+  {
+    "name": "胸肩神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡鰺ヶ沢町浜町82",
+    "deity": "多紀理比売命 市杵島比売命 多岐津比売命",
+    "lat": 40.784389,
+    "lng": 140.202881,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１４日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１４日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_089.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡深浦町田野沢字清滝19",
+    "deity": "倉稲魂命",
+    "lat": 40.753666,
+    "lng": 140.046906,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_092.html"
+  },
+  {
+    "name": "貴野神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡深浦町風合瀬字大磯112",
+    "deity": "迦具土神",
+    "lat": 40.733616,
+    "lng": 140.009689,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_096.html"
+  },
+  {
+    "name": "熊野宮",
+    "pref": "青森県",
+    "address": "青森県西津軽郡深浦町驫木字亀ヶ崎151",
+    "deity": "伊邪那岐命\n伊邪那美命",
+    "lat": 40.706738,
+    "lng": 139.98793,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月３０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月３０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_098.html"
+  },
+  {
+    "name": "龍田神社",
+    "pref": "青森県",
+    "address": "青森県西津軽郡深浦町田野沢字成瀬83",
+    "deity": "級長津彦命\n級長津姫命",
+    "lat": 40.753666,
+    "lng": 140.046906,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nishitu/sub_1b_103.html"
+  },
+  {
+    "name": "天満宮",
+    "pref": "青森県",
+    "address": "青森県弘前市大字西茂森一丁目1－34",
+    "deity": "菅原道真朝臣命",
+    "lat": 40.600513,
+    "lng": 140.458969,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月２５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月２５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Chuhiro/sub_1c_040.html"
+  },
+  {
+    "name": "神明宮",
+    "pref": "青森県",
+    "address": "青森県弘前市大字沢田字園村18",
+    "deity": "天照大神",
+    "lat": 40.56337,
+    "lng": 140.326462,
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "（旧）　１月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　１月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Chuhiro/sub_1c_080.html"
+  },
+  {
+    "name": "黒石神明宮",
+    "pref": "青森県",
+    "address": "青森県黒石市大字前町34",
+    "deity": "天照大神",
+    "lat": 40.640739,
+    "lng": 140.595932,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nankuro/sub_1d_040.html"
+  },
+  {
+    "name": "猿賀神社",
+    "pref": "青森県",
+    "address": "青森県平川市猿賀石林175",
+    "deity": "上毛野君田道命 (相殿神)保食神",
+    "lat": 40.615658,
+    "lng": 140.563492,
+    "festivals": [
+      {
+        "month": 11,
+        "date_str": "開運厄除節分祭　　二月第一日曜日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "開運厄除節分祭　　二月第一日曜日\n七日堂大祭　　　　　旧暦正月七日 (柳からみ神事）\n（餅まき神事）\n祈年祭\n旧暦二月十五日\n崇敬会大祭　　　　　五月三日（鬼面奉射神事）\n(津軽神楽奉奏)\n弓道大会　　　　　　 五月上旬\n御田植祭　　　　　　 五月下旬\n十五夜大祭　　　　　旧暦八月十四日(獅子踊大会・宵宮祭・津軽神楽奉奏)\n十五日(例祭・観月祭)\n十六日(神恩感謝祭)\n苅穂祭　　　　　　　　十月上旬\n新嘗祭　　　　　　　　十一月二十三日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nankuro/sub_1d_056.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県南津軽郡藤崎町西中野目字宮元7",
+    "deity": "誉田別命",
+    "lat": 40.68824,
+    "lng": 140.49913,
+    "festivals": [],
+    "festivals_raw": "１月　９日　　　古神札焼納祭\n４月１７日　　　祈年祭\n８月１５日　　　例祭\n１１月２７日　　　新嘗祭",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nankuro/sub_1d_087.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県南津軽郡田舎館村堂野前字種井17",
+    "deity": "譽田別尊",
+    "lat": 40.652882,
+    "lng": 140.551224,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Nankuro/sub_1d_120.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市姥萢字船橋32－1",
+    "deity": "保食神",
+    "lat": 40.790951,
+    "lng": 140.453629,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_005.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市毘沙門字熊石25－4",
+    "deity": "倉稲魂命",
+    "lat": 40.850845,
+    "lng": 140.459412,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_008.html"
+  },
+  {
+    "name": "永福神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市字柳町6",
+    "deity": "菅原道真公",
+    "lat": 40.806244,
+    "lng": 140.441498,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_013.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県五所川原市中央一丁目154",
+    "deity": "天照皇大神",
+    "lat": 40.801846,
+    "lng": 140.451447,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "５月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "５月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_026.html"
+  },
+  {
+    "name": "神明宮",
+    "pref": "青森県",
+    "address": "青森県五所川原市広田字榊森88",
+    "deity": "天照皇大神",
+    "lat": 40.78067,
+    "lng": 140.467941,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_027.html"
+  },
+  {
+    "name": "高おかみ神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市長富字竹崎19",
+    "deity": "高おかみ命\n暗おかみ命\n倉稲魂命",
+    "lat": 40.86591,
+    "lng": 140.45726,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月２１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月２１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_028.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県五所川原市稲実字開野108",
+    "deity": "誉田別命",
+    "lat": 40.792313,
+    "lng": 140.471054,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_033.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県五所川原市七ツ館字虫流95",
+    "deity": "応神天皇",
+    "lat": 40.776825,
+    "lng": 140.478653,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "（旧）　７月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　７月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_039.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県五所川原市字元町30",
+    "deity": "譽田別尊",
+    "lat": 40.804497,
+    "lng": 140.440338,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_042.html"
+  },
+  {
+    "name": "白衣神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市田町1",
+    "deity": "大己貴命",
+    "lat": 40.800251,
+    "lng": 140.444641,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１９日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１９日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_044.html"
+  },
+  {
+    "name": "胸肩神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市湊字千鳥140-1",
+    "deity": "市杵島姫命\n田心姫命\n湍津姫命",
+    "lat": 40.795605,
+    "lng": 140.440659,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_047.html"
+  },
+  {
+    "name": "磯崎神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町中柏木字鎧石151",
+    "deity": "大己貴命\n少名彦命",
+    "lat": 40.872299,
+    "lng": 140.460602,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_048.html"
+  },
+  {
+    "name": "保食神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町藤枝字東田78",
+    "deity": "保食神",
+    "lat": 40.919315,
+    "lng": 140.439682,
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "４月２７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "４月２７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_050.html"
+  },
+  {
+    "name": "川上神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町喜良市字千刈28",
+    "deity": "水波女神",
+    "lat": 40.904316,
+    "lng": 140.486679,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_051.html"
+  },
+  {
+    "name": "熊野宮",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町喜良市字千刈73",
+    "deity": "伊邪那岐命\n伊邪那美命\n事解男命",
+    "lat": 40.904316,
+    "lng": 140.486679,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_052.html"
+  },
+  {
+    "name": "立野神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町喜良市字桔梗野40",
+    "deity": "級長津彦命\n級長津姫命",
+    "lat": 40.904316,
+    "lng": 140.486679,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "（旧）　６月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　６月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_054.html"
+  },
+  {
+    "name": "金木八幡宮",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町大字金木字朝日山492",
+    "deity": "譽田別命 天照皇大神 素盞嗚命 軻遇突智命 倉稲魂命",
+    "lat": 40.920578,
+    "lng": 140.55191,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_056.html"
+  },
+  {
+    "name": "三柱神社",
+    "pref": "青森県",
+    "address": "青森県五所川原市金木町川倉字林下91",
+    "deity": "大山祇命\n大國主命\n水波女命",
+    "lat": 40.926529,
+    "lng": 140.459503,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "５月１２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "５月１２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kitago/sub_1e_057.html"
+  },
+  {
+    "name": "氣比神社",
+    "pref": "青森県",
+    "address": "青森県上北郡おいらせ町字上久保51－1",
+    "deity": "足仲彦尊",
+    "lat": 40.64753,
+    "lng": 141.377304,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月第一土、日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月第一土、日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kamito/sub_1f_026.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県上北郡おいらせ町字上明堂40－2",
+    "deity": "誉田別尊\n足仲彦尊\n氣長足姫尊",
+    "lat": 40.594692,
+    "lng": 141.427124,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kamito/sub_1f_028.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県上北郡野辺地町字笹舘12",
+    "deity": "応神天皇",
+    "lat": 40.867367,
+    "lng": 141.120911,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kamito/sub_1f_033.html"
+  },
+  {
+    "name": "熊野神社",
+    "pref": "青森県",
+    "address": "青森県上北郡六戸町犬落瀬字柴山56",
+    "deity": "伊弉諾尊\n伊弉册尊",
+    "lat": 40.611256,
+    "lng": 141.328522,
+    "festivals": [],
+    "festivals_raw": "９月第一金、土、日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kamito/sub_1f_038.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県上北郡野辺地町字野辺地５３９",
+    "deity": "天照皇大神",
+    "lat": 40.865204,
+    "lng": 141.126816,
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "１月１６日　　　　　祈年祭",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "１月１６日　　　　　祈年祭\n６月３０日　　　　　夏越大祓\n８月１６日　　　　　例祭\n１１月２３日　　　　　新嘗祭",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Kamito/sub_1f_32.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県むつ市栗山町19-45",
+    "deity": "倉稲魂命",
+    "lat": 41.307491,
+    "lng": 141.203842,
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "１０月２２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "１０月２２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_003.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部字上道87－7",
+    "deity": "倉稲魂命",
+    "lat": 41.293667,
+    "lng": 141.233017,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月　５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月　５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_004.html"
+  },
+  {
+    "name": "熊野神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部字南椛山ノ内稲荷林49",
+    "deity": "伊弉冉命",
+    "lat": 41.326096,
+    "lng": 141.2117,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_010.html"
+  },
+  {
+    "name": "大覚院熊野神社",
+    "pref": "青森県",
+    "address": "青森県むつ市新町５０－２",
+    "deity": "熊野久須美命 櫛御気野命 御子速玉命 火迦具土神 釜臥山大神 泉海命",
+    "lat": 41.288891,
+    "lng": 141.212097,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１９日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１９日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_016.html"
+  },
+  {
+    "name": "田名部神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部町1－1",
+    "deity": "味租高比古根命 誉田別尊 大山祇神",
+    "lat": 41.294613,
+    "lng": 141.213516,
+    "festivals": [
+      {
+        "month": 1,
+        "date_str": "１月　１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "１月　１日\n８月２０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_017.html"
+  },
+  {
+    "name": "近川稲荷、金刀比羅神社",
+    "pref": "青森県",
+    "address": "青森県むつ市大湊浜町1－1",
+    "deity": "倉稲魂命\n大物主命",
+    "lat": 41.27932,
+    "lng": 141.158478,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月上旬　（日曜日）",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月上旬　（日曜日）",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_018.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県むつ市関根字南関根126",
+    "deity": "誉田別命",
+    "lat": 41.347874,
+    "lng": 141.205582,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_021.html"
+  },
+  {
+    "name": "鉢森神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部字十二林34－3",
+    "deity": "猿田毘古命\n倉稲魂命",
+    "lat": 41.311325,
+    "lng": 141.18338,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "５月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "５月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_022.html"
+  },
+  {
+    "name": "法呂神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部字道向18－1",
+    "deity": "姫大神",
+    "lat": 41.307446,
+    "lng": 141.213837,
+    "festivals": [
+      {
+        "month": 10,
+        "date_str": "１０月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "１０月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_024.html"
+  },
+  {
+    "name": "妙見神社",
+    "pref": "青森県",
+    "address": "青森県むつ市田名部字斗南ケ丘30－1",
+    "deity": "天御中主命",
+    "lat": 41.290504,
+    "lng": 141.237701,
+    "festivals": [],
+    "festivals_raw": "５月１７日\n１１月吉日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_025.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県下北郡大間町大間字大間91-1",
+    "deity": "稲荷大神",
+    "lat": 41.52702,
+    "lng": 140.920334,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_060.html"
+  },
+  {
+    "name": "赤岩神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村白糠字明神ノ上5",
+    "deity": "石凝姥命",
+    "lat": 41.159176,
+    "lng": 141.370667,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_063.html"
+  },
+  {
+    "name": "池野神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村蒲野沢字鹿橋山2－2",
+    "deity": "底筒男命",
+    "lat": 41.313728,
+    "lng": 141.333038,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月２７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月２７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_064.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村砂子又字桑原山1",
+    "deity": "倉稲魂命",
+    "lat": 41.266167,
+    "lng": 141.348343,
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "４月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "４月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_065.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村野牛字水ノ上92",
+    "deity": "倉稲魂命",
+    "lat": 41.343178,
+    "lng": 141.336746,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_066.html"
+  },
+  {
+    "name": "海守稲荷神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村猿ケ森字家ノ上32－1",
+    "deity": "倉稲魂命",
+    "lat": 41.282978,
+    "lng": 141.389954,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月２２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月２２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_067.html"
+  },
+  {
+    "name": "鍵懸神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村小田野沢字南通55 －50",
+    "deity": "少名彦命\n豊玉彦命",
+    "lat": 41.220558,
+    "lng": 141.390167,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_068.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村蒲野沢字鹿橋道72－10",
+    "deity": "誉田別命",
+    "lat": 41.313728,
+    "lng": 141.333038,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_071.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村猿ケ森字村中39",
+    "deity": "誉田別命",
+    "lat": 41.282978,
+    "lng": 141.389954,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１４日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１４日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_072.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村尻労字天神林7-1",
+    "deity": "誉田別命",
+    "lat": 41.364368,
+    "lng": 141.423508,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_073.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村尻屋字寺山1－4",
+    "deity": "誉田別命",
+    "lat": 41.406315,
+    "lng": 141.44722,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_074.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村砂子又字上流ノ内館林17",
+    "deity": "誉田別命",
+    "lat": 41.266167,
+    "lng": 141.348343,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１４日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１４日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_075.html"
+  },
+  {
+    "name": "袰崎神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村蒲野沢字石持1",
+    "deity": "石凝姥命",
+    "lat": 41.313728,
+    "lng": 141.333038,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_076.html"
+  },
+  {
+    "name": "両皇神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村白糠字家ノ上45",
+    "deity": "伊弉諾命\n伊弉冉命",
+    "lat": 41.159176,
+    "lng": 141.370667,
+    "festivals": [
+      {
+        "month": 7,
+        "date_str": "７月１８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "７月１８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_078.html"
+  },
+  {
+    "name": "若宮神社",
+    "pref": "青森県",
+    "address": "青森県下北郡東通村岩屋字向87－1",
+    "deity": "誉田別命",
+    "lat": 41.370926,
+    "lng": 141.397034,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１６日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１６日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Simokita/sub_1g_079.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県八戸市内丸9",
+    "deity": "高おがみ神",
+    "lat": 40.513935,
+    "lng": 141.488174,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_003.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県八戸市廿六日町26‐1",
+    "deity": "天照皇大神",
+    "lat": 40.507072,
+    "lng": 141.487473,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月３０日～７月１日　　 茅の輪祭",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月３０日～７月１日　　 茅の輪祭\n８月　１日～８月 ３日　　八戸三社大祭\n１０月１６日　　　　　　　　 例祭",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_013.html"
+  },
+  {
+    "name": "白山神社",
+    "pref": "青森県",
+    "address": "青森県八戸市尻内町字尻内60",
+    "deity": "伊邪那美尊",
+    "lat": 40.503963,
+    "lng": 141.44104,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月２日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月２日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_024.html"
+  },
+  {
+    "name": "御前神社",
+    "pref": "青森県",
+    "address": "青森県八戸市小中野八丁目1-19",
+    "deity": "底筒男命 中筒男命 上筒男命 息長帯姫命 武内宿禰命",
+    "lat": 40.525024,
+    "lng": 141.517334,
+    "festivals": [
+      {
+        "month": 5,
+        "date_str": "５月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "５月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_032.html"
+  },
+  {
+    "name": "神社紹介",
+    "pref": "青森県",
+    "address": "青森県三戸郡三戸町同心町字諏訪内46",
+    "deity": "天照皇大神",
+    "lat": 40.374901,
+    "lng": 141.25415,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_046.html"
+  },
+  {
+    "name": "糠部神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡三戸町梅内字城ノ下34-2",
+    "deity": "南部三郎源光行命",
+    "lat": 40.380692,
+    "lng": 141.264923,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月２１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月２１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_048.html"
+  },
+  {
+    "name": "少彦名神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡五戸町手倉橋字薬師沢53",
+    "deity": "大那牟遅大神\n少彦名大神",
+    "lat": 40.441841,
+    "lng": 141.261017,
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "（旧）　４月８日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　４月８日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_058.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県三戸郡五戸町浅水字浅水70",
+    "deity": "応神天皇",
+    "lat": 40.473392,
+    "lng": 141.299133,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_060.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町小向字二又101",
+    "deity": "倉稲魂命",
+    "lat": 40.417873,
+    "lng": 141.252411,
+    "festivals": [
+      {
+        "month": 4,
+        "date_str": "４月３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "４月３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_064.html"
+  },
+  {
+    "name": "新羅神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町沖田面字早稲田9",
+    "deity": "新羅三郎義光命",
+    "lat": 40.420063,
+    "lng": 141.282471,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月２５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月２５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_067.html"
+  },
+  {
+    "name": "諏訪神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町玉掛字諏訪ノ平49",
+    "deity": "建御名方富命",
+    "lat": 40.419102,
+    "lng": 141.297058,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_068.html"
+  },
+  {
+    "name": "玉掛神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町玉掛字前田44",
+    "deity": "伊邪那岐大神､外二柱",
+    "lat": 40.419102,
+    "lng": 141.297058,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_069.html"
+  },
+  {
+    "name": "若宮八幡神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町小向字村中39",
+    "deity": "誉田別命",
+    "lat": 40.417873,
+    "lng": 141.252411,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "（旧）　８月２５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　８月２５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_072.html"
+  },
+  {
+    "name": "諏訪神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町剣吉字上町44",
+    "deity": "建御名方命",
+    "lat": 40.449417,
+    "lng": 141.322647,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１０日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１０日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_078.html"
+  },
+  {
+    "name": "斗賀神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡南部町斗賀字上斗賀7",
+    "deity": "伊邪那美尊\n月読尊\n猿田彦命",
+    "lat": 40.467491,
+    "lng": 141.341461,
+    "festivals": [
+      {
+        "month": 9,
+        "date_str": "９月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "９月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_080.html"
+  },
+  {
+    "name": "稲荷神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡田子町相米字相米2",
+    "deity": "大国主命",
+    "lat": 40.326019,
+    "lng": 141.10173,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "（旧）　８月３日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）　８月３日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_089.html"
+  },
+  {
+    "name": "諏訪神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡田子町原字原63",
+    "deity": "武御名方命",
+    "lat": 40.306553,
+    "lng": 141.136932,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月２７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月２７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_091.html"
+  },
+  {
+    "name": "真清田神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡田子町田子字堂ノ東20",
+    "deity": "高照姫之命",
+    "lat": 40.349163,
+    "lng": 141.111908,
+    "festivals": [
+      {
+        "month": 3,
+        "date_str": "（旧）３月１７日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "（旧）３月１７日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_092.html"
+  },
+  {
+    "name": "八坂神社",
+    "pref": "青森県",
+    "address": "青森県三戸郡田子町田子字上ノ平3-1",
+    "deity": "須佐奈男命",
+    "lat": 40.349163,
+    "lng": 141.111908,
+    "festivals": [
+      {
+        "month": 6,
+        "date_str": "６月１５日",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "６月１５日",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_093.html"
+  },
+  {
+    "name": "八幡宮",
+    "pref": "青森県",
+    "address": "青森県八戸市小田一丁目２－１ （旧　八戸市河原木小田１８）",
+    "deity": "応神天皇（誉田別尊）",
+    "lat": 40.538826,
+    "lng": 141.468201,
+    "festivals": [
+      {
+        "month": 8,
+        "date_str": "８月１０日　　　　 　　歳旦祭",
+        "name": "例祭"
+      }
+    ],
+    "festivals_raw": "８月１０日　　　　 　　歳旦祭\n１月１５日　　　　 　　焼納祭（どんと祭）\n２月　４日～　 　　 　厄払祭\n２月末日\n３月１５日　　　　　 　祈年祭\n６月３０日　　　　　 　夏越大祓\n９月第二日曜日　　神幸祭（前日　前夜祭）\n１０月　１日～　　　 七五三詣\n１１月末日\n１１月２３日　　　　　新嘗祭\n１２月１４日　　　　　年越祭\n１２月３１日　　　　　年越大祓",
+    "notes": "",
+    "official_url": "",
+    "source": "aomori_jinjacho",
+    "source_url": "http://www.aomori-jinjacho.or.jp/jinja/Sanpachi/sub_1h_25.html"
+  }
+]
