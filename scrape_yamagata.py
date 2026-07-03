@@ -7,6 +7,7 @@ IDは5桁ゼロ埋め（例: 09338）
 """
 
 import requests, re, json, time, warnings
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 warnings.filterwarnings('ignore')  # SSL警告を抑制
@@ -78,6 +79,22 @@ def parse_shrine_page(url, shrine_id):
         deity = data.get('御祭神', data.get('祭神', ''))
         reisai_raw = data.get('例祭', data.get('例祭日', data.get('例大祭', '')))
         festivals_raw_all = data.get('年中行事', data.get('恒例祭', data.get('行事', '')))
+
+        # div等の非table形式ページ用フォールバック（テキストから直接抽出）
+        if not address:
+            m = re.search(r'鎮座地\s*([^\n]+)', body_text)
+            if m and m.group(1).strip() not in ('御祭神', '例祭日', '由緒'):
+                address = m.group(1).strip()
+        if not deity:
+            m = re.search(r'御祭神\s*\n?\s*(.+?)(?=\n\s*(?:駐車場|御朱印|御祈祷|出張祭典|例祭日|鎮座地|由緒)|$)', body_text, re.S)
+            if m:
+                deity = re.sub(r'\s+', ' ', m.group(1)).strip()[:300]
+        if not reisai_raw:
+            m = re.search(r'例祭日\s*([^\n]+)', body_text)
+            if m:
+                cand = m.group(1).strip()
+                if parse_month_jp(cand):
+                    reisai_raw = cand
         
         # 神社名をデータから補完
         if not name:
@@ -105,14 +122,15 @@ def parse_shrine_page(url, shrine_id):
                         festivals = [{'month': month, 'date_str': line.strip(), 'name': '例祭'}]
                         break
         
-        # 緯度経度（地図リンクから）
+        # 緯度経度（地図リンク/iframeのhref・srcから。get_text()には属性が
+        # 含まれないため生HTMLを検索する。日本の座標範囲に限定して誤検出を防ぐ）
         lat, lng = None, None
-        latlng = re.search(r'(?:q|ll)=([\d.]+)[,/]([\d.]+)', body_text)
+        latlng = re.search(r'(?:q|ll|center)=([2-4]\d\.\d+)(?:[,/]|%2C)(1[2-5]\d\.\d+)', r.text)
         if latlng:
             lat = float(latlng.group(1))
             lng = float(latlng.group(2))
         
-        if address and not address.startswith('山形'):
+        if address and not address.startswith('山形県'):
             address = '山形県' + address
         
         return {
@@ -136,54 +154,46 @@ def parse_shrine_page(url, shrine_id):
         return None
 
 def get_all_ids():
-    """神社IDリストを取得（リストページから）"""
-    ids = []
-    
-    # まずリストページを探す
-    list_urls = [
-        f"{BASE}/shrine_list",
-        f"{BASE}/shrines",
-        f"{BASE}/jinja",
-        f"{BASE}/",
-    ]
-    
-    for list_url in list_urls:
+    """神社検索ページからIDを収集
+    実サイト構造（2026-07-03確認）: /shrine_search が全神社を列挙
+    12件/ページ × 145ページ = 1,729社。ページャは ?random_key=...&page=N。
+    ページ内の「次へ」リンク（random_key付き）をそのまま辿るのが確実。
+    """
+    ids = set()
+    next_url = f"{BASE}/shrine_search"
+    page = 1
+    while next_url and page <= 300:
         try:
-            r = requests.get(list_url, timeout=15, verify=False, headers=HEADERS)
-            if r.status_code == 200:
-                soup = BeautifulSoup(r.content, 'html.parser')
-                for a in soup.find_all('a', href=True):
-                    m = re.search(r'/shrine_detail/(\d+)', a['href'])
-                    if m:
-                        ids.append(m.group(1))
-                if ids:
-                    print(f"リストページ {list_url} から{len(ids)}件のIDを取得")
-                    return list(set(ids))
-        except Exception as e:
-            pass
-    
-    # リストページが見つからない場合、ページネーションを試みる
-    print("ページネーション検索を試みます...")
-    for page in range(1, 50):
-        try:
-            r = requests.get(f"{BASE}/shrine_list?page={page}", timeout=15, verify=False, headers=HEADERS)
+            r = requests.get(next_url, timeout=15, verify=False, headers=HEADERS)
             if r.status_code != 200:
+                print(f"  HTTP {r.status_code}: page {page}")
                 break
-            soup = BeautifulSoup(r.content, 'html.parser')
-            page_ids = []
+            found = re.findall(r'/shrine_detail/(\d+)', r.text)
+            before = len(ids)
+            ids.update(found)
+            if page % 10 == 0 or page == 1:
+                print(f"  page {page}: 累計 {len(ids)}件")
+            if len(ids) == before and page > 1:
+                break  # 新規IDなし → 終端
+            # 次ページリンク（random_key付き）を探す
+            soup = BeautifulSoup(r.text, 'html.parser')
+            nxt = None
             for a in soup.find_all('a', href=True):
-                m = re.search(r'/shrine_detail/(\d+)', a['href'])
-                if m:
-                    page_ids.append(m.group(1))
-            if not page_ids:
-                break
-            ids.extend(page_ids)
-            print(f"  page={page}: {len(page_ids)}件 累計{len(ids)}件")
-            time.sleep(0.5)
+                m = re.search(r'shrine_search\?[^"\']*page=(\d+)', a['href'])
+                if m and int(m.group(1)) == page + 1:
+                    nxt = urljoin(BASE, a['href'])
+                    break
+            if not nxt:
+                nxt = f"{BASE}/shrine_search?page={page + 1}"
+            next_url = nxt
+            page += 1
+            time.sleep(0.4)
         except Exception as e:
+            print(f"  ERROR page {page}: {e}")
             break
-    
-    return list(set(ids))
+    print(f"IDリスト収集完了: {len(ids)}件")
+    return sorted(ids)
+
 
 def main():
     print("=== 山形県神社庁スクレイパー ===")
@@ -236,6 +246,26 @@ def main():
     if shrines:
         print(f"例祭データあり: {reisai}件 ({reisai/len(shrines)*100:.1f}%)")
     
+    # ジオコーディング（座標なしの神社をGSI APIで補完）
+    no_coords = [s for s in shrines if not s.get('lat') and s.get('address')]
+    print(f"ジオコーディング対象: {len(no_coords)}件")
+    import urllib.parse
+    success = 0
+    for s in no_coords:
+        try:
+            r2 = requests.get(
+                "https://msearch.gsi.go.jp/address-search/AddressSearch?q="
+                + urllib.parse.quote(s['address']), timeout=8)
+            results = r2.json()
+            if results:
+                s['lng'] = float(results[0]['geometry']['coordinates'][0])
+                s['lat'] = float(results[0]['geometry']['coordinates'][1])
+                success += 1
+        except Exception:
+            pass
+        time.sleep(0.1)
+    print(f"ジオコーディング成功: {success}件")
+
     with open('yamagata_raw.json', 'w', encoding='utf-8') as f:
         json.dump(shrines, f, ensure_ascii=False, indent=2)
     print("yamagata_raw.json を保存しました")
