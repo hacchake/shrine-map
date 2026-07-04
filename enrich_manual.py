@@ -30,8 +30,13 @@ ENRICH_FIELDS = ['festivals', 'festivals_raw', 'notes', 'official_url']
 
 
 def addr_core(addr):
-    """都道府県名を除いた住所本体（曖昧な部分一致比較用）"""
-    return re.sub(r'^..?[都道府県]', '', addr or '').strip()
+    """都道府県名を除き、番地表記のゆらぎ（甲849番地 と 849 等）を吸収した
+    住所本体（曖昧な部分一致比較用）。「榛名山町849」対「榛名山町甲849番地」
+    のように地番の甲乙丙丁や「番地」の有無だけで不一致になるケースに対応"""
+    a = re.sub(r'^..?[都道府県]', '', addr or '').strip()
+    a = re.sub(r'番地?', '', a)
+    a = re.sub(r'[甲乙丙丁](?=[0-9０-９])', '', a)
+    return a
 
 
 def disambiguate(entry, data, matches):

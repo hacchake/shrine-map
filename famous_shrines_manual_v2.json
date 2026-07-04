@@ -1,0 +1,37 @@
+[
+ {"name": "諏訪神社", "pref": "長崎県", "address": "長崎県長崎市上西山町18-15", "deity": "建御名方神 八坂刀売神(諏訪) 住吉三神(住吉) 伊邪那岐命 伊邪那美命(森崎)", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月7日〜9日", "name": "例大祭(長崎くんち)"}],
+  "festivals_raw": "長崎くんち: 毎年10月7日〜9日。7日朝奉納踊・13時お下り、9日お上り。国指定重要無形民俗文化財",
+  "notes": "鎮西大社。長崎の総氏神。龍踊・コッコデショなど異国情緒の奉納踊は踊町7年に一度の当番制。日本三大祭と称される",
+  "official_url": "https://www.osuwasan.jp", "source_url": "https://www.osuwasan.jp/kunchi/", "source": "famous_manual"},
+
+ {"name": "彌彦神社", "pref": "新潟県", "address": "新潟県西蒲原郡弥彦村弥彦2887-2", "deity": "天香山命", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月25日(前夜祭24日・還御祭26日)", "name": "弥彦燈籠まつり(燈籠神事)"}, {"month": 2, "date_str": "2月2日", "name": "御神幸(妃神)神事"}],
+  "festivals_raw": "弥彦燈籠まつり: 毎年7月25日。大燈籠20余基と数百の小田楽燈籠が21時の神輿渡御に供奉、深夜に一社秘伝の神歌楽・天犬舞を奉奏。奉納花火大会も同日",
+  "notes": "越後国一宮・別表神社。「彌彦神社燈篭おしと舞楽」として国指定重要無形民俗文化財。日本三大燈籠祭の一つ",
+  "official_url": "https://www.yahiko-jinjya.or.jp", "source_url": "https://www.yahiko-jinjya.or.jp/event/summer/toroumatsuri.html", "source": "famous_manual"},
+
+ {"name": "大麻比古神社", "pref": "徳島県", "address": "徳島県鳴門市大麻町板東字広塚13", "deity": "大麻比古大神(天太玉命) 猿田彦大神", "lat": null, "lng": null,
+  "festivals": [{"month": 11, "date_str": "11月1日", "name": "例祭(大麻さんの秋祭り)"}, {"month": 2, "date_str": "2月3日", "name": "神火大祭"}],
+  "festivals_raw": "例祭11月1日: 氏子に担がれた神輿を先頭に装束の行列が参道を進む「大麻さんの秋祭り」。天狗姿の猿田彦が神輿を先導",
+  "notes": "阿波国一宮・別表神社。徳島県総鎮守「大麻さん」。初詣は県内最多30万人超。境内にドイツ橋",
+  "official_url": "https://www.ooasahikojinja.jp", "source_url": "https://www.ooasahikojinja.jp/", "source": "famous_manual"},
+
+ {"name": "土佐神社", "pref": "高知県", "address": "高知県高知市一宮しなね2-16-1", "deity": "味鋤高彦根神 一言主神", "lat": null, "lng": null,
+  "festivals": [{"month": 8, "date_str": "8月24日・25日", "name": "しなね祭(志那祢祭)"}],
+  "festivals_raw": "しなね祭: 毎年8月24日(6時忌火祭・20時宵宮祭)・25日(10時大祭・15時神幸祭おなばれ)。土佐三大祭の一つ",
+  "notes": "土佐国一宮・別表神社。「夏はわぬけ様に始まりしなね様で終わる」。社殿は長宗我部元親再建の国指定重要文化財(十字形の入蜻蛉造)",
+  "official_url": "https://tosajinja.com", "source_url": "https://tosajinja.com/gyouji/", "source": "famous_manual"},
+
+ {"name": "榛名神社", "pref": "群馬県", "address": "群馬県高崎市榛名山町849", "deity": "火産霊神 埴山姫神", "lat": null, "lng": null,
+  "festivals": [{"month": 5, "date_str": "5月8日(神幸祭)〜5月15日(還御祭)", "name": "春の大祭"}, {"month": 5, "date_str": "5月5日", "name": "端午祭(神代神楽)"}, {"month": 2, "date_str": "2月15日", "name": "神楽始式"}],
+  "festivals_raw": "春の大祭: 5月8日神幸祭(神輿渡御・神幸殿へ遷座)〜5月15日還御祭。神代神楽(県指定重要無形民俗文化財、36座)は2月15日・5月5日・5月8日に奉奏",
+  "notes": "上毛三山・榛名山の神。御姿岩に接して建つ本社など6棟が国指定重要文化財。創祀伝承は饒速日命の御子・可美真手命による神籬",
+  "official_url": "https://www.haruna.or.jp", "source_url": "https://www.city.takasaki.gunma.jp/site/cultural-assets/4631.html", "source": "famous_manual"},
+
+ {"name": "津嶋神社", "pref": "香川県", "address": "香川県三豊市三野町大見甲6816-2", "deity": "素盞嗚命", "lat": null, "lng": null,
+  "festivals": [{"month": 8, "date_str": "8月4日・5日", "name": "夏季大祭"}],
+  "festivals_raw": "夏季大祭: 毎年8月4日・5日。この2日間だけ沖合250mの本殿の島へ「つしま橋(しあわせ橋)」が架かる。参拝者約10万人、4日夜は奉納花火",
+  "notes": "こどもの守り神(1706年創建)。JR津島ノ宮駅は大祭2日間のみ営業する日本一営業日の短い駅。香川のモンサンミッシェル",
+  "official_url": "http://www.tsushima-jinja.com", "source_url": "http://www.tsushima-jinja.com/event.html", "source": "famous_manual"}
+]
