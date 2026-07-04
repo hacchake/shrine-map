@@ -1,0 +1,25 @@
+[
+ {"name": "宇佐神宮", "pref": "大分県", "address": "大分県宇佐市南宇佐2859", "deity": "八幡大神(応神天皇) 比売大神 神功皇后", "lat": null, "lng": null,
+  "festivals": [{"month": 3, "date_str": "3月18日", "name": "例祭(宇佐祭)"}, {"month": 7, "date_str": "7月31日〜8月2日", "name": "御神幸祭(夏越大祭)"}, {"month": 10, "date_str": "10月(体育の日前後)", "name": "仲秋祭(旧放生会)"}],
+  "festivals_raw": "例祭(宇佐祭)3月18日: 皇室より幣帛を賜る最重要祭典、御田植神事も。御神幸祭(夏越大祭)7月31日〜8月2日: 三基の神輿が頓宮へ渡御、8月1日流鏑馬神事、2日夜厄除花火。仲秋祭は日本初の神輿が生まれた放生会の系譜",
+  "notes": "全国約4万社の八幡宮の総本宮。国宝の八幡造本殿。伊勢神宮に次ぐ第二の宗廟",
+  "official_url": "http://www.usajinguu.com", "source_url": "http://www.usajinguu.com/festival-detail/", "source": "famous_manual"},
+
+ {"name": "北口本宮冨士浅間神社", "pref": "山梨県", "address": "山梨県富士吉田市上吉田5558", "deity": "木花開耶姫命 彦火瓊瓊杵尊 大山祇神", "lat": null, "lng": null,
+  "festivals": [{"month": 8, "date_str": "8月26日(鎮火祭)・27日(すすき祭り)", "name": "吉田の火祭(例大祭)"}],
+  "festivals_raw": "吉田の火祭: 毎年8月26日鎮火祭・27日すすき祭り。富士山型の御山神輿と明神神輿が渡御し、本町通り約1kmに高さ3mの大松明70〜80本が燃やされ街が火の海に。富士山のお山じまいの祭",
+  "notes": "日本三奇祭・国指定重要無形民俗文化財。摂社諏訪神社との両社の祭。世界遺産富士山の構成資産",
+  "official_url": "https://www.sengenjinja.jp", "source_url": "https://www.sengenjinja.jp/himatsuri/index.html", "source": "famous_manual"},
+
+ {"name": "伊佐須美神社", "pref": "福島県", "address": "福島県大沼郡会津美里町宮林甲4377", "deity": "伊弉諾尊 伊弉冉尊 大毘古命 建沼河別命", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月11日〜13日(メイン12日)", "name": "御田植祭"}, {"month": 9, "date_str": "9月15日", "name": "例大祭"}, {"month": 6, "date_str": "6月15日〜7月5日", "name": "あやめ祭り"}],
+  "festivals_raw": "御田植祭: 毎年7月12日をメインに3日間。伊勢の朝田植・熱田の夕田植と並ぶ「日本三田植」の高田の昼田植。獅子追い・催馬楽・早乙女踊り(佐布川集落の長男のみが女装で舞う)・田植式。例大祭は9月15日",
+  "notes": "岩代国一宮・会津総鎮守。「会津の御田植祭」として国指定重要無形民俗文化財。会津の地名は大毘古命父子がここで出会った故事による",
+  "official_url": "https://isasumi.or.jp", "source_url": "https://www.isasumi.or.jp/event.html", "source": "famous_manual"},
+
+ {"name": "宮崎神宮", "pref": "宮崎県", "address": "宮崎県宮崎市神宮2-4-1", "deity": "神日本磐余彦天皇(神武天皇) 鵜鷀草葺不合尊 玉依姫命", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月26日(御神幸祭は例祭後最初の土日)", "name": "例祭・御神幸祭(神武さま)"}],
+  "festivals_raw": "例祭10月26日(神武天皇日向御進発の日の前日)。御神幸祭「神武さま」は例祭後最初の土日: 御鳳輦・稚児行列に、神武東征の古代船おきよ丸・ミスシャンシャン馬らの神賑行列が続く県下最大の祭り。かつて博多どんたく・長崎くんちと九州三大祭と称された",
+  "notes": "神武天皇を祀る。「神武さま」の愛称で明治9年から続く。観客約15万人",
+  "official_url": "https://miyazakijingu.or.jp", "source_url": "https://miyazakijingu.or.jp/publics/index/20/", "source": "famous_manual"}
+]
