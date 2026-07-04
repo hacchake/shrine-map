@@ -56,6 +56,21 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
 .leg{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted)}
 .leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 @media(max-width:600px){#panel{display:none}}
+#modal-overlay{position:fixed;inset:0;background:rgba(28,17,8,.55);display:none;align-items:center;justify-content:center;z-index:10000;padding:20px}
+#modal-overlay.show{display:flex}
+#modal{background:#fff;border-radius:12px;max-width:420px;width:100%;max-height:85vh;overflow-y:auto;box-shadow:0 8px 30px rgba(0,0,0,.3)}
+#modal-head{padding:16px 18px 10px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:10px;position:sticky;top:0;background:#fff}
+#modal-head h2{font-size:16px;font-weight:700;line-height:1.4}
+#modal-close{background:none;border:none;font-size:22px;color:var(--muted);cursor:pointer;line-height:1;padding:2px 6px;flex-shrink:0}
+#modal-body{padding:14px 18px 18px}
+.modal-row{margin-top:10px;font-size:13px;color:var(--ink);line-height:1.6}
+.modal-label{font-size:11px;color:var(--muted);margin-bottom:2px}
+.modal-fest{background:var(--red-lt);border-radius:8px;padding:8px 10px;margin-top:6px}
+.modal-fest .fname{color:var(--red);font-weight:600;font-size:13px}
+.modal-fest .fdate{color:var(--muted);font-size:12px;margin-top:2px}
+.modal-links{margin-top:14px;display:flex;gap:14px;flex-wrap:wrap}
+.modal-links a{font-size:12px;color:var(--blue);text-decoration:none;font-weight:600}
+.popup-detail-btn{font-size:12px;padding:4px 12px;border-radius:14px;border:1px solid var(--border);background:var(--paper);color:var(--ink);cursor:pointer}
 </style>
 </head>
 <body>
@@ -71,8 +86,8 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
     <button class="tb-btn" id="btn-click">🗺 地図をクリックして探す</button>
     <select id="sel-range">
       <option value="5">5km以内</option>
-      <option value="10" selected>10km以内</option>
-      <option value="20">20km以内</option>
+      <option value="10">10km以内</option>
+      <option value="20" selected>20km以内</option>
       <option value="50">50km以内</option>
       <option value="999">制限なし</option>
     </select>
@@ -83,9 +98,9 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
   </div>
   <div id="toolbar2">
     <span class="lbl">並び順:</span>
-    <button class="sort-btn active" data-sort="recommend">⭐ おすすめ</button>
+    <button class="sort-btn" data-sort="recommend">⭐ おすすめ</button>
     <button class="sort-btn" data-sort="distance">📍 距離順</button>
-    <button class="sort-btn" data-sort="date">📅 開催順</button>
+    <button class="sort-btn active" data-sort="date">📅 開催順</button>
     <span class="lbl" style="margin-left:6px">月:</span>
     <select id="sel-month">
       <option value="0">すべて</option>
@@ -117,10 +132,20 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
     </div>
   </div>
 </div>
+<div id="modal-overlay">
+  <div id="modal">
+    <div id="modal-head">
+      <h2 id="modal-name"></h2>
+      <button id="modal-close" aria-label="閉じる">×</button>
+    </div>
+    <div id="modal-body"></div>
+  </div>
+</div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 let SHRINES=[],map,markers=[],originMarker=null,clickMode=false;
-let originLat=null,originLng=null,sortMode="recommend";
+let RESULT_BY_ID={};
+let originLat=null,originLng=null,sortMode="date";
 
 const now = new Date();
 const todayY = now.getFullYear();
@@ -216,6 +241,7 @@ function resolvedDateStr(fest){
   return fest.date_str;
 }
 
+let dataLoaded=false;
 fetch("data.json?v=" + Date.now()).then(r=>r.json()).then(data=>{
   SHRINES=data;
   document.getElementById("total-sub").textContent=data.length.toLocaleString()+"社収録";
@@ -224,6 +250,8 @@ fetch("data.json?v=" + Date.now()).then(r=>r.json()).then(data=>{
   const prefs=[...new Set(data.map(s=>s.pref).filter(Boolean))].sort();
   const sel=document.getElementById("sel-pref");
   prefs.forEach(p=>{const o=document.createElement("option");o.value=p;o.textContent=p;sel.appendChild(o);});
+  dataLoaded=true;
+  if(originLat!==null) search();
 }).catch(e=>{
   document.getElementById("loading").innerHTML="<div style='color:#f99'>読み込み失敗: "+e+"</div>";
 });
@@ -244,7 +272,8 @@ function setOrigin(lat,lng,label){
   originLat=lat;originLng=lng;
   if(originMarker)map.removeLayer(originMarker);
   originMarker=L.marker([lat,lng],{icon:IC.gold,zIndexOffset:1000}).addTo(map).bindPopup(label).openPopup();
-  map.setView([lat,lng],13);search();
+  map.setView([lat,lng],13);
+  if(dataLoaded) search();
 }
 
 function search(){
@@ -263,15 +292,19 @@ function search(){
       return f;
     });
     if(excludePast) fests=fests.filter(f=>!isPast(f));
-    // 最短日数を計算
-    let minDays=Infinity;
-    fests.forEach(f=>{
-      const d=daysUntil(f.date_str||"",f.month);
-      if(d!==null && d<minDays) minDays=d;
-    });
-    const nm=fests.length?Math.min(...fests.map(f=>monthsUntil(f.month,f.date_str))):999;
+    // 開催が近い順に並べ替え（カード/ポップアップ/モーダルの代表表示・先頭件が
+    // 常に「今日から最も近い祭典」になるようにする。単なる掲載順にしない）
+    fests=fests.map(f=>({...f,_days:daysUntil(f.date_str||"",f.month),_months:monthsUntil(f.month,f.date_str)}))
+      .sort((a,b)=>{
+        if(a._days!==null&&b._days!==null)return a._days-b._days;
+        if(a._days!==null)return -1;
+        if(b._days!==null)return 1;
+        return a._months-b._months;
+      });
+    const minDays=fests.length&&fests[0]._days!==null?fests[0]._days:null;
+    const nm=fests.length?fests[0]._months:999;
     const isNow=nm===0;
-    return{...s,km,fests,nm,minDays:isFinite(minDays)?minDays:null,isNow};
+    return{...s,km,fests,nm,minDays,isNow};
   }).filter(s=>{
     if(s.km>range)return false;
     if(pref!=="all"&&s.pref!==pref)return false;
@@ -315,7 +348,9 @@ function search(){
 
   document.getElementById("status-bar").textContent=results.length+"件";
 
+  RESULT_BY_ID={};
   results.slice(0,100).forEach(s=>{
+    RESULT_BY_ID[s.id]=s;
     const icon=s.isNow?IC.green:s.fests.length?IC.red:IC.gray;
     const m=L.marker([s.lat,s.lng],{icon}).addTo(map);
     m._shrineId=s.id;
@@ -323,7 +358,7 @@ function search(){
     const links=[s.official_url?`<a href="${s.official_url}" target="_blank" style="font-size:11px;color:#1a56a0">公式サイト →</a>`:"",s.source_url?`<a href="${s.source_url}" target="_blank" style="font-size:11px;color:#b51f1f">神社庁 →</a>`:""].filter(Boolean).join(" ｜ ");
     m.bindPopup(`<div style="font-family:sans-serif;min-width:190px;max-width:250px"><b style="font-size:14px">${s.name}</b><div style="font-size:11px;color:#888;margin:2px 0">${s.pref}</div><div style="color:#888;font-size:12px">距離: <b style="color:#333">${s.km.toFixed(1)}km</b></div><div style="color:#888;font-size:12px">${s.address||""}</div>${s.deity?`<div style="color:#888;font-size:12px">御祭神: ${s.deity}</div>`:""}`+
       (fh||'<div style="color:#888;font-size:12px;margin-top:4px">祭典情報なし</div>')+
-      `<div style="margin-top:6px">${links}</div></div>`);
+      `<div style="margin-top:8px"><button class="popup-detail-btn" data-id="${s.id}">詳細を見る</button> ${links}</div></div>`);
     markers.push(m);
   });
   renderList(results);
@@ -355,10 +390,37 @@ function renderList(results){
     card.dataset.id=s.id;
     const fh=s.fests.slice(0,2).map(f=>`<div class="card-fest">${f.name||"祭典"}</div><div class="card-date">${resolvedDateStr(f)||""}</div>`).join("");
     card.innerHTML=`<div class="card-rank">${i+1}位</div><div class="card-name">${s.name}</div><span class="card-pref">${s.pref}</span><span class="badge b-dist">${s.km.toFixed(1)}km</span>${mkBadge(s)}${fh||'<div class="card-date" style="margin-top:4px;color:#bbb">祭典情報なし</div>'}<div class="card-addr">${s.address||""}</div>`;
-    card.addEventListener("click",()=>{map.setView([s.lat,s.lng],15);highlightCard(s.id);const mk=markers.find(m=>m._shrineId===s.id);if(mk){mk.openPopup();}});
+    card.addEventListener("click",()=>{map.setView([s.lat,s.lng],15);highlightCard(s.id);openModal(s);});
     list.appendChild(card);
   });
 }
+
+function openModal(s){
+  if(!s)return;
+  document.getElementById("modal-name").textContent=s.name||"";
+  const fests=s.fests||s.festivals||[];
+  const festHtml=fests.length
+    ?fests.map(f=>`<div class="modal-fest"><div class="fname">⛩ ${f.name||"祭典"}</div><div class="fdate">${resolvedDateStr(f)||""}</div></div>`).join("")
+    :`<div style="color:var(--muted);font-size:12px;margin-top:4px">祭典情報なし</div>`;
+  const links=[s.official_url?`<a href="${s.official_url}" target="_blank" rel="noopener">公式サイト →</a>`:"",s.source_url?`<a href="${s.source_url}" target="_blank" rel="noopener">神社庁 →</a>`:""].filter(Boolean).join("");
+  document.getElementById("modal-body").innerHTML=`
+    <span class="card-pref">${s.pref||""}</span>${typeof s.km==="number"?`<span class="badge b-dist" style="margin-left:4px">${s.km.toFixed(1)}km</span>`:""}
+    <div class="modal-row"><div class="modal-label">鎮座地</div>${s.address||"—"}</div>
+    ${s.deity?`<div class="modal-row"><div class="modal-label">御祭神</div>${s.deity}</div>`:""}
+    <div class="modal-row"><div class="modal-label">例祭・祭事</div>${festHtml}</div>
+    ${links?`<div class="modal-links">${links}</div>`:""}
+  `;
+  document.getElementById("modal-overlay").classList.add("show");
+}
+function closeModal(){document.getElementById("modal-overlay").classList.remove("show");}
+document.getElementById("modal-close").addEventListener("click",closeModal);
+document.getElementById("modal-overlay").addEventListener("click",e=>{if(e.target.id==="modal-overlay")closeModal();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+document.addEventListener("click",e=>{
+  if(e.target.classList.contains("popup-detail-btn")){
+    openModal(RESULT_BY_ID[e.target.dataset.id]);
+  }
+});
 
 function highlightCard(id){
   document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
@@ -375,6 +437,17 @@ document.getElementById("btn-gps").addEventListener("click",function(){
   );
 });
 document.getElementById("btn-click").addEventListener("click",function(){clickMode=!clickMode;this.classList.toggle("active",clickMode);});
+
+// 初期表示で自動的に現在地取得を試みる。拒否/失敗時はアラートを出さず、
+// 従来通り「地図をクリックして探す」待ちの状態のままにする
+if(navigator.geolocation){
+  const gpsBtn=document.getElementById("btn-gps");
+  gpsBtn.textContent="📍 取得中…";
+  navigator.geolocation.getCurrentPosition(
+    pos=>{setOrigin(pos.coords.latitude,pos.coords.longitude,"現在地");gpsBtn.textContent="📍 現在地から探す";},
+    ()=>{gpsBtn.textContent="📍 現在地から探す";}
+  );
+}
 document.querySelectorAll(".sort-btn").forEach(btn=>{
   btn.addEventListener("click",function(){
     document.querySelectorAll(".sort-btn").forEach(b=>b.classList.remove("active"));
