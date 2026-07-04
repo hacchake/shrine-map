@@ -152,6 +152,30 @@ const todayY = now.getFullYear();
 const todayM = now.getMonth()+1;
 const todayD = now.getDate();
 
+// 全角数字→半角、漢数字（十一月十三日 等）→算用数字に正規化
+// （岡山などの全角表記、鹿児島の漢数字表記が日付解析に失敗し、開催順ソートで
+// 末尾に沈んでしまう不具合の修正。表示用テキストは変更せず解析専用）
+function normalizeDateStr(s){
+  if(!s)return s;
+  s=s.replace(/[０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-0xFEE0));
+  const kanjiDigit={'〇':0,'一':1,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9};
+  const kanjiToNum=(kanji)=>{
+    if(kanji==='十')return 10;
+    const idx=kanji.indexOf('十');
+    if(idx<0)return kanji.length===1&&kanji in kanjiDigit?kanjiDigit[kanji]:null;
+    const tensDigit=idx>0?kanjiDigit[kanji[0]]:1;
+    const onesStr=kanji.slice(idx+1);
+    const ones=onesStr?kanjiDigit[onesStr]:0;
+    if(tensDigit==null||(onesStr&&ones==null))return null;
+    return tensDigit*10+(ones||0);
+  };
+  s=s.replace(/[一二三四五六七八九十]+(?=[月日])/g,m=>{
+    const n=kanjiToNum(m);
+    return n!==null?String(n):m;
+  });
+  return s;
+}
+
 // 第N曜日を実際の日付に変換
 function resolveNthWeekday(year,month,nth,wd){
   const wdMap={日:0,月:1,火:2,水:3,木:4,金:5,土:6};
@@ -173,6 +197,7 @@ function resolveNthWeekday(year,month,nth,wd){
 // 日付文字列→Dateオブジェクト（毎年繰り返し・来年も考慮）
 function parseFestDate(dateStr){
   if(!dateStr)return null;
+  dateStr=normalizeDateStr(dateStr);
   const today=new Date(todayY,todayM-1,todayD);
   // ○月○日
   const m1=dateStr.match(/(\d+)月\s*(\d+)日/);
@@ -209,25 +234,19 @@ function parseFestDate(dateStr){
   return null;
 }
 
-function daysUntil(dateStr,month){
-  const d=parseFestDate(dateStr);
-  if(!d)return null;
-  const today=new Date(todayY,todayM-1,todayD);
-  return Math.round((d-today)/86400000);
-}
-
-function monthsUntil(m,dateStr){
-  // parseFestDateが来年を返す場合は月数を正しく計算
-  const d=dateStr?parseFestDate(dateStr):null;
-  if(d){
+// 祭典の「次回開催日」を推定。date_strから具体的な日付が解析できなければ
+// monthフィールドを使い、その月の1日として扱う（月しか分からない祭典を
+// 開催日不明として末尾に隔離せず、他の祭典と同じ基準で比較できるようにする）
+function estimateFestDate(f){
+  const d=parseFestDate(f.date_str||"");
+  if(d)return d;
+  if(f.month){
     const today=new Date(todayY,todayM-1,todayD);
-    const months=(d.getFullYear()-today.getFullYear())*12+(d.getMonth()-today.getMonth());
-    return Math.max(0,months);
+    let d2=new Date(todayY,f.month-1,1);
+    if(d2<today)d2=new Date(todayY+1,f.month-1,1);
+    return d2;
   }
-  if(!m)return 999;
-  let diff=m-todayM;
-  if(diff<0)diff+=12;
-  return diff;
+  return null;
 }
 
 // 毎年繰り返しなのでisPastは常にfalse
@@ -288,19 +307,26 @@ function search(){
     const km=dist(originLat,originLng,s.lat,s.lng);
     // 過去除外フィルタ適用後の祭典リスト
     let fests=(s.festivals||[]).filter(f=>f.name||f.date_str).map(f=>{
-      if(!f.month&&f.date_str){const mm=f.date_str.match(/(\d+)月/);if(mm)return{...f,month:parseInt(mm[1])};}
+      if(!f.month&&f.date_str){const mm=normalizeDateStr(f.date_str).match(/(\d+)月/);if(mm)return{...f,month:parseInt(mm[1])};}
       return f;
     });
     if(excludePast) fests=fests.filter(f=>!isPast(f));
     // 開催が近い順に並べ替え（カード/ポップアップ/モーダルの代表表示・先頭件が
-    // 常に「今日から最も近い祭典」になるようにする。単なる掲載順にしない）
-    fests=fests.map(f=>({...f,_days:daysUntil(f.date_str||"",f.month),_months:monthsUntil(f.month,f.date_str)}))
-      .sort((a,b)=>{
-        if(a._days!==null&&b._days!==null)return a._days-b._days;
-        if(a._days!==null)return -1;
-        if(b._days!==null)return 1;
-        return a._months-b._months;
-      });
+    // 常に「今日から最も近い祭典」になるようにする。単なる掲載順にしない）。
+    // 日付が具体的に解析できない（月のみ）祭典もその月の1日扱いで同じ土俵で
+    // 比較し、末尾に隔離しない
+    fests=fests.map(f=>{
+      const d=estimateFestDate(f);
+      const today=new Date(todayY,todayM-1,todayD);
+      const days=d?Math.round((d-today)/86400000):null;
+      const months=d?Math.max(0,(d.getFullYear()-todayY)*12+(d.getMonth()-(todayM-1))):999;
+      return{...f,_days:days,_months:months};
+    }).sort((a,b)=>{
+      if(a._days!==null&&b._days!==null)return a._days-b._days;
+      if(a._days!==null)return -1;
+      if(b._days!==null)return 1;
+      return 0;
+    });
     const minDays=fests.length&&fests[0]._days!==null?fests[0]._days:null;
     const nm=fests.length?fests[0]._months:999;
     const isNow=nm===0;
@@ -311,7 +337,7 @@ function search(){
     if(month===0)return true;
     return(s.festivals||[]).some(f=>{
       if(f.month===month)return true;
-      if(f.date_str){const mm=f.date_str.match(/(\d+)月/);if(mm&&parseInt(mm[1])===month)return true;}
+      if(f.date_str){const mm=normalizeDateStr(f.date_str).match(/(\d+)月/);if(mm&&parseInt(mm[1])===month)return true;}
       return false;
     });
   });
