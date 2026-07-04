@@ -47,20 +47,18 @@
   hotokami: 9件
   nagano_jinjacho: 3件
 
-### 6_座標不整合（該当 576件）
-  osm: 350件
+### 6_座標不整合（該当 226件）
   toyama_jinjacho: 149件
   hotokami: 43件
-  okayama_jinjacho: 8件
-  saga_jinjacho: 6件
+  osm: 12件
   shizuoka_jinjacho: 5件
-  gifu_jinjacho: 4件
   mie_jinjacho: 4件
+  saga_jinjacho: 4件
+  nagano_jinjacho: 3件
   nara_jinjacho: 2件
   iwate_ganshinsei: 2件
   tottori_jinjacho: 1件
   tochigi_jinjacho: 1件
-  ehime_jinjacho: 1件
 
 ### 7_祭典増殖（該当 57件）
   kanagawa_jinjacho: 37件
@@ -152,11 +150,11 @@
 
 ### 6_座標不整合
   id=tt_855 name='大羽尾神社' pref=鳥取県 source=tottori_jinjacho
-    - 鳥取県の範囲外の座標 lat=35.60230352988329,lng=134.34421781840268
-  id=osm_4401960330 name='山辺神社' pref=大阪府 source=osm
-    - 大阪府の範囲外の座標 lat=34.9836062,lng=135.3925476
-  id=osm_4420298654 name='早尾神社' pref=大阪府 source=osm
-    - 大阪府の範囲外の座標 lat=34.9156423,lng=135.6411315
+    - 鳥取県の範囲外の座標 lat=35.604046,lng=134.343369
+  id=osm_5634046824 name='橿原神社' pref=秋田県 source=osm
+    - 秋田県の範囲外の座標 lat=38.931995,lng=141.091782
+  id=osm_5634054025 name='豊受神社' pref=秋田県 source=osm
+    - 秋田県の範囲外の座標 lat=38.936409,lng=141.094086
 
 ### 7_祭典増殖
   id=kanagawa_1201001-000 name='稲毛神社' pref=神奈川県 source=kanagawa_jinjacho
