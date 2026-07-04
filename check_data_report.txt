@@ -47,10 +47,10 @@
   hotokami: 9件
   nagano_jinjacho: 3件
 
-### 6_座標不整合（該当 226件）
+### 6_座標不整合（該当 563件）
+  osm: 349件
   toyama_jinjacho: 149件
   hotokami: 43件
-  osm: 12件
   shizuoka_jinjacho: 5件
   mie_jinjacho: 4件
   saga_jinjacho: 4件
@@ -151,10 +151,10 @@
 ### 6_座標不整合
   id=tt_855 name='大羽尾神社' pref=鳥取県 source=tottori_jinjacho
     - 鳥取県の範囲外の座標 lat=35.604046,lng=134.343369
-  id=osm_5634046824 name='橿原神社' pref=秋田県 source=osm
-    - 秋田県の範囲外の座標 lat=38.931995,lng=141.091782
-  id=osm_5634054025 name='豊受神社' pref=秋田県 source=osm
-    - 秋田県の範囲外の座標 lat=38.936409,lng=141.094086
+  id=osm_4401960330 name='山辺神社' pref=大阪府 source=osm
+    - 大阪府の範囲外の座標 lat=34.9836062,lng=135.3925476
+  id=osm_4420298654 name='早尾神社' pref=大阪府 source=osm
+    - 大阪府の範囲外の座標 lat=34.9156423,lng=135.6411315
 
 ### 7_祭典増殖
   id=kanagawa_1201001-000 name='稲毛神社' pref=神奈川県 source=kanagawa_jinjacho
