@@ -1,0 +1,43 @@
+[
+ {"name": "金刀比羅宮", "pref": "香川県", "address": "香川県仲多度郡琴平町892-1", "deity": "大物主神 崇徳天皇", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月9日〜11日(10日夜に御神幸「おさがり」)", "name": "例大祭"}],
+  "festivals_raw": "例大祭: 毎年10月9日〜11日。最重要祭典。10日21時〜約500名の御神幸行列(おさがり)",
+  "notes": "こんぴらさん。祈年祭・新嘗祭と並ぶ三大祭の一つ。ことでんが深夜臨時列車を運行する年もある",
+  "official_url": "https://www.konpira.or.jp", "source_url": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/article_A.html", "source": "famous_manual"},
+
+ {"name": "田村神社", "pref": "香川県", "address": "香川県高松市一宮町286", "deity": "倭迹迹日百襲姫命 五十狹芹彦命 猿田彦大神 天隠山命 天五田根命", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月7日・8日", "name": "秋季例大祭(御蚊帳撤神事)"}, {"month": 5, "date_str": "5月7日・8日", "name": "春季大祭(御蚊帳垂神事)"}],
+  "festivals_raw": "秋季例大祭10月7-8日(御蚊帳撤神事・神輿・獅子舞・巫女舞・御旅所巡行)、春季大祭5月7-8日",
+  "notes": "讃岐国一宮・別表神社。年間祭礼中最重要は秋季例大祭。毎週日曜に境内朝市(讃岐うどん)",
+  "official_url": "https://tamurajinja.com", "source_url": "https://tamurajinja.com/event/", "source": "famous_manual"},
+
+ {"name": "日枝神社", "pref": "富山県", "address": "富山県富山市山王町4-12", "deity": "大山咋神 大己貴命", "lat": null, "lng": null,
+  "festivals": [{"month": 5, "date_str": "5月31日〜6月2日", "name": "山王まつり(春季例大祭)"}],
+  "festivals_raw": "山王まつり: 毎年5月31日〜6月2日。神輿渡御・獅子舞巡行(5/31西側・6/1東側)、露店約500〜550店",
+  "notes": "「山王さん」。富山県内最大の祭りで3日間で数十万人。富山城下の総産土祭として江戸時代から続く",
+  "official_url": "https://www.hie.jp", "source_url": "https://www.hie.jp/ritual/sannou_fes/", "source": "famous_manual"},
+
+ {"name": "射水神社", "pref": "富山県", "address": "富山県高岡市古城1-1", "deity": "瓊瓊杵尊", "lat": null, "lng": null,
+  "festivals": [{"month": 4, "date_str": "4月23日", "name": "例祭(春祭り)"}, {"month": 9, "date_str": "9月16日", "name": "秋季大祭"}],
+  "festivals_raw": "例祭(春祭り)4月23日。同日午後、旧社地の二上射水神社で築山行事(県指定無形民俗文化財)。秋季大祭は遷座当日の9月16日",
+  "notes": "越中国一宮・別表神社。高岡古城公園(高岡城本丸跡)に鎮座",
+  "official_url": "https://www.imizujinjya.or.jp", "source_url": "https://www.imizujinjya.or.jp/rituals", "source": "famous_manual"},
+
+ {"name": "藤崎八旛宮", "pref": "熊本県", "address": "熊本県熊本市中央区井川淵町3-1", "deity": "応神天皇 住吉大神 神功皇后", "lat": null, "lng": null,
+  "festivals": [{"month": 9, "date_str": "9月13日〜(神幸式は9月16日以降の休日・祝日)", "name": "秋季例大祭(随兵・馬追い)"}],
+  "festivals_raw": "秋季例大祭: 9月13日開始、クライマックスの神幸式(朝随兵6時/夕随兵14時)は9月16日以降の休日か祝日。2026年は9月20日",
+  "notes": "熊本総鎮守。千年以上の歴史を持つ肥後国最大の祭りで随兵行列・飾り馬60団体超、人出約30万人",
+  "official_url": "https://fujisakigu.or.jp", "source_url": "https://fujisakigu.or.jp/reitaisai/", "source": "famous_manual"},
+
+ {"name": "阿蘇神社", "pref": "熊本県", "address": "熊本県阿蘇市一の宮町宮地3083-1", "deity": "健磐龍命ほか阿蘇十二神", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月28日", "name": "御田祭(御田植神幸式・例祭)"}],
+  "festivals_raw": "御田植神幸式(おんだ祭): 毎年7月28日。例祭献幣式10時、神幸式11時半発輿。白装束の宇奈利ら約200人の行列が青田を巡る",
+  "notes": "肥後国一宮。国指定重要無形民俗文化財「阿蘇の農耕祭事」の中心行事。前日27日前夜遷座祭・29日翌日遷座祭",
+  "official_url": "https://asojinja.or.jp", "source_url": "https://asojinja.or.jp/events/onda/", "source": "famous_manual"},
+
+ {"name": "一之宮貫前神社", "pref": "群馬県", "address": "群馬県富岡市一ノ宮1535", "deity": "経津主神 姫大神", "lat": null, "lng": null,
+  "festivals": [{"month": 3, "date_str": "3月15日", "name": "例大祭(太々神楽奉納)"}, {"month": 4, "date_str": "4月15日", "name": "流鏑馬祭"}, {"month": 12, "date_str": "12月12日", "name": "御戸開祭"}],
+  "festivals_raw": "例大祭3月15日(出雲大社社家伝承の太々神楽を奉納)、流鏑馬祭4月15日、御戸開祭12月12日。年間71度の祭事",
+  "notes": "上野国一宮・別表神社。日本三大下り宮。本殿・拝殿・楼門は国指定重要文化財。鹿占習俗(県指定無形民俗文化財)でも知られる",
+  "official_url": "http://nukisaki.or.jp", "source_url": "https://www.tomioka-silk.jp/_spot/sightseeing/detail/Nukisaki-shrine.html", "source": "famous_manual"}
+]
