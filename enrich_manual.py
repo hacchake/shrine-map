@@ -20,6 +20,7 @@
 """
 import json
 import re
+import math
 import sys
 import time
 import argparse
@@ -27,6 +28,11 @@ import urllib.parse
 import requests
 
 ENRICH_FIELDS = ['festivals', 'festivals_raw', 'notes', 'official_url']
+NEAR_KM = 1.0  # 座標一致とみなす許容距離（厳しめ。都市部の高密度な神社群では
+# 同名神社が数百m間隔で多数実在するため、緩い閾値だと無関係な近隣の神社を
+# 誤って一致とみなす危険がある。実例: 富山市中心部の「日枝神社」は同名43件が
+# 3km圏内に密集しており3km閾値では26件が誤ヒットしたが、1km閾値でも候補が
+# 絞り切れないため below のexactly-one判定で正しくスキップされる）
 
 
 def addr_core(addr):
@@ -39,26 +45,47 @@ def addr_core(addr):
     return a
 
 
-def disambiguate(entry, data, matches):
-    """同名・同県のレコードが複数ヒットした場合、住所で絞り込む。
-    「日枝神社」「八幡宮」等ありふれた社名は県内に多数存在するため、
-    name+prefだけでは無関係な神社に祭事情報を誤注入する危険がある
-    （実例: 富山県「日枝神社」で43件ヒットしたが該当は1件のみ）。"""
+def haversine_km(lat1, lng1, lat2, lng2):
+    R = 6371.0
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp = math.radians(lat2 - lat1)
+    dl = math.radians(lng2 - lng1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def disambiguate(entry, data, matches, entry_lat=None, entry_lng=None):
+    """同名・同県のレコードが複数ヒットした場合、住所→座標の順で絞り込む。
+    「日枝神社」「八坂神社」「熱田神宮」等ありふれた社名・広域信仰の社名は
+    県内に多数（無関係な）候補が存在するため、name+prefだけでは誤注入の
+    危険がある（実例: 富山県「日枝神社」で43件ヒット中、該当は1件のみ。
+    京都府「八坂神社」は5件とも住所が空で全て別の神社だった）。
+    住所での特定に失敗し、かつ入力側に座標があれば、近接（NEAR_KM以内）の
+    候補を探すフォールバックを行う（同名だが遠方にある無関係な神社を除外）。"""
     entry_addr = addr_core(entry.get('address', ''))
-    if not entry_addr:
-        return None, matches  # 住所情報がなく絞り込めない
-    narrowed = []
-    for i in matches:
-        cand_addr = addr_core(data[i].get('address', ''))
-        if not cand_addr:
-            continue  # 空文字列は全ての文字列の部分文字列扱いになり誤検出するため除外
-        if entry_addr in cand_addr or cand_addr in entry_addr:
-            narrowed.append(i)
-    if len(narrowed) == 1:
-        return narrowed, None
-    if len(narrowed) == 0:
-        return None, matches  # 住所でも特定できず→スキップ
-    return narrowed, None  # 複数一致（同一神社の重複登録等）はまとめて注入
+    if entry_addr:
+        narrowed = []
+        for i in matches:
+            cand_addr = addr_core(data[i].get('address', ''))
+            if not cand_addr:
+                continue  # 空文字列は全ての文字列の部分文字列扱いになり誤検出するため除外
+            if entry_addr in cand_addr or cand_addr in entry_addr:
+                narrowed.append(i)
+        if len(narrowed) >= 1:
+            return narrowed, None  # 1件なら確定、複数なら同一神社の重複登録等とみなしまとめて注入
+
+    if entry_lat is not None and entry_lng is not None:
+        near = []
+        for i in matches:
+            clat, clng = data[i].get('lat'), data[i].get('lng')
+            if clat is None or clng is None:
+                continue
+            if haversine_km(entry_lat, entry_lng, clat, clng) <= NEAR_KM:
+                near.append(i)
+        if len(near) == 1:
+            return near, None  # 候補が1件に絞り切れた場合のみ確定（複数残るなら密集地帯とみなしスキップ）
+
+    return None, matches  # 住所でも座標でも特定できず→スキップ
 
 
 def geocode(address):
@@ -109,12 +136,21 @@ def main():
     for entry in manual:
         key = (entry.get('name', ''), entry.get('pref', ''))
         matches = index.get(key)
+
+        # 複数ヒット時の座標フォールバック用に、入力側の座標を先に確保しておく
+        # （新規追加時のジオコーディングと共用し、二重にAPIを叩かない）
+        addr = entry.get('address', '')
+        lat, lng = entry.get('lat'), entry.get('lng')
+        if not lat and addr and matches and len(matches) > 1:
+            lat, lng = geocode(addr)
+            time.sleep(0.1)
+
         if matches and len(matches) > 1:
-            narrowed, ambiguous = disambiguate(entry, data, matches)
+            narrowed, ambiguous = disambiguate(entry, data, matches, lat, lng)
             if narrowed is None:
                 skipped += 1
                 print(f"  警告: {entry.get('name')}（{entry.get('pref')}）は同名{len(matches)}件がヒットしたが"
-                      f"住所で特定できず注入をスキップ（要目視確認: {entry.get('address')}）")
+                      f"住所・座標で特定できず注入をスキップ（要目視確認: {entry.get('address')}）")
                 continue
             matches = narrowed
         if matches:
@@ -126,8 +162,6 @@ def main():
             enriched += 1
             print(f"  充実: {entry.get('name')}（{entry.get('pref')}） ×{len(matches)}件")
         else:
-            addr = entry.get('address', '')
-            lat, lng = entry.get('lat'), entry.get('lng')
             if not lat and addr:
                 lat, lng = geocode(addr)
                 time.sleep(0.1)

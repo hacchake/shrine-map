@@ -1,0 +1,31 @@
+[
+ {"name": "八坂神社", "pref": "京都府", "address": "京都府京都市東山区祇園町北側625", "deity": "素戔嗚尊 櫛稲田姫命 八柱御子神", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月1日〜31日(山鉾巡行: 前祭7月17日・後祭7月24日)", "name": "祇園祭"}],
+  "festivals_raw": "祇園祭: 7月1日吉符入〜31日疫神社夏越祭の1ヶ月。山鉾巡行は前祭7/17(23基)・後祭7/24(11基)、宵山は前祭7/14-16・後祭7/21-23。神輿渡御は17日神幸祭・24日還幸祭。貞観11年(869)の御霊会が起源",
+  "notes": "日本三大祭。「京都祇園祭の山鉾行事」はユネスコ無形文化遺産・国指定重要無形民俗文化財。全国の祇園社・天王社の総本社",
+  "official_url": "https://www.yasaka-jinja.or.jp", "source_url": "https://www.yasaka-jinja.or.jp/event/gion/", "source": "famous_manual"},
+
+ {"name": "大阪天満宮", "pref": "大阪府", "address": "大阪府大阪市北区天神橋2-1-8", "deity": "菅原道真公", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月24日(宵宮)・25日(本宮)", "name": "天神祭"}],
+  "festivals_raw": "天神祭: 7月24日宵宮(鉾流神事・催太鼓)、25日本宮(陸渡御3,000人→船渡御約100隻→奉納花火約3,000〜5,000発)。天暦5年(951)の鉾流神事が起源、観客約130万人",
+  "notes": "日本三大祭。「火と水の祭典」。天満の天神さん、日本一長い天神橋筋商店街の氏神",
+  "official_url": "https://osakatemmangu.or.jp", "source_url": "https://osakatemmangu.or.jp/3651", "source": "famous_manual"},
+
+ {"name": "神田明神", "pref": "東京都", "address": "東京都千代田区外神田2-16-2", "deity": "大己貴命 少彦名命 平将門命", "lat": null, "lng": null,
+  "festivals": [{"month": 5, "date_str": "5月15日(例大祭)。本祭(神幸祭・神輿宮入)は奇数年5月中旬の土日", "name": "神田祭"}],
+  "festivals_raw": "神田祭: 例大祭は毎年5月15日。本祭は奇数年5月中旬 — 土曜に鳳輦三基の神幸祭が神田・日本橋・秋葉原を約30km巡行、日曜に氏子108町会・200基超の神輿宮入。徳川将軍上覧の「天下祭」",
+  "notes": "日本三大祭・江戸三大祭。江戸総鎮守。正式名称は神田神社",
+  "official_url": "https://www.kandamyoujin.or.jp", "source_url": "https://kandamatsuri.com/", "source": "famous_manual"},
+
+ {"name": "熱田神宮", "pref": "愛知県", "address": "愛知県名古屋市熱田区神宮1-1-1", "deity": "熱田大神(草薙神剣) 天照大神 素盞嗚尊 日本武尊 宮簀媛命 建稲種命", "lat": null, "lng": null,
+  "festivals": [{"month": 6, "date_str": "6月5日", "name": "例祭(熱田まつり・尚武祭)"}],
+  "festivals_raw": "熱田まつり(尚武祭): 毎年6月5日。勅使参向の最重要祭典。献灯まきわら奉飾点灯、神宮公園から花火約1,000発、武道・献茶等の奉納。参拝者約25万人、名古屋に夏の訪れを告げ「浴衣の袖通し」の日とされる",
+  "notes": "三種の神器・草薙神剣を奉斎。伊勢神宮に次ぐ尊いお宮とされる。年間約60の祭典と約10の特殊神事",
+  "official_url": "https://www.atsutajingu.or.jp", "source_url": "https://www.atsutajingu.or.jp/jingu/about/event/event_detail12.html", "source": "famous_manual"},
+
+ {"name": "鶴岡八幡宮", "pref": "神奈川県", "address": "神奈川県鎌倉市雪ノ下2-1-31", "deity": "応神天皇 比売神 神功皇后", "lat": null, "lng": null,
+  "festivals": [{"month": 9, "date_str": "9月14日〜16日(15日例大祭・神幸祭、16日流鏑馬神事)", "name": "例大祭"}],
+  "festivals_raw": "例大祭: 毎年9月14日宵宮祭、15日例大祭・神幸祭(神輿3基が若宮大路を二ノ鳥居まで渡御)、16日小笠原流による流鏑馬神事と鈴虫放生祭。文治3年(1187)の放生会・流鏑馬始行以来800年以上続く",
+  "notes": "源頼朝ゆかりの鎌倉総鎮守。三大八幡宮の一つ。本宮は国指定重要文化財",
+  "official_url": "https://www.hachimangu.or.jp", "source_url": "https://www.hachimangu.or.jp/matsuri/", "source": "famous_manual"}
+]
