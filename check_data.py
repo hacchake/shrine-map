@@ -16,7 +16,11 @@ data.json 総合品質チェック（レポート専用・修正は一切行わ�
   3. ルビ連結        カタカナ読み+漢字名が区切りなく連結（ヤクモジンジャ八雲神社型）
   4. 住所の残骸      郵便番号が先頭以外の位置にある、TEL/FAX等の混入
   5. 県名整合        addressの先頭県名とprefフィールドの不一致・県名なし
-  6. 座標整合        lat/lngの位置が示す県とaddressの県が食い違う、日本域外
+  6. 座標整合        lat/lngがprefの範囲外・日本域外（addressがあるものだけ判定、
+                     県境誤検出を減らすため矩形に約20kmマージンを付与）
+  6b. 座標判定不能   addressが空で座標の妥当性を検証できないレコード（6とは別集計。
+                     2026-07-05、この種のレコードのnull化→再ジオコーディングに失敗し
+                     座標を恢復不能に失う事故が発生したため新設）
   7. 祭典増殖        festivals内の重複・開始位置ズレによる分裂（静岡型）
   8. 祭典ズレ        日付＋次の祭典名が1フィールドに合体（岡山型）
   9. 形式不備        festivals=null、month範囲外、idフィールド欠落
@@ -164,10 +168,19 @@ def check_pref_wrong(d):
     return []
 
 
+COORD_MARGIN_DEG = 0.2  # 約20km相当。県境付近の正当な座標を誤検出しないための緩衝
+
+
 def check_coord_mismatch(d):
+    """addressが空のレコードは、bboxをはみ出していても実座標を裏付ける手がかりが
+    無く、誤って判定した場合に修正しようがない（2026-07-05に実際、null化→
+    再ジオコーディング失敗で座標を恢復不能に失う事故があった）ため判定対象外とし、
+    check_coord_unknownで別集計する"""
     lat, lng = d.get('lat'), d.get('lng')
     pref = d.get('pref') or ''
     if lat is None or lng is None:
+        return []
+    if not d.get('address'):
         return []
     reasons = []
     jmin_lat, jmax_lat, jmin_lng, jmax_lng = JAPAN_BBOX
@@ -177,9 +190,20 @@ def check_coord_mismatch(d):
     box = PREF_BBOX.get(pref)
     if box:
         min_lat, max_lat, min_lng, max_lng = box
-        if not (min_lat <= lat <= max_lat and min_lng <= lng <= max_lng):
+        if not (min_lat - COORD_MARGIN_DEG <= lat <= max_lat + COORD_MARGIN_DEG
+                and min_lng - COORD_MARGIN_DEG <= lng <= max_lng + COORD_MARGIN_DEG):
             reasons.append(f'{pref}の範囲外の座標 lat={lat},lng={lng}')
     return reasons
+
+
+def check_coord_unknown(d):
+    """addressが無く座標の妥当性を検証できないレコード（6_座標不整合とは別集計）"""
+    lat, lng = d.get('lat'), d.get('lng')
+    if lat is None or lng is None:
+        return []
+    if d.get('address'):
+        return []
+    return ['addressが空のため座標の妥当性を検証不可']
 
 
 def check_festival_dup(d):
@@ -246,6 +270,7 @@ def main():
         ('5a_県名プレフィックスなし_低優先', check_pref_noprefix),
         ('5b_県名不一致_要確認', check_pref_wrong),
         ('6_座標不整合', check_coord_mismatch),
+        ('6b_座標判定不能_住所なし', check_coord_unknown),
         ('7_祭典増殖', check_festival_dup),
         ('8_祭典ズレ', check_festival_misalign),
         ('9_形式不備', check_schema),

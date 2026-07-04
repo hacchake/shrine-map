@@ -47,18 +47,15 @@
   hotokami: 9件
   nagano_jinjacho: 3件
 
-### 6_座標不整合（該当 563件）
-  osm: 349件
-  toyama_jinjacho: 149件
-  hotokami: 43件
-  shizuoka_jinjacho: 5件
-  mie_jinjacho: 4件
-  saga_jinjacho: 4件
-  nagano_jinjacho: 3件
-  nara_jinjacho: 2件
-  iwate_ganshinsei: 2件
+### 6_座標不整合（該当 1件）
+  osm: 1件
+
+### 6b_座標判定不能_住所なし（該当 21826件）
+  osm: 21538件
+  gifu_jinjacho: 278件
+  tokyo_jinjacho: 6件
+  hyogo_jinjacho: 3件
   tottori_jinjacho: 1件
-  tochigi_jinjacho: 1件
 
 ### 7_祭典増殖（該当 57件）
   kanagawa_jinjacho: 37件
@@ -149,12 +146,16 @@
     - address県(山形県) != prefフィールド(秋田県)
 
 ### 6_座標不整合
-  id=tt_855 name='大羽尾神社' pref=鳥取県 source=tottori_jinjacho
-    - 鳥取県の範囲外の座標 lat=35.604046,lng=134.343369
-  id=osm_4401960330 name='山辺神社' pref=大阪府 source=osm
-    - 大阪府の範囲外の座標 lat=34.9836062,lng=135.3925476
-  id=osm_4420298654 name='早尾神社' pref=大阪府 source=osm
-    - 大阪府の範囲外の座標 lat=34.9156423,lng=135.6411315
+  id=osm_6126721516 name='伊多井神社' pref=福島県 source=osm
+    - 福島県の範囲外の座標 lat=37.816883,lng=138.989456
+
+### 6b_座標判定不能_住所なし
+  id=tt_566 name='鶴田神社' pref=鳥取県 source=tottori_jinjacho
+    - addressが空のため座標の妥当性を検証不可
+  id=tokyo_6033 name='根岸神社' pref=東京都 source=tokyo_jinjacho
+    - addressが空のため座標の妥当性を検証不可
+  id=tokyo_5340 name='女塚神社' pref=東京都 source=tokyo_jinjacho
+    - addressが空のため座標の妥当性を検証不可
 
 ### 7_祭典増殖
   id=kanagawa_1201001-000 name='稲毛神社' pref=神奈川県 source=kanagawa_jinjacho
