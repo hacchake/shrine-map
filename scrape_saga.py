@@ -38,10 +38,40 @@ def parse_month_jp(text):
     return None
 
 
+DATE_PATTERN = re.compile(r'[0-9０-９一二三四五六七八九十]+月[　\s]*[0-9０-９]*日?')
+
+
+def parse_festival_block(block):
+    """改行区切りの1ブロック用パーサー。「名前　日付（通称）」のように
+    括弧の中が日付ではなく通称であるケースに対応（熊野神社/武雄市で実例）。
+    括弧マッチ主体のparse_festivals()の正規表現は空白を跨げないため、
+    「例祭　４月２９日（こもい）」だと日付側だけを名前と誤認してしまう。"""
+    block = block.strip()
+    if not block:
+        return None
+    dm = DATE_PATTERN.search(block)
+    if not dm:
+        return {'name': block, 'date_str': ''}
+    name = block[:dm.start()].strip('　 ') or '祭礼'
+    date_str = block[dm.start():].strip()
+    entry = {'name': name, 'date_str': date_str}
+    month = parse_month_jp(date_str)
+    if month:
+        entry['month'] = month
+    return entry
+
+
 def parse_festivals(raw):
     raw = (raw or '').strip()
     if not raw:
         return []
+
+    # 改行(空行)区切りブロック形式（例: 熊野神社/武雄市）
+    if re.search(r'\n\s*\n', raw):
+        blocks = [b for b in re.split(r'\n\s*\n', raw) if b.strip()]
+        entries = [parse_festival_block(b) for b in blocks]
+        return [e for e in entries if e]
+
     results = []
     matched_spans = []
     for m in re.finditer(r'([^　\s（）]{0,10}?)（([^）]+)）', raw):

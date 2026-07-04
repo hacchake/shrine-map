@@ -25,12 +25,33 @@ SHIBU_URLS = [
 ]
 
 def fetch_sjis(url):
+    """サイトはページによって文字コードが混在（一覧=Shift_JIS、詳細=UTF-8等）
+    なので、UTF-8を優先して試し、失敗したらShift_JISにフォールバックする。
+    2026-07-04: 旧実装はshift_jisをerrors='replace'で強制していたため、
+    実際はUTF-8のページを誤デコードして文字化けが発生していた（判明済み）。"""
     try:
         r = requests.get(url, timeout=15)
-        return r.content.decode('shift_jis', errors='replace')
     except Exception as e:
         print(f"  ERROR: {url} -> {e}")
         return ""
+    try:
+        return r.content.decode('utf-8')
+    except UnicodeDecodeError:
+        pass
+    try:
+        return r.content.decode('shift_jis')
+    except UnicodeDecodeError:
+        return r.content.decode('shift_jis', errors='replace')
+
+def parse_month_jp(text):
+    text = (text or '').translate(str.maketrans('０１２３４５６７８９', '0123456789'))
+    m = re.search(r'(\d+)月', text)
+    if m:
+        n = int(m.group(1))
+        if 1 <= n <= 12:
+            return n
+    return None
+
 
 def extract_field(html, fieldname):
     pattern = rf'{re.escape(fieldname)}</TD>\s*<TD[^>]*>([^<]+)</TD>'
@@ -102,6 +123,14 @@ for shibu_url in SHIBU_URLS:
     for s in shrines:
         s['source'] = 'nagano_jinjacho'
         s['pref'] = '長野県'
+        reisai = s.pop('reisai', None)
+        if reisai:
+            entry = {'name': '例祭', 'date_str': reisai}
+            month = parse_month_jp(reisai)
+            if month:
+                entry['month'] = month
+            s['festivals'] = [entry]
+            s['festivals_raw'] = reisai
     print(f"  -> {len(shrines)}件")
     all_shrines.extend(shrines)
 
@@ -109,7 +138,5 @@ print(f"\n合計: {len(all_shrines)}件")
 with open('nagano_raw.json', 'w', encoding='utf-8') as f:
     json.dump(all_shrines, f, ensure_ascii=False, indent=2)
 
-reisai_count = sum(1 for s in all_shrines if s.get('reisai'))
+reisai_count = sum(1 for s in all_shrines if s.get('festivals'))
 print(f"例祭あり: {reisai_count}件 ({reisai_count/len(all_shrines)*100:.1f}%)")
-for s in [s for s in all_shrines if s.get('reisai')][:3]:
-    print(s)
