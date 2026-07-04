@@ -17,8 +17,8 @@
 ### 2_name汚染（該当 86件）
   hotokami: 86件
 
-### 3_ルビ連結（該当 2492件）
-  chiba_jinjacho: 2492件
+### 3_ルビ連結（該当 0件）
+  該当なし
 
 ### 4_住所残骸（該当 29件）
   ibaraki_jinjacho: 27件
@@ -87,12 +87,12 @@
   tochigi_jinjacho: 102件
   ibaraki_jinjacho: 49件
 
-### 10_完全重複（該当 783件）
+### 10_完全重複（該当 785件）
   shiga_jinjacho: 604件
   kumamoto_jinjacho: 115件
   akita_jinjacho: 24件
   toyama_jinjacho: 14件
-  osm: 4件
+  osm: 6件
   shimane_jinjacho: 4件
   ibaraki_jinjacho: 4件
   yamagata_jinjacho: 4件
@@ -122,12 +122,7 @@
     - 「公式」で終端
 
 ### 3_ルビ連結
-  id=chiba_hiroba_0003 name='アイカワジンジャ相川神社' pref=千葉県 source=chiba_jinjacho
-    - name='アイカワジンジャ相川神社' (読み=アイカワジンジャ / 実名=相川神社)
-  id=chiba_hiroba_0004 name='アイハマジンジャ相濱神社' pref=千葉県 source=chiba_jinjacho
-    - name='アイハマジンジャ相濱神社' (読み=アイハマジンジャ / 実名=相濱神社)
-  id=chiba_hiroba_0005 name='アオイネジンジャ蒼稲神社' pref=千葉県 source=chiba_jinjacho
-    - name='アオイネジンジャ蒼稲神社' (読み=アオイネジンジャ / 実名=蒼稲神社)
+  該当なし
 
 ### 4_住所残骸
   id=hotokami_157965 name='シュミイ地蔵' pref=大阪府 source=hotokami
@@ -188,9 +183,9 @@
     - idフィールド欠落
 
 ### 10_完全重複
+  id=osm_4438722103 name='渡海神社' pref=千葉県 source=osm
+    - 2件重複: ('渡海神社', '千葉県銚子市高神西町2番地')
   id=osm_5793091086 name='越中護国八幡宮' pref=富山県 source=osm
     - 2件重複: ('越中護国八幡宮', '富山県富山市八幡')
   id=osm_9199455591 name='神明社' pref=富山県 source=osm
     - 2件重複: ('神明社', '富山県射水市小島')
-  id=jinjajin_伊豆山神社 name='伊豆山神社' pref=静岡県 source=jinjajin
-    - 2件重複: ('伊豆山神社', '静岡県熱海市伊豆山708-1')
