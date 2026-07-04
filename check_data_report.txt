@@ -1,0 +1,196 @@
+# data.json 総合品質チェックレポート
+
+総レコード数: 63562
+
+## 検査項目×source別 件数マトリクス
+
+
+### 1_文字化け（該当 22件）
+  gifu_jinjacho: 12件
+  nagano_jinjacho: 3件
+  yamagata_jinjacho: 2件
+  aomori_jinjacho: 2件
+  kanagawa_jinjacho: 1件
+  ibaraki_jinjacho: 1件
+  shizuoka_jinjacho: 1件
+
+### 2_name汚染（該当 86件）
+  hotokami: 86件
+
+### 3_ルビ連結（該当 2492件）
+  chiba_jinjacho: 2492件
+
+### 4_住所残骸（該当 29件）
+  ibaraki_jinjacho: 27件
+  hotokami: 1件
+  ehime_jinjacho: 1件
+
+### 5a_県名プレフィックスなし_低優先（該当 9947件）
+  hyogo_jinjacho: 3419件
+  nagano_jinjacho: 2087件
+  shiga_jinjacho: 1434件
+  hiroshima_jinjacho: 1040件
+  tottori_jinjacho: 775件
+  kanagawa_jinjacho: 582件
+  tokyo_jinjacho: 223件
+  osm: 102件
+  nara_jinjacho: 102件
+  kyoto_jinjacho: 81件
+  yamaguchi_jinjacho: 41件
+  hotokami: 30件
+  mie_jinjacho: 25件
+  miyagi_jinjacho: 4件
+  tochigi_jinjacho: 2件
+
+### 5b_県名不一致_要確認（該当 73件）
+  osm: 61件
+  hotokami: 9件
+  nagano_jinjacho: 3件
+
+### 6_座標不整合（該当 576件）
+  osm: 350件
+  toyama_jinjacho: 149件
+  hotokami: 43件
+  okayama_jinjacho: 8件
+  saga_jinjacho: 6件
+  shizuoka_jinjacho: 5件
+  gifu_jinjacho: 4件
+  mie_jinjacho: 4件
+  nara_jinjacho: 2件
+  iwate_ganshinsei: 2件
+  tottori_jinjacho: 1件
+  tochigi_jinjacho: 1件
+  ehime_jinjacho: 1件
+
+### 7_祭典増殖（該当 57件）
+  kanagawa_jinjacho: 37件
+  hotokami: 11件
+  gifu_jinjacho: 9件
+
+### 8_祭典ズレ（該当 328件）
+  okayama_jinjacho: 237件
+  ehime_jinjacho: 75件
+  saitama_jinjacho: 9件
+  hotokami: 3件
+  osm: 2件
+  kanagawa_jinjacho: 1件
+  shizuoka_jinjacho: 1件
+
+### 9_形式不備（該当 7447件）
+  shiga_jinjacho: 1434件
+  nara_jinjacho: 1304件
+  shimane_jinjacho: 1123件
+  akita_jinjacho: 1116件
+  hiroshima_jinjacho: 1040件
+  mie_jinjacho: 822件
+  miyagi_jinjacho: 457件
+  tochigi_jinjacho: 102件
+  ibaraki_jinjacho: 49件
+
+### 10_完全重複（該当 783件）
+  shiga_jinjacho: 604件
+  kumamoto_jinjacho: 115件
+  akita_jinjacho: 24件
+  toyama_jinjacho: 14件
+  osm: 4件
+  shimane_jinjacho: 4件
+  ibaraki_jinjacho: 4件
+  yamagata_jinjacho: 4件
+  aomori_jinjacho_list: 4件
+  jinjajin: 2件
+  nara_jinjacho: 2件
+  saitama_jinjacho: 2件
+
+
+## 実例（各項目最大3件）
+
+
+### 1_文字化け
+  id=kanagawa_1205127-000 name='子ﾉ神社' pref=神奈川県 source=kanagawa_jinjacho
+    - name='子ﾉ神社' (半角カナ混入)
+  id=gifu_598 name='天ｹ峯稲荷神社' pref=岐阜県 source=gifu_jinjacho
+    - name='天ｹ峯稲荷神社' (半角カナ混入)
+  id=gifu_709 name='駒ｹ江神社' pref=岐阜県 source=gifu_jinjacho
+    - name='駒ｹ江神社' (半角カナ混入)
+
+### 2_name汚染
+  id=hotokami_91318 name='和泉國一之宮\u3000大鳥大社公式' pref=大阪府 source=hotokami
+    - 「公式」で終端
+  id=hotokami_144388 name='堀越神社公式' pref=大阪府 source=hotokami
+    - 「公式」で終端
+  id=hotokami_144235 name='阿部野神社公式' pref=大阪府 source=hotokami
+    - 「公式」で終端
+
+### 3_ルビ連結
+  id=chiba_hiroba_0003 name='アイカワジンジャ相川神社' pref=千葉県 source=chiba_jinjacho
+    - name='アイカワジンジャ相川神社' (読み=アイカワジンジャ / 実名=相川神社)
+  id=chiba_hiroba_0004 name='アイハマジンジャ相濱神社' pref=千葉県 source=chiba_jinjacho
+    - name='アイハマジンジャ相濱神社' (読み=アイハマジンジャ / 実名=相濱神社)
+  id=chiba_hiroba_0005 name='アオイネジンジャ蒼稲神社' pref=千葉県 source=chiba_jinjacho
+    - name='アオイネジンジャ蒼稲神社' (読み=アオイネジンジャ / 実名=蒼稲神社)
+
+### 4_住所残骸
+  id=hotokami_157965 name='シュミイ地蔵' pref=大阪府 source=hotokami
+    - 郵便番号が先頭以外(pos=4)
+  id=None name='鹿島神社' pref=茨城県 source=ibaraki_jinjacho
+    - 郵便番号が先頭以外(pos=24)
+    - TEL/FAX/連絡先の混入
+  id=None name='大井神社' pref=茨城県 source=ibaraki_jinjacho
+    - 郵便番号が先頭以外(pos=24)
+    - TEL/FAX/連絡先の混入
+
+### 5a_県名プレフィックスなし_低優先
+  id=tt_105 name='長田神社' pref=鳥取県 source=tottori_jinjacho
+    - addressが都道府県名で始まらない: '鳥取市東町1丁目103'
+  id=tt_106 name='栗溪神社〈通称\u3000牛頭天王・天王さん〉' pref=鳥取県 source=tottori_jinjacho
+    - addressが都道府県名で始まらない: '鳥取市栗谷町30'
+  id=tt_107 name='鳥取大神宮' pref=鳥取県 source=tottori_jinjacho
+    - addressが都道府県名で始まらない: '鳥取市西町4丁目414'
+
+### 5b_県名不一致_要確認
+  id=osm_5024075432 name='秋葉神社' pref=秋田県 source=osm
+    - address県(山形県) != prefフィールド(秋田県)
+  id=osm_5026245826 name='七曲山開運稲荷神社' pref=秋田県 source=osm
+    - address県(山形県) != prefフィールド(秋田県)
+  id=osm_5027867430 name='床浦神社' pref=秋田県 source=osm
+    - address県(山形県) != prefフィールド(秋田県)
+
+### 6_座標不整合
+  id=tt_855 name='大羽尾神社' pref=鳥取県 source=tottori_jinjacho
+    - 鳥取県の範囲外の座標 lat=35.60230352988329,lng=134.34421781840268
+  id=osm_4401960330 name='山辺神社' pref=大阪府 source=osm
+    - 大阪府の範囲外の座標 lat=34.9836062,lng=135.3925476
+  id=osm_4420298654 name='早尾神社' pref=大阪府 source=osm
+    - 大阪府の範囲外の座標 lat=34.9156423,lng=135.6411315
+
+### 7_祭典増殖
+  id=kanagawa_1201001-000 name='稲毛神社' pref=神奈川県 source=kanagawa_jinjacho
+    - 部分文字列重複(分裂疑い): '８月２日稲毛神社例祭（いなげじんじゃれいさい）【山王祭（さんのうまつり）】' <-> '８月２日稲毛神社例祭（いなげじんじゃれいさい）【山王祭（さんのうまつり）】【宮座式（みやざしき）】'
+  id=kanagawa_1201002-000 name='八幡神社' pref=神奈川県 source=kanagawa_jinjacho
+    - 部分文字列重複(分裂疑い): '８月第１日曜日大島八幡神社例祭（おおしまはちまんじんじゃれいさい）' <-> '８月第１日曜日大島八幡神社例祭（おおしまはちまんじんじゃれいさい）【神幸祭（しんこうさい）】'
+  id=kanagawa_1201003-000 name='新田神社' pref=神奈川県 source=kanagawa_jinjacho
+    - 部分文字列重複(分裂疑い): '８月第１日曜日新田神社例祭（にったじんじゃれいさい）' <-> '８月第１日曜日新田神社例祭（にったじんじゃれいさい）【神幸祭（しんこうさい）】'
+
+### 8_祭典ズレ
+  id=osm_1134500300 name='橿原神宮' pref=奈良県 source=osm
+    - nameに日付らしき文字列混入: '例祭：紀元祭'
+  id=osm_3696384259 name='久我山稲荷神社' pref=東京都 source=osm
+    - nameに日付らしき文字列混入: '第1週日曜日'
+  id=kanagawa_1206058-000 name='倉見神社' pref=神奈川県 source=kanagawa_jinjacho
+    - nameに日付らしき文字列混入: '毎月第１日曜日月次祭（つきなみさい）'
+
+### 9_形式不備
+  id=None name='沼名前神社' pref=広島県 source=hiroshima_jinjacho
+    - idフィールド欠落
+  id=None name='備後護國神社' pref=広島県 source=hiroshima_jinjacho
+    - idフィールド欠落
+  id=None name='福山八幡宮' pref=広島県 source=hiroshima_jinjacho
+    - idフィールド欠落
+
+### 10_完全重複
+  id=osm_5793091086 name='越中護国八幡宮' pref=富山県 source=osm
+    - 2件重複: ('越中護国八幡宮', '富山県富山市八幡')
+  id=osm_9199455591 name='神明社' pref=富山県 source=osm
+    - 2件重複: ('神明社', '富山県射水市小島')
+  id=jinjajin_伊豆山神社 name='伊豆山神社' pref=静岡県 source=jinjajin
+    - 2件重複: ('伊豆山神社', '静岡県熱海市伊豆山708-1')
