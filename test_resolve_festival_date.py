@@ -62,6 +62,10 @@ CASES = [
 # 追加検証: date_strが不明でもmonthフィールドがあれば月単位フォールバック
 EXTRA_CASE = (f('よくわからない表記', month=5), [(D(2026, 5, 1), D(2026, 5, 31))])
 
+# 追加検証（2026-07回帰）: 「．」区切りの期間表記が解決できず月全体に
+# フォールバックしてしまっていたバグ（実データ okayama_jinjacho「八幡宮」で発覚）
+EXTRA_CASE2 = (f('３月１７.１８日'), [(D(2026, 3, 17), D(2026, 3, 18))])
+
 
 def run():
     failures = 0
@@ -87,7 +91,14 @@ def run():
         print(f'  expected: {EXTRA_CASE[1]!r}')
         print(f'  got:      {got_extra!r}')
 
-    total = len(CASES) + 1
+    got_extra2 = resolve_festival_date(EXTRA_CASE2[0], YEAR)
+    if got_extra2 != EXTRA_CASE2[1]:
+        failures += 1
+        print('FAIL EXTRA2 (．区切り期間)')
+        print(f'  expected: {EXTRA_CASE2[1]!r}')
+        print(f'  got:      {got_extra2!r}')
+
+    total = len(CASES) + 2
     print(f'{total - failures}/{total} passed')
     return failures == 0
 

@@ -110,7 +110,13 @@ def _nth_weekday(year, month, nth, weekday):
 
 NTH_TOKEN_RE = re.compile(r'第?(\d+|最終)')
 WEEKDAY_TOKEN_RE = re.compile(r'(土|日|月|火|水|木|金)(?:曜日?)?')
-RANGE_RE = re.compile(r'(\d+)日?[〜～\-](\d+)日')
+# 区切り文字はparse_festivals.pyのMONTHDAY部品と同じ集合に揃える（「、．.／/・-」）。
+# 揃えていないと、parse_festivals.py側では正しく分離できている期間表記が
+# resolve_festival_date.py側では解決できず「月しか分からない」扱いに落ちて
+# しまい、月内のどの日を指定しても緩くヒットする誤検出が起きる
+# （2026-07実例: 「３月１７.１８日」が「．」区切りで解決できず3月全体に
+# フォールバックし、範囲指定3/6〜3/10が誤ってヒットした）
+RANGE_RE = re.compile(r'(\d+)日?[〜～、．.／/・\-](\d+)日')
 FIXED_DAY_RE = re.compile(r'^(\d+)日')
 AMBIGUOUS_RE = re.compile(r'(上旬|中旬|下旬)')
 

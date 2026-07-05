@@ -111,6 +111,11 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
       <option value="9">9月</option><option value="10">10月</option>
       <option value="11">11月</option><option value="12">12月</option>
     </select>
+    <span class="lbl" style="margin-left:6px">期間指定:</span>
+    <input type="date" id="date-start" style="font-size:12px;padding:4px 6px;border:1px solid var(--border);border-radius:8px;background:var(--paper);color:var(--ink)">
+    <span class="lbl">〜</span>
+    <input type="date" id="date-end" style="font-size:12px;padding:4px 6px;border:1px solid var(--border);border-radius:8px;background:var(--paper);color:var(--ink)">
+    <button class="tb-btn" id="btn-date-clear" style="padding:4px 10px;font-size:11px">✕ クリア</button>
     <label style="font-size:11px;color:var(--muted);margin-left:6px;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" id="chk-future" checked> 開催済み除外
     </label>
@@ -232,7 +237,7 @@ function resolveNthWeekdayGroup(rest,year,month){
 function resolveInMonth(rest,year,month){
   const g=resolveNthWeekdayGroup(rest,year,month);
   if(g)return g;
-  let m=rest.match(/^(\d+)日?[〜～\-](\d+)日/);
+  let m=rest.match(/^(\d+)日?[〜～、．.／/・\-](\d+)日/);
   if(m){
     try{return[{start:new Date(year,month-1,parseInt(m[1])),end:new Date(year,month-1,parseInt(m[2]))}];}catch(e){return null;}
   }
@@ -314,6 +319,33 @@ function festivalMatchesMonth(f,month){
   return check(todayY)||check(todayY+1);
 }
 
+// 祭典fの開催日が[startDate,endDate]（両端含む）と1日でも重なるか
+// （日付範囲=旅程指定フィルタ用）。festival_matches_range()のJS移植
+function festivalMatchesRange(f,startDate,endDate){
+  const years=new Set([startDate.getFullYear(),endDate.getFullYear()]);
+  for(const y of years){
+    const occ=resolveFestivalOccurrences(f.date_str,f.month,y);
+    for(const o of occ){
+      if(o.start<=endDate&&o.end>=startDate)return true;
+    }
+  }
+  return false;
+}
+
+// 日付範囲フィルタが有効なとき、祭典fが実際にその範囲内で開催される
+// 具体的な日付(の中で最初に見つかったもの)を返す。バッジ・日数計算を
+// 「今日から見た次回」ではなく「指定範囲での開催日」基準にするために使う
+function findRangeOccurrence(f,rangeStart,rangeEnd){
+  const years=new Set([rangeStart.getFullYear(),rangeEnd.getFullYear()]);
+  for(const y of years){
+    const occ=resolveFestivalOccurrences(f.date_str,f.month,y);
+    for(const o of occ){
+      if(o.start<=rangeEnd&&o.end>=rangeStart)return o;
+    }
+  }
+  return null;
+}
+
 // 開発用セルフテスト（test_resolve_festival_date.pyと同一の20+1ケース）。
 // コンソールで動作確認するためのもので、UIには表示しない
 window.resolveFestivalOccurrences=resolveFestivalOccurrences;
@@ -354,6 +386,35 @@ function _runDateEngineSelfTest(){
   console.log(`[日付エンジン自己テスト] ${pass}/${cases.length+1} 件成功`);
 }
 _runDateEngineSelfTest();
+
+// 日付範囲重なり判定の自己テスト（test_festival_matches_range.pyと同一の15ケース）
+function _runRangeMatchSelfTest(){
+  const cases=[
+    ['9月15日',null,[2026,9,14],[2026,9,16],true],
+    ['9月15日',null,[2026,9,20],[2026,9,22],false],
+    ['9月14日',null,[2026,9,14],[2026,9,16],true],
+    ['9月16日',null,[2026,9,14],[2026,9,16],true],
+    ['9月14日〜16日',null,[2026,9,16],[2026,9,18],true],
+    ['9月14日〜16日',null,[2026,9,20],[2026,9,22],false],
+    ['9月1日〜30日',null,[2026,9,14],[2026,9,16],true],
+    ['10月第2日曜日',null,[2026,10,10],[2026,10,12],true],
+    ['10月第2日曜日',null,[2026,10,1],[2026,10,5],false],
+    ['毎月第1日曜日',null,[2026,10,1],[2026,10,6],true],
+    ['毎月第1日曜日',null,[2026,10,7],[2026,10,10],false],
+    ['7月下旬',null,[2026,7,25],[2026,7,28],true],
+    ['4月上旬',null,[2026,4,15],[2026,4,20],false],
+    ['旧6月1日',null,[2026,6,10],[2026,6,12],true],
+    ['1月1日',null,[2026,12,30],[2027,1,2],true],
+  ];
+  let pass=0;
+  cases.forEach(([ds,mh,s,e,expected],i)=>{
+    const got=festivalMatchesRange({date_str:ds,month:mh},new Date(s[0],s[1]-1,s[2]),new Date(e[0],e[1]-1,e[2]));
+    if(got===expected)pass++;
+    else console.warn(`[範囲判定自己テスト] TC${i+1} FAIL: ${ds}`,'got=',got,'expected=',expected);
+  });
+  console.log(`[範囲判定自己テスト] ${pass}/${cases.length} 件成功`);
+}
+_runRangeMatchSelfTest();
 
 // 日付文字列→Dateオブジェクト（毎年繰り返し・来年も考慮）
 function parseFestDate(dateStr){
@@ -456,11 +517,22 @@ function setOrigin(lat,lng,label){
   if(dataLoaded) search();
 }
 
+function getDateRangeFilter(){
+  const sv=document.getElementById("date-start").value;
+  const ev=document.getElementById("date-end").value;
+  if(!sv||!ev)return null;
+  let s=new Date(sv+"T00:00:00"),e=new Date(ev+"T00:00:00");
+  if(e<s){const t=s;s=e;e=t;}
+  return{start:s,end:e};
+}
+
 function search(){
   if(originLat===null)return;
   markers.forEach(m=>map.removeLayer(m));markers=[];
   const range=parseInt(document.getElementById("sel-range").value);
   const month=parseInt(document.getElementById("sel-month").value);
+  const dateRange=getDateRangeFilter();
+  const filterActive=!!dateRange||month!==0;
   const pref=document.getElementById("sel-pref").value;
   const excludePast=document.getElementById("chk-future").checked;
 
@@ -475,18 +547,22 @@ function search(){
     // 開催が近い順に並べ替え（カード/ポップアップ/モーダルの代表表示・先頭件が
     // 常に「今日から最も近い祭典」になるようにする。単なる掲載順にしない）。
     // 日付が具体的に解析できない（月のみ）祭典もその月の1日扱いで同じ土俵で
-    // 比較し、末尾に隔離しない。月フィルタ指定時は、そのフィルタに合致する
-    // 祭典を必ず先頭に出す（合致しない祭典が「代表」として表示・日数計算
-    // されてしまうバグの修正）
+    // 比較し、末尾に隔離しない。月/日付範囲フィルタ指定時は、そのフィルタに
+    // 合致する祭典を必ず先頭に出す（合致しない祭典が「代表」として表示・
+    // 日数計算されてしまうバグの修正）。日付範囲が優先、無ければ月フィルタ。
+    // 日付範囲指定時は日数バッジも「今日から見た次回」ではなく「指定範囲内の
+    // 実際の開催日」基準で計算する（範囲の年を無視して today 基準の次回を
+    // 計算してしまうバグの修正）
     fests=fests.map(f=>{
-      const d=estimateFestDate(f);
+      const d=dateRange?findRangeOccurrence(f,dateRange.start,dateRange.end)?.start??null:estimateFestDate(f);
       const today=new Date(todayY,todayM-1,todayD);
-      const days=d?Math.round((d-today)/86400000):null;
+      let days=d?Math.round((d-today)/86400000):null;
+      if(days!==null&&days<0)days=null; // 過去日は月ベース表示にフォールバック
       const months=d?Math.max(0,(d.getFullYear()-todayY)*12+(d.getMonth()-(todayM-1))):999;
-      const matchesFilter=month===0?true:festivalMatchesMonth(f,month);
+      const matchesFilter=dateRange?festivalMatchesRange(f,dateRange.start,dateRange.end):(month===0?true:festivalMatchesMonth(f,month));
       return{...f,_days:days,_months:months,_matchesFilter:matchesFilter};
     }).sort((a,b)=>{
-      if(month!==0&&a._matchesFilter!==b._matchesFilter)return a._matchesFilter?-1:1;
+      if(filterActive&&a._matchesFilter!==b._matchesFilter)return a._matchesFilter?-1:1;
       if(a._days!==null&&b._days!==null)return a._days-b._days;
       if(a._days!==null)return -1;
       if(b._days!==null)return 1;
@@ -499,9 +575,10 @@ function search(){
   }).filter(s=>{
     if(s.km>range)return false;
     if(pref!=="all"&&s.pref!==pref)return false;
-    if(month===0)return true;
-    // 月フィルタの判定はfests側で計算済みの_matchesFilter（日付解決エンジン
-    // ベース）を使う。「その月に開催される祭典を1つ以上持つ神社」だけに絞る
+    if(!filterActive)return true;
+    // 月/日付範囲フィルタの判定はfests側で計算済みの_matchesFilter
+    // （日付解決エンジンベース）を使う。「条件に合致する祭典を1つ以上持つ
+    // 神社」だけに絞る
     return s.fests.some(f=>f._matchesFilter);
   });
 
@@ -644,9 +721,36 @@ document.querySelectorAll(".sort-btn").forEach(btn=>{
   });
 });
 document.getElementById("sel-range").addEventListener("change",search);
-document.getElementById("sel-month").addEventListener("change",search);
 document.getElementById("sel-pref").addEventListener("change",search);
 document.getElementById("chk-future").addEventListener("change",search);
+
+// 月フィルタと日付範囲フィルタは「月ざっくり」「日付ピンポイント」で
+// 用途が異なるため両方残すが、同時指定はUIが煩雑になるため排他にする
+// （片方を指定したらもう片方は自動でクリア）
+document.getElementById("sel-month").addEventListener("change",function(){
+  if(this.value!=="0"){
+    document.getElementById("date-start").value="";
+    document.getElementById("date-end").value="";
+  }
+  search();
+});
+document.getElementById("date-start").addEventListener("change",function(){
+  const endEl=document.getElementById("date-end");
+  if(this.value&&!endEl.value)endEl.value=this.value; // 単日選択の利便性
+  if(this.value)document.getElementById("sel-month").value="0";
+  search();
+});
+document.getElementById("date-end").addEventListener("change",function(){
+  const startEl=document.getElementById("date-start");
+  if(this.value&&!startEl.value)startEl.value=this.value;
+  if(this.value)document.getElementById("sel-month").value="0";
+  search();
+});
+document.getElementById("btn-date-clear").addEventListener("click",function(){
+  document.getElementById("date-start").value="";
+  document.getElementById("date-end").value="";
+  search();
+});
 </script>
 </body>
 </html>
