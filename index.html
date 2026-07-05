@@ -306,6 +306,14 @@ function resolveFestivalOccurrences(dateStrRaw,monthHint,year){
   return monthHint?[monthRange(year,monthHint)]:[];
 }
 
+// 祭典fが指定月(1-12)に開催されるか（月フィルタ用）。「取りこぼしより出しすぎ」
+// 方針のため、今年・来年のどちらかで該当すればヒットとする
+function festivalMatchesMonth(f,month){
+  if(!month)return true;
+  const check=year=>resolveFestivalOccurrences(f.date_str,f.month,year).some(o=>o.start.getMonth()+1===month||o.end.getMonth()+1===month);
+  return check(todayY)||check(todayY+1);
+}
+
 // 開発用セルフテスト（test_resolve_festival_date.pyと同一の20+1ケース）。
 // コンソールで動作確認するためのもので、UIには表示しない
 window.resolveFestivalOccurrences=resolveFestivalOccurrences;
@@ -467,14 +475,18 @@ function search(){
     // 開催が近い順に並べ替え（カード/ポップアップ/モーダルの代表表示・先頭件が
     // 常に「今日から最も近い祭典」になるようにする。単なる掲載順にしない）。
     // 日付が具体的に解析できない（月のみ）祭典もその月の1日扱いで同じ土俵で
-    // 比較し、末尾に隔離しない
+    // 比較し、末尾に隔離しない。月フィルタ指定時は、そのフィルタに合致する
+    // 祭典を必ず先頭に出す（合致しない祭典が「代表」として表示・日数計算
+    // されてしまうバグの修正）
     fests=fests.map(f=>{
       const d=estimateFestDate(f);
       const today=new Date(todayY,todayM-1,todayD);
       const days=d?Math.round((d-today)/86400000):null;
       const months=d?Math.max(0,(d.getFullYear()-todayY)*12+(d.getMonth()-(todayM-1))):999;
-      return{...f,_days:days,_months:months};
+      const matchesFilter=month===0?true:festivalMatchesMonth(f,month);
+      return{...f,_days:days,_months:months,_matchesFilter:matchesFilter};
     }).sort((a,b)=>{
+      if(month!==0&&a._matchesFilter!==b._matchesFilter)return a._matchesFilter?-1:1;
       if(a._days!==null&&b._days!==null)return a._days-b._days;
       if(a._days!==null)return -1;
       if(b._days!==null)return 1;
@@ -488,11 +500,9 @@ function search(){
     if(s.km>range)return false;
     if(pref!=="all"&&s.pref!==pref)return false;
     if(month===0)return true;
-    return(s.festivals||[]).some(f=>{
-      if(f.month===month)return true;
-      if(f.date_str){const mm=normalizeDateStr(f.date_str).match(/(\d+)月/);if(mm&&parseInt(mm[1])===month)return true;}
-      return false;
-    });
+    // 月フィルタの判定はfests側で計算済みの_matchesFilter（日付解決エンジン
+    // ベース）を使う。「その月に開催される祭典を1つ以上持つ神社」だけに絞る
+    return s.fests.some(f=>f._matchesFilter);
   });
 
   if(sortMode==="distance"){
