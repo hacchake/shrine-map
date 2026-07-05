@@ -261,3 +261,23 @@ def parse_lines(raw):
         else:
             results.append({'date_str': '', 'name': line})
     return _dedup_entries(results)
+
+
+def reparse_record(d, parser):
+    """dict dの'festivals'を'festivals_raw'から再パースして上書きする。
+
+    festivals_rawが空文字の場合は何もせず既存のfestivalsをそのまま残す
+    （何もパースせず返り値Falseで通知）。scrape_shizuoka.py等、生テキストを
+    保持せず<h6>タグ単位で直接festivalsを構築するスクレイパーの出力に対して
+    誤って再パースを適用すると、festivals_rawが常に空文字のため全件の
+    festivalsが空リストで上書きされ消失する（2026-07-05に発生しかけた事故）。
+    一括再パース処理は必ずこの関数を経由し、d['festivals'] = parser(...)を
+    直接書かないこと。
+
+    戻り値: 実際に再パースして上書きしたらTrue、festivals_rawが空でスキップ
+    したらFalse"""
+    raw = (d.get('festivals_raw') or '').strip()
+    if not raw:
+        return False
+    d['festivals'] = parser(raw)
+    return True

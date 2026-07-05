@@ -207,6 +207,10 @@ def check_coord_unknown(d):
 
 
 def check_festival_dup(d):
+    """festivals_rawが空のレコードは対象外（下記check_festival_misalignの
+    ガードと同じ理由。2026-07-05のshizuoka_jinjacho事故を踏まえて追加）"""
+    if not (d.get('festivals_raw') or '').strip():
+        return []
     fests = d.get('festivals') or []
     if len(fests) < 2:
         return []
@@ -230,6 +234,14 @@ MISALIGN_PATTERN = re.compile(r'[0-9０-９]+月|：|曜日')
 
 
 def check_festival_misalign(d):
+    """festivals_rawが空のレコードは対象外とする。scrape_shizuoka.py等、
+    生テキストを保持せず<h6>タグ単位で直接festivals配列を構築するスクレイパーの
+    出力では、この項目で検出しても festivals_raw から再パースして直す
+    通常のワークフローが使えず（再パースするとfestivals_rawが常に空のため
+    全件のfestivalsが[]で消失する。2026-07-05に発生しかけた事故）、
+    個別の手動修正が必要になるため、この検査の対象からも外す"""
+    if not (d.get('festivals_raw') or '').strip():
+        return []
     fests = d.get('festivals') or []
     reasons = []
     for f in fests:
