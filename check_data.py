@@ -221,10 +221,17 @@ def check_festival_dup(d):
         if key in seen:
             reasons.append(f'完全重複エントリ: {key}')
         seen.append(key)
-    combined = [(f.get('name') or '') + (f.get('date_str') or '') for f in fests]
+    # name（祭典名）が完全一致する場合は「同じ祭典の日付違い」（例:
+    # 本来の日付と「近い日曜日」に振り替えた実施日を別々に掲載）という正当な
+    # ケースが大半（2026-07-05、kanagawa_jinjachoで確認）なので、
+    # nameが同一の組み合わせは分裂疑いの対象から除外する
+    combined = [((f.get('name') or '').strip(), (f.get('name') or '') + (f.get('date_str') or '')) for f in fests]
     for i in range(len(combined)):
         for j in range(i + 1, len(combined)):
-            a, b = combined[i], combined[j]
+            name_a, a = combined[i]
+            name_b, b = combined[j]
+            if name_a == name_b:
+                continue
             if len(a) >= 6 and len(b) >= 6 and a != b and (a in b or b in a):
                 reasons.append(f'部分文字列重複(分裂疑い): {a!r} <-> {b!r}')
     return reasons

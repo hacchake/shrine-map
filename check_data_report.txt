@@ -47,8 +47,8 @@
   hyogo_jinjacho: 3件
   tottori_jinjacho: 1件
 
-### 7_祭典増殖（該当 2件）
-  kanagawa_jinjacho: 2件
+### 7_祭典増殖（該当 0件）
+  該当なし
 
 ### 8_祭典ズレ（該当 53件）
   okayama_jinjacho: 35件
@@ -118,10 +118,7 @@
     - addressが空のため座標の妥当性を検証不可
 
 ### 7_祭典増殖
-  id=kanagawa_1201041-000 name='小杉神社' pref=神奈川県 source=kanagawa_jinjacho
-    - 部分文字列重複(分裂疑い): '七五三（しちごさん） /１１月１５日' <-> '七五三（しちごさん） /１１月１５日近い日曜日'
-  id=kanagawa_1201043-000 name='関神社' pref=神奈川県 source=kanagawa_jinjacho
-    - 部分文字列重複(分裂疑い): '七五三（しちごさん） /１１月１５日' <-> '七五三（しちごさん） /１１月１５日近い日曜日'
+  該当なし
 
 ### 8_祭典ズレ
   id=osm_1134500300 name='橿原神宮' pref=奈良県 source=osm
