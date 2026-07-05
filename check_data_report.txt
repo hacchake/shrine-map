@@ -55,16 +55,8 @@
   ehime_jinjacho: 17件
   osm: 1件
 
-### 9_形式不備（該当 7114件）
-  nara_jinjacho: 1303件
-  shimane_jinjacho: 1121件
-  shiga_jinjacho: 1116件
-  akita_jinjacho: 1104件
-  hiroshima_jinjacho: 1040件
-  mie_jinjacho: 822件
-  miyagi_jinjacho: 457件
-  tochigi_jinjacho: 102件
-  ibaraki_jinjacho: 49件
+### 9_形式不備（該当 0件）
+  該当なし
 
 ### 10_完全重複（該当 119件）
   kumamoto_jinjacho: 115件
@@ -120,12 +112,7 @@
     - nameに日付らしき文字列混入: '（現在は第２日曜日）\u3000須賀神社例祭'
 
 ### 9_形式不備
-  id=None name='沼名前神社' pref=広島県 source=hiroshima_jinjacho
-    - idフィールド欠落
-  id=None name='備後護國神社' pref=広島県 source=hiroshima_jinjacho
-    - idフィールド欠落
-  id=None name='福山八幡宮' pref=広島県 source=hiroshima_jinjacho
-    - idフィールド欠落
+  該当なし
 
 ### 10_完全重複
   id=yamagata_05092 name='白山神社（ハクサンジンジャ）' pref=山形県 source=yamagata_jinjacho
