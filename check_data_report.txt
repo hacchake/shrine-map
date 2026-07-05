@@ -50,13 +50,10 @@
 ### 7_祭典増殖（該当 2件）
   kanagawa_jinjacho: 2件
 
-### 8_祭典ズレ（該当 67件）
+### 8_祭典ズレ（該当 53件）
   okayama_jinjacho: 35件
   ehime_jinjacho: 17件
-  saitama_jinjacho: 9件
-  hotokami: 3件
-  osm: 2件
-  shizuoka_jinjacho: 1件
+  osm: 1件
 
 ### 9_形式不備（該当 7447件）
   shiga_jinjacho: 1434件
@@ -129,10 +126,10 @@
 ### 8_祭典ズレ
   id=osm_1134500300 name='橿原神宮' pref=奈良県 source=osm
     - nameに日付らしき文字列混入: '例祭：紀元祭'
-  id=osm_3696384259 name='久我山稲荷神社' pref=東京都 source=osm
-    - nameに日付らしき文字列混入: '第1週日曜日'
-  id=hotokami_公智神社 name='公智神社' pref=兵庫県 source=hotokami
-    - nameに日付らしき文字列混入: '日曜日'
+  id=ehime_jinjacho_八幡神社_00011 name='八幡神社' pref=愛媛県 source=ehime_jinjacho
+    - nameに日付らしき文字列混入: 'に最も近い日曜日\u3000弓祈祷'
+  id=ehime_jinjacho_須賀神社_00314 name='須賀神社' pref=愛媛県 source=ehime_jinjacho
+    - nameに日付らしき文字列混入: '（現在は第２日曜日）\u3000須賀神社例祭'
 
 ### 9_形式不備
   id=None name='沼名前神社' pref=広島県 source=hiroshima_jinjacho
