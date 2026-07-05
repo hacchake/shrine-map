@@ -38,7 +38,7 @@ COMPONENT_PATTERNS = [
     re.compile(
         r'[0-9０-９一二三四五六七八九十]+月[\s　]*'
         r'(?:[0-9０-９一二三四五六七八九十]+日?)?'
-        r'(?:[、．.／/・]?[0-9０-９一二三四五六七八九十]+日)*'
+        r'(?:[、．.／/・\-]?[0-9０-９一二三四五六七八九十]+日)*'
         r'(?:[〜～][0-9０-９一二三四五六七八九十]+日?)?'
         r'(?:[\s　]*[0-9０-９]{1,2}[:：][0-9０-９]{2})?'
     ),
@@ -69,12 +69,15 @@ CONNECTOR_PATTERNS = [
 ]
 
 MODIFIER_PATTERNS = [
-    re.compile(r'に近い(?:土|日|金|月|火|水|木)曜日'),
+    # 「に近い」の「に」は省略されることがある（例:「１７日近い土曜日」）
+    re.compile(r'(?:に)?近い(?:土|日|金|月|火|水|木)曜日'),
     re.compile(r'前後の(?:土|日)曜日'),
     re.compile(r'前後'),
     re.compile(r'と前日'),
     re.compile(r'と翌日'),
     re.compile(r'の前々日から[0-9０-９]+日間'),
+    re.compile(r'の前の(?:土|日|月|火|水|木|金)曜日'),
+    re.compile(r'後の(?:土|日|月|火|水|木|金)曜日'),
     re.compile(r'の前日'),
     re.compile(r'前日'),
     re.compile(r'翌日'),
@@ -185,6 +188,21 @@ def _make_entry(date_str, name):
     return entry
 
 
+def _dedup_entries(entries):
+    """(name, date_str)が完全一致するエントリを除去する（先勝ち）。
+    情報源側のテキスト自体が丸ごと重複しているケースがある
+    （kanagawa_jinjachoで確認済み）ため、パース後の後処理として一括対応する"""
+    seen = set()
+    out = []
+    for e in entries:
+        key = (e.get('name', ''), e.get('date_str', ''))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(e)
+    return out
+
+
 def parse_concat(raw):
     """okayama_jinjacho型: 区切り文字なしで「日付：名前」が連結された1文字列。
     日付表現の出現位置をアンカーにブロック分割する"""
@@ -210,7 +228,7 @@ def parse_concat(raw):
         name_end = starts[i + 1][0] if i + 1 < len(starts) else len(raw)
         name = raw[e:name_end]
         results.append(_make_entry(date_str, name))
-    return results
+    return _dedup_entries(results)
 
 
 def parse_lines(raw):
@@ -242,4 +260,4 @@ def parse_lines(raw):
             results.append(_make_entry(line[s:e], name))
         else:
             results.append({'date_str': '', 'name': line})
-    return results
+    return _dedup_entries(results)
