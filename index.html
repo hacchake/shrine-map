@@ -194,6 +194,159 @@ function resolveNthWeekday(year,month,nth,wd){
   }
 }
 
+// ===== 日付範囲解決エンジン（resolve_festival_date.py の移植） =====
+// festivals[].date_str（自然言語表記）が指定した年に「いつ・何回」開催されるかを
+// [{start:Date, end:Date}, ...] で返す。祭りは毎年同じ時期に繰り返される前提
+// （年をまたぐ絶対日付は扱わない）。旧暦・干支基準日（初午等）は変換せず
+// 月単位のフォールバックに留める。パースできない場合はfestival.monthがあれば
+// それで月単位フォールバックし、それも無ければ空配列（判定不能）を返す
+const HOLIDAY_FIXED={'元日':[1,1],'建国記念の日':[2,11],'昭和の日':[4,29],'山の日':[8,11],'文化の日':[11,3],'勤労感謝の日':[11,23]};
+const HOLIDAY_NTH_MONDAY={'成人の日':[1,2],'海の日':[7,3],'敬老の日':[9,3],'体育の日':[10,2],'スポーツの日':[10,2]};
+function equinoxDay(year,kind){
+  const base=kind==='spring'?20.8431:23.2488;
+  return Math.floor(base+0.242194*(year-1980)-Math.floor((year-1980)/4));
+}
+function monthRange(year,month){
+  const last=new Date(year,month,0).getDate();
+  return{start:new Date(year,month-1,1),end:new Date(year,month-1,last)};
+}
+function resolveNthWeekdayGroup(rest,year,month){
+  if(!/^(第|最終|土|日|月|火|水|木|金)/.test(rest))return null;
+  const prefix=rest.slice(0,20);
+  const nths=[...prefix.matchAll(/第?(\d+|最終)/g)].map(m=>m[1]==='最終'?'last':parseInt(m[1]));
+  const weekdays=[...prefix.matchAll(/(土|日|月|火|水|木|金)(?:曜日?)?/g)].map(m=>m[1]);
+  if(!nths.length||!weekdays.length)return null;
+  let pairs;
+  if(nths.length===1)pairs=weekdays.map(wd=>[nths[0],wd]);
+  else if(weekdays.length===1)pairs=nths.map(n=>[n,weekdays[0]]);
+  else if(nths.length===weekdays.length)pairs=nths.map((n,i)=>[n,weekdays[i]]);
+  else pairs=nths.flatMap(n=>weekdays.map(wd=>[n,wd]));
+  const seen=new Set(),results=[];
+  for(const[nth,wd]of pairs){
+    const d=resolveNthWeekday(year,month,nth,wd);
+    const key=d?d.getTime():null;
+    if(d&&!seen.has(key)){seen.add(key);results.push({start:d,end:d});}
+  }
+  return results.length?results:null;
+}
+function resolveInMonth(rest,year,month){
+  const g=resolveNthWeekdayGroup(rest,year,month);
+  if(g)return g;
+  let m=rest.match(/^(\d+)日?[〜～\-](\d+)日/);
+  if(m){
+    try{return[{start:new Date(year,month-1,parseInt(m[1])),end:new Date(year,month-1,parseInt(m[2]))}];}catch(e){return null;}
+  }
+  m=rest.match(/^(\d+)日/);
+  if(m){const d=new Date(year,month-1,parseInt(m[1]));return[{start:d,end:d}];}
+  m=rest.match(/^(上旬|中旬|下旬)/);
+  if(m){
+    const last=new Date(year,month,0).getDate();
+    const ranges={'上旬':[1,10],'中旬':[11,20],'下旬':[21,last]};
+    const[s,e]=ranges[m[1]];
+    return[{start:new Date(year,month-1,s),end:new Date(year,month-1,Math.min(e,last))}];
+  }
+  return null;
+}
+function resolveHoliday(text,year){
+  for(const name in HOLIDAY_FIXED){
+    if(text.includes(name)){const[mo,da]=HOLIDAY_FIXED[name];const d=new Date(year,mo-1,da);return[{start:d,end:d}];}
+  }
+  for(const name in HOLIDAY_NTH_MONDAY){
+    if(text.includes(name)){const[mo,nth]=HOLIDAY_NTH_MONDAY[name];const d=resolveNthWeekday(year,mo,nth,'月');if(d)return[{start:d,end:d}];}
+  }
+  if(text.includes('春分の日')){const d=new Date(year,2,equinoxDay(year,'spring'));return[{start:d,end:d}];}
+  if(text.includes('秋分の日')){const d=new Date(year,8,equinoxDay(year,'autumn'));return[{start:d,end:d}];}
+  return null;
+}
+function resolveFestivalOccurrences(dateStrRaw,monthHint,year){
+  const dateStr=(dateStrRaw||'').trim();
+  if(!dateStr)return monthHint?[monthRange(year,monthHint)]:[];
+  const text=normalizeDateStr(dateStr);
+
+  if(/旧暦|旧/.test(text)){
+    let m=text.match(/(\d+)月/)||text.match(/(\d{1,2})\/(\d{1,2})/);
+    if(m)return[monthRange(year,parseInt(m[1]))];
+    return monthHint?[monthRange(year,monthHint)]:[];
+  }
+
+  if(text.startsWith('毎月')){
+    const rest=text.slice(2);
+    let occ=[];
+    for(let m=1;m<=12;m++){const r=resolveInMonth(rest,year,m);if(r)occ=occ.concat(r);}
+    if(occ.length)return occ;
+    return monthHint?[monthRange(year,monthHint)]:[];
+  }
+
+  const holidayResult=resolveHoliday(text,year);
+  if(holidayResult)return holidayResult;
+
+  const mm=text.match(/(\d+)月/);
+  if(mm){
+    const month=parseInt(mm[1]);
+    if(month>=1&&month<=12){
+      const rest=text.slice(mm.index+mm[0].length);
+      const result=resolveInMonth(rest,year,month);
+      if(result)return result;
+      return[monthRange(year,month)];
+    }
+  }
+
+  const slashMatches=[...text.matchAll(/(\d{1,2})\/(\d{1,2})/g)];
+  if(slashMatches.length){
+    const results=[];
+    for(const sm of slashMatches){
+      const month=parseInt(sm[1]),day=parseInt(sm[2]);
+      if(month>=1&&month<=12){
+        try{const d=new Date(year,month-1,day);if(d.getMonth()===month-1)results.push({start:d,end:d});}catch(e){}
+      }
+    }
+    if(results.length)return results;
+  }
+
+  return monthHint?[monthRange(year,monthHint)]:[];
+}
+
+// 開発用セルフテスト（test_resolve_festival_date.pyと同一の20+1ケース）。
+// コンソールで動作確認するためのもので、UIには表示しない
+window.resolveFestivalOccurrences=resolveFestivalOccurrences;
+function _runDateEngineSelfTest(){
+  const Y=2026;
+  const fmt=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const eq=(a,b)=>a.length===b.length&&a.every((x,i)=>fmt(x.start)===b[i][0]&&fmt(x.end)===b[i][1]);
+  const cases=[
+    ['9月15日',null,[['2026-09-15','2026-09-15']]],
+    ['３月１８日',null,[['2026-03-18','2026-03-18']]],
+    ['10月第2日曜日',null,[['2026-10-11','2026-10-11']]],
+    ['11月最終日曜',null,[['2026-11-29','2026-11-29']]],
+    ['10月第4日曜日',null,[['2026-10-25','2026-10-25']]],
+    ['8月第1土曜・日曜',null,[['2026-08-01','2026-08-01'],['2026-08-02','2026-08-02']]],
+    ['７月１１～１４日',null,[['2026-07-11','2026-07-14']]],
+    ['1月1-3日',null,[['2026-01-01','2026-01-03']]],
+    ['10月14〜15日',null,[['2026-10-14','2026-10-15']]],
+    ['旧6月1日',null,[['2026-06-01','2026-06-30']]],
+    ['旧暦9月10日',null,[['2026-09-01','2026-09-30']]],
+    ['7月下旬',null,[['2026-07-21','2026-07-31']]],
+    ['4月上旬',null,[['2026-04-01','2026-04-10']]],
+    ['２月中旬',null,[['2026-02-11','2026-02-20']]],
+    ['10月体育の日',null,[['2026-10-12','2026-10-12']]],
+    ['1月成人の日',null,[['2026-01-12','2026-01-12']]],
+    ['7月海の日',null,[['2026-07-20','2026-07-20']]],
+    ['2月初午',null,[['2026-02-01','2026-02-28']]],
+    ['の土曜日',null,[]],
+    ['よくわからない表記',5,[['2026-05-01','2026-05-31']]],
+  ];
+  let pass=0;
+  cases.forEach(([ds,mh,expected],i)=>{
+    const got=resolveFestivalOccurrences(ds,mh,Y);
+    if(eq(got,expected))pass++;
+    else console.warn(`[日付エンジン自己テスト] TC${i+1} FAIL: ${ds}`,'got=',got.map(o=>[fmt(o.start),fmt(o.end)]),'expected=',expected);
+  });
+  const got10=resolveFestivalOccurrences('毎月第1、第3日曜日',null,Y);
+  if(got10.length===24)pass++;else console.warn('[日付エンジン自己テスト] 毎月 FAIL: count=',got10.length);
+  console.log(`[日付エンジン自己テスト] ${pass}/${cases.length+1} 件成功`);
+}
+_runDateEngineSelfTest();
+
 // 日付文字列→Dateオブジェクト（毎年繰り返し・来年も考慮）
 function parseFestDate(dateStr){
   if(!dateStr)return null;
