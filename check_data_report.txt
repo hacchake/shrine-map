@@ -1,6 +1,6 @@
 # data.json 総合品質チェックレポート
 
-総レコード数: 63562
+総レコード数: 63561
 
 ## 検査項目×source別 件数マトリクス
 
@@ -69,12 +69,12 @@
   tochigi_jinjacho: 102件
   ibaraki_jinjacho: 49件
 
-### 10_完全重複（該当 781件）
+### 10_完全重複（該当 779件）
   shiga_jinjacho: 604件
   kumamoto_jinjacho: 115件
   akita_jinjacho: 24件
   toyama_jinjacho: 14件
-  osm: 6件
+  osm: 4件
   shimane_jinjacho: 4件
   yamagata_jinjacho: 4件
   aomori_jinjacho_list: 4件
@@ -143,9 +143,9 @@
     - idフィールド欠落
 
 ### 10_完全重複
-  id=osm_4438722103 name='渡海神社' pref=千葉県 source=osm
-    - 2件重複: ('渡海神社', '千葉県銚子市高神西町2番地')
   id=osm_5793091086 name='越中護国八幡宮' pref=富山県 source=osm
     - 2件重複: ('越中護国八幡宮', '富山県富山市八幡')
   id=osm_9199455591 name='神明社' pref=富山県 source=osm
     - 2件重複: ('神明社', '富山県射水市小島')
+  id=jinjajin_伊豆山神社 name='伊豆山神社' pref=静岡県 source=jinjajin
+    - 2件重複: ('伊豆山神社', '静岡県熱海市伊豆山708-1')
