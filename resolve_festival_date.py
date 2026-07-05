@@ -283,3 +283,15 @@ def resolve_festival_date(festival, year):
     if month_hint:
         return [_month_range(year, month_hint)]
     return []
+
+
+def festival_matches_range(festival, start_date, end_date):
+    """festivalの開催日が[start_date, end_date]（両端含む）と1日でも重なるか。
+    祭りは毎年繰り返される前提のため、start_date/end_dateそれぞれの年で
+    resolve_festival_dateを解決して重なりを調べる（年をまたぐ範囲指定
+    (例: 12/30〜1/2)にも対応するため両方の年を見る）"""
+    for y in {start_date.year, end_date.year}:
+        for occ_start, occ_end in resolve_festival_date(festival, y):
+            if occ_start <= end_date and occ_end >= start_date:
+                return True
+    return False
