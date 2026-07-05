@@ -34,13 +34,11 @@
   miyagi_jinjacho: 4件
   tochigi_jinjacho: 2件
 
-### 5b_県名不一致_要確認（該当 73件）
-  osm: 61件
-  hotokami: 9件
-  nagano_jinjacho: 3件
+### 5b_県名不一致_要確認（該当 0件）
+  該当なし
 
-### 6_座標不整合（該当 1件）
-  osm: 1件
+### 6_座標不整合（該当 0件）
+  該当なし
 
 ### 6b_座標判定不能_住所なし（該当 21826件）
   osm: 21538件
@@ -109,16 +107,10 @@
     - addressが都道府県名で始まらない: '鳥取市西町4丁目414'
 
 ### 5b_県名不一致_要確認
-  id=osm_5024075432 name='秋葉神社' pref=秋田県 source=osm
-    - address県(山形県) != prefフィールド(秋田県)
-  id=osm_5026245826 name='七曲山開運稲荷神社' pref=秋田県 source=osm
-    - address県(山形県) != prefフィールド(秋田県)
-  id=osm_5027867430 name='床浦神社' pref=秋田県 source=osm
-    - address県(山形県) != prefフィールド(秋田県)
+  該当なし
 
 ### 6_座標不整合
-  id=osm_6126721516 name='伊多井神社' pref=福島県 source=osm
-    - 福島県の範囲外の座標 lat=37.816883,lng=138.989456
+  該当なし
 
 ### 6b_座標判定不能_住所なし
   id=tt_566 name='鶴田神社' pref=鳥取県 source=tottori_jinjacho
