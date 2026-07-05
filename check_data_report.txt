@@ -62,9 +62,9 @@
   hotokami: 11件
   gifu_jinjacho: 9件
 
-### 8_祭典ズレ（該当 328件）
-  okayama_jinjacho: 237件
-  ehime_jinjacho: 75件
+### 8_祭典ズレ（該当 68件）
+  okayama_jinjacho: 35件
+  ehime_jinjacho: 17件
   saitama_jinjacho: 9件
   hotokami: 3件
   osm: 2件

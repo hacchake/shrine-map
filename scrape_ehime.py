@@ -18,9 +18,11 @@ festivalsのname/date_strに同一文字列（日付＋祭事名の生テキス�
     神社鎮座地 / 神社駐車場(スキップ)
   ※ページ内に複数<table>があり、データ本体は行数が最大のtable
 - 神社主な祭礼は複数件が<br>区切り（get_text('\n')で改行として取得）、
-  各行は「日付　祭事名」の順（例:「７月１７日　十七夜祭」）。
+  各行は基本「日付　祭事名」の順（例:「７月１７日　十七夜祭」）だが、
+  まれに「祭事名　日付」の逆順の行もある（parse_festivals.parse_linesが両対応）。
   旧バグはこの複数行テキストを分割せずname/date_str両方にそのまま
-  コピーしていたと推定される
+  コピーしていたと推定される。「旧暦」「体育の日」等の日付表現の対応は
+  2026-07-05にparse_festivals.pyへ切り出し・拡張（NOTES_20260705参照）
 - 座標はGoogleMaps埋め込みiframeの `ll=lat,lng` パラメータから直接取得
   （ジオコーディング不要）
 """
@@ -30,47 +32,11 @@ import json
 import time
 import urllib.parse
 from bs4 import BeautifulSoup
+from parse_festivals import parse_lines as parse_festivals
 
 BASE = 'http://ehime-jinjacho.jp/jinja'
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; shrine-map-bot; personal research; contact hacchake@gmail.com)'}
 SLEEP = 1.0
-
-FULLWIDTH_DIGITS = str.maketrans('０１２３４５６７８９', '0123456789')
-DATE_PATTERN = re.compile(r'^[0-9０-９一二三四五六七八九十]+月[　\s]*[0-9０-９第一二三四五六七八九十]*[日曜]?[^　]*')
-
-
-def parse_month_jp(text):
-    text = (text or '').translate(FULLWIDTH_DIGITS)
-    m = re.search(r'(\d+)月', text)
-    if m:
-        n = int(m.group(1))
-        if 1 <= n <= 12:
-            return n
-    return None
-
-
-def parse_festivals(raw):
-    """「日付\\u3000祭事名」形式の行が<br>(改行)区切りで並ぶ"""
-    raw = (raw or '').strip()
-    if not raw:
-        return []
-    results = []
-    for line in raw.split('\n'):
-        line = line.strip()
-        if not line:
-            continue
-        dm = DATE_PATTERN.match(line)
-        if not dm:
-            results.append({'name': line, 'date_str': ''})
-            continue
-        date_str = dm.group(0).strip()
-        name = line[dm.end():].strip('　 ') or '祭礼'
-        entry = {'name': name, 'date_str': date_str}
-        month = parse_month_jp(date_str)
-        if month:
-            entry['month'] = month
-        results.append(entry)
-    return results
 
 
 def get_all_ids():

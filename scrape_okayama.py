@@ -20,8 +20,10 @@ https://www.okayama-jinjacho.or.jp/search/
     URL(→official_url) / e-mail(スキップ) / 特記事項 / 交通アクセス(スキップ) /
     氏子地域(スキップ)
 - 主な祭典は「日付：名前」を**区切り文字なしで連結**した1文字列（複数祭典の
-  場合、前の名前の直後に次の日付が続く）。日付パターン+「：」の出現位置を
-  アンカーにブロック分割して名前/日付を正しく分離する
+  場合、前の名前の直後に次の日付が続く）。日付パターンの出現位置をアンカーに
+  ブロック分割して名前/日付を正しく分離する（parse_festivals.parse_concat）。
+  「前後」「に近い日曜日」「体育の日」等の修飾語・祝日名・複数日表記の対応は
+  2026-07-05にparse_festivals.pyへ切り出し・拡張（NOTES_20260705参照）
 - 座標はページ内埋め込みJS `new google.maps.LatLng(lat,lng)` から取得
   （ジオコーディング不要）
 """
@@ -31,51 +33,11 @@ import json
 import time
 import urllib.parse
 from bs4 import BeautifulSoup
+from parse_festivals import parse_concat as parse_festivals
 
 BASE = 'https://www.okayama-jinjacho.or.jp'
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; shrine-map-bot; personal research; contact hacchake@gmail.com)'}
 SLEEP = 1.0
-
-FULLWIDTH_DIGITS = str.maketrans('０１２３４５６７８９', '0123456789')
-# 日付の「本体」だけを狭くマッチさせる（月・日・第・曜日・干支的な区切り記号のみを
-# 続けて許容し、祭事名の漢字に達したら即座に止まる）。区切り文字は：、　など
-# 統一されていない（実サイトで複数パターン確認）ため、区切り文字の種類に依存せず
-# 「次の日付パターンの開始位置」をブロック境界として使う
-DATE_ANCHOR = re.compile(r'[0-9０-９一二三四五六七八九十]+月[0-9０-９第一二三四五六七八九十日曜月火水木金土・]*')
-
-
-def parse_month_jp(text):
-    text = (text or '').translate(FULLWIDTH_DIGITS)
-    m = re.search(r'(\d+)月', text)
-    if m:
-        n = int(m.group(1))
-        if 1 <= n <= 12:
-            return n
-    return None
-
-
-def parse_festivals(raw):
-    """「日付：名前」等を区切りなしで連結した生テキストをブロック分割する。
-    日付パターンの出現位置そのものをアンカーにし、マッチ終端〜次のアンカー
-    開始までを名前として抽出する（区切り文字が：/、/　/無しのいずれでも
-    対応できる）。"""
-    raw = (raw or '').strip()
-    if not raw:
-        return []
-    matches = list(DATE_ANCHOR.finditer(raw))
-    if not matches:
-        return [{'name': raw, 'date_str': ''}]
-    results = []
-    for i, m in enumerate(matches):
-        date_str = m.group().strip()
-        name_end = matches[i + 1].start() if i + 1 < len(matches) else len(raw)
-        name = raw[m.end():name_end].strip('　、：　 ') or '祭礼'
-        entry = {'name': name, 'date_str': date_str}
-        month = parse_month_jp(date_str)
-        if month:
-            entry['month'] = month
-        results.append(entry)
-    return results
 
 
 def get_all_ids():
