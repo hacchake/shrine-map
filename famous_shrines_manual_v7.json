@@ -1,0 +1,66 @@
+[
+ {"name": "櫛田神社", "pref": "福岡県", "address": "福岡県福岡市博多区上川端町1-41", "deity": "大幡主命 天照大神 須佐之男命", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月1日〜15日(追い山笠は15日未明)", "name": "博多祇園山笠"}],
+  "festivals_raw": "博多祇園山笠: 毎年7月1日〜15日。1日の当番町お汐井取りに始まり、9〜11日の朝山・追い山ならし、12日の追い山笠ならし、13日の集団山見せを経て、15日未明の追い山笠でクライマックスを迎える。最終日未明には関係者が参列して櫛田神社祇園例大祭も執り行われる。博多の総鎮守で、770年余りの歴史を持つ国重要無形民俗文化財・ユネスコ無形文化遺産",
+  "notes": "博多の総鎮守。境内の「霊泉鶴の井戸」や大楠でも知られる",
+  "official_url": "", "source_url": "https://www.hakata-yamakasa.net/knowledge/history/kushida-jinja/", "source": "famous_manual"},
+
+ {"name": "筥崎宮", "pref": "福岡県", "address": "福岡県福岡市東区箱崎1-22-1", "deity": "応神天皇 神功皇后 玉依姫命", "lat": null, "lng": null,
+  "festivals": [{"month": 9, "date_str": "9月12日〜18日(放生会大祭・例祭は15日)", "name": "放生会(ほうじょうや)"}],
+  "festivals_raw": "放生会(ほうじょうや): 毎年9月12日〜18日の7日7夜。仲秋大祭で、放生会大祭(例祭)は9月15日10時。「万物の生命をいつくしみ、殺生を戒め、秋の実りに感謝する」祭りで、期間中は約500の露店が立ち並ぶ博多三大祭の一つ。日本三大八幡宮の一つ",
+  "notes": "日本三大八幡宮(宇佐・石清水・筥崎)の一つ。博多三大祭の一つ",
+  "official_url": "https://hakozakigu.or.jp", "source_url": "https://hakozakigu.or.jp/omatsuri/hojoya/", "source": "famous_manual"},
+
+ {"name": "太宰府天満宮", "pref": "福岡県", "address": "福岡県太宰府市宰府4-7-1", "deity": "菅原道真公", "lat": null, "lng": null,
+  "festivals": [{"month": 9, "date_str": "9月21日〜25日(例祭は25日)", "name": "神幸式大祭"}],
+  "festivals_raw": "神幸式大祭: 毎年9月21日〜25日。天満宮で最も大切な秋の大祭で、1101年に大宰権帥・大江匡房が始めて以来900年以上続く。神幸式大祭始祭・お下りの儀・お上りの儀・古式献饌祭を経て25日11時に例祭、千灯明で境内が幻想的な光に包まれる",
+  "notes": "菅原道真公を祀る天満宮の総本宮。学問の神様として全国から参拝者が訪れる",
+  "official_url": "https://www.dazaifutenmangu.or.jp", "source_url": "https://www.dazaifutenmangu.or.jp/omatsuri", "source": "famous_manual"},
+
+ {"name": "宗像大社", "pref": "福岡県", "address": "福岡県宗像市田島2331", "deity": "田心姫神 湍津姫神 市杵島姫神", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月1日〜3日", "name": "秋季大祭(みあれ祭)"}],
+  "festivals_raw": "秋季大祭(みあれ祭): 毎年10月1日〜3日。宗像大社で最も重要な祭りで、1日の「みあれ祭」では沖津宮・中津宮の神霊を数百隻の漁船に守られ海上を渡り本土の辺津宮へ迎える神事に始まり、3日の伝統ある「高宮神奈備祭」で締めくくる",
+  "notes": "沖津宮(沖ノ島)・中津宮(大島)・辺津宮(田島)の三宮からなる。「神宿る島」宗像・沖ノ島と関連遺産群としてユネスコ世界遺産",
+  "official_url": "https://munakata-taisha.or.jp", "source_url": "https://munakata-taisha.or.jp/hetsu_saiji.html", "source": "famous_manual"},
+
+ {"name": "宮地嶽神社", "pref": "福岡県", "address": "福岡県福津市宮司元町7-1", "deity": "息長足比売命(神功皇后) 勝村大神 勝頼大神", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月28日", "name": "例大祭"}, {"month": 9, "date_str": "9月21日〜23日", "name": "秋季大祭"}],
+  "festivals_raw": "例大祭: 毎年7月28日。秋季大祭: 毎年9月21日〜23日。日本一の注連縄・大鈴・大太鼓でも知られ、参道と夕陽が一直線に重なる「光の道」でも著名",
+  "notes": "「光の道」で知られる。日本一の大注連縄・大鈴・大太鼓を有する",
+  "official_url": "https://www.miyajidake.or.jp", "source_url": "https://www.miyajidake.or.jp/", "source": "famous_manual"},
+
+ {"name": "白山神社", "pref": "新潟県", "address": "新潟県新潟市中央区一番堀通町1番地1", "deity": "菊理媛神(白山比咩大神) 伊弉諾尊 伊弉冉尊", "lat": null, "lng": null,
+  "festivals": [{"month": 8, "date_str": "8月上旬の金土日", "name": "住吉祭(新潟まつり)"}, {"month": 4, "date_str": "4月12日〜18日", "name": "春まつり"}],
+  "festivals_raw": "住吉祭(新潟まつり): 毎年8月上旬の金土日。住吉祭・川開き・商工祭・開港記念日の4つの祭が一つになった新潟まつりの中核で、延享5年(1748)境内に住吉神社が建立されて以来の伝統ある住吉行列が続く。春まつり: 4月12日〜18日(百八灯献燈祭)、夏まつり: 7月12日〜18日",
+  "notes": "彌彦神社・新潟縣護國神社と並ぶ「新潟総鎮守」。縁結びの神様としても知られる",
+  "official_url": "https://www.niigatahakusanjinja.or.jp", "source_url": "https://www.niigatahakusanjinja.or.jp/niigata-matsuri/", "source": "famous_manual"},
+
+ {"name": "度津神社", "pref": "新潟県", "address": "新潟県佐渡市羽茂飯岡550番地4", "deity": "五十猛命 大屋津姫命 抓津姫命", "lat": null, "lng": null,
+  "festivals": [{"month": 4, "date_str": "4月23日", "name": "例祭"}],
+  "festivals_raw": "例祭: 毎年4月23日。ほか歳旦祭(1/1)、全島交通安全祈願祭(4/21)、全島海上安全・大漁満足祈願祭(4/24)、新嘗祭(11/23)。式内社・佐渡国一宮で、927年の延喜式神名帳にも記載される格式高い神社",
+  "notes": "佐渡国一宮。植林・造船・航海の神として崇敬される", "official_url": "", "source_url": "https://ichinomiya.gr.jp/053.html", "source": "famous_manual"},
+
+ {"name": "居多神社", "pref": "新潟県", "address": "新潟県上越市五智6丁目1番11号", "deity": "大国主命 奴奈川姫 建御名方命 事代主命", "lat": null, "lng": null,
+  "festivals": [{"month": 5, "date_str": "5月3日", "name": "例祭"}, {"month": 8, "date_str": "8月19日〜20日", "name": "居多神社講社大祭"}],
+  "festivals_raw": "例祭: 毎年5月3日。居多神社講社大祭: 8月19日・20日に神輿渡幸、奉納子供相撲・柔道・剣道大会が行われる。越後国一宮で、親鸞聖人が越後配流の折に参拝し「片葉の芦」の伝説を残したことでも知られる",
+  "notes": "越後国一宮。縁結び・子宝の神社としても親しまれる",
+  "official_url": "", "source_url": "https://joetsukankonavi.jp/spot/detail.php?id=166", "source": "famous_manual"},
+
+ {"name": "飯坂八幡宮", "pref": "福島県", "address": "福島県福島市飯坂町字八幡1", "deity": "誉田別命 息長足姫命 玉依姫命", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月第1土曜日を中心とした3日間", "name": "例大祭(飯坂けんか祭り)"}],
+  "festivals_raw": "例大祭(飯坂けんか祭り): 10月第1土曜日を中心とした3日間。かつては合戦の勝利祈願の武人の祭りだったが、現在は五穀豊穣への感謝と氏子崇敬者の繁栄を祈願する秋祭りとして300年以上の伝統が続く。日本三大けんか祭りの一つとされる。天喜4年(1056)、後三年合戦の際に源義家が八幡大神を勧請したのが起源と伝わる",
+  "notes": "日本三大けんか祭りの一つとされる「飯坂けんか祭り」で著名。飯坂温泉の総鎮守",
+  "official_url": "", "source_url": "https://www.gurutto-fukushima.com/travel/kenka/index.html", "source": "famous_manual"},
+
+ {"name": "相馬中村神社", "pref": "福島県", "address": "福島県相馬市中村字北町140", "deity": "天之御中主神(妙見様)", "lat": null, "lng": null,
+  "festivals": [{"month": 7, "date_str": "7月最終の土・日・月曜日", "name": "相馬野馬追"}, {"month": 4, "date_str": "4月18日〜19日", "name": "例祭"}],
+  "festivals_raw": "相馬野馬追: 7月最終の土・日・月曜日。国指定重要無形民俗文化財で、甲冑姿の騎馬武者が出陣する日本最大級の馬の祭典。出陣式が当社で行われる。例祭: 4月18日・19日の桜花満開の時期に斎行。旧中村藩の総鎮守で「相馬のミョウケンサマ」として親しまれる",
+  "notes": "相馬野馬追の出陣の地。旧中村藩総鎮守",
+  "official_url": "https://soumanakamurajinja.com", "source_url": "https://soumanakamurajinja.com/about/", "source": "famous_manual"},
+
+ {"name": "開成山大神宮", "pref": "福島県", "address": "福島県郡山市開成3-1-38", "deity": "天照大御神 豊受大神 神倭伊波禮彦命(神武天皇)", "lat": null, "lng": null,
+  "festivals": [{"month": 10, "date_str": "10月17日(前日祭16日、渡御祭19〜20日)", "name": "秋季例大祭"}, {"month": 4, "date_str": "4月22日", "name": "春季例大祭"}],
+  "festivals_raw": "秋季例大祭: 10月17日10時、前日祭16日、渡御祭19日・20日。春季例大祭: 4月22日。明治9年(1876)伊勢神宮の分霊を奉祀して創建され「東北のお伊勢さま」と呼ばれる。安積開拓の歴史とともに歩んだ神社で日本遺産の構成文化財",
+  "notes": "「東北のお伊勢さま」。日本遺産「未来を拓いた『一本の水路』」の構成文化財",
+  "official_url": "https://www.kaiseizan.jp", "source_url": "https://www.kaiseizan.jp/sp/topics-list/archive/?id=183", "source": "famous_manual"}
+]
