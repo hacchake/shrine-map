@@ -94,6 +94,7 @@ select{font-size:12px;padding:5px 8px;border:1px solid var(--border);border-radi
     <select id="sel-pref">
       <option value="all">都道府県: すべて</option>
     </select>
+    <input type="text" id="search-box" placeholder="🔍 神社名・住所で検索" style="font-size:12px;padding:5px 10px;border:1px solid var(--border);border-radius:20px;background:var(--paper);color:var(--ink);min-width:140px;flex:1 1 140px">
     <span id="status-bar">—</span>
   </div>
   <div id="toolbar2">
@@ -179,6 +180,17 @@ function normalizeDateStr(s){
     return n!==null?String(n):m;
   });
   return s;
+}
+
+// 検索ボックス用: 全角→半角、カタカナ→ひらがな正規化（表記ゆれ吸収）
+function toHalfWidth(s){
+  return s.replace(/[！-～]/g,c=>String.fromCharCode(c.charCodeAt(0)-0xFEE0)).replace(/　/g," ");
+}
+function toHiragana(s){
+  return s.replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
+}
+function normalizeSearchText(s){
+  return toHiragana(toHalfWidth(s||"")).toLowerCase();
 }
 
 // 第N曜日を実際の日付に変換
@@ -485,6 +497,7 @@ function resolvedDateStr(fest){
 let dataLoaded=false;
 fetch("data.json?v=" + Date.now()).then(r=>r.json()).then(data=>{
   SHRINES=data;
+  SHRINES.forEach(s=>{s._search=normalizeSearchText((s.name||"")+" "+(s.address||""));});
   document.getElementById("total-sub").textContent=data.length.toLocaleString()+"社収録";
   document.getElementById("loading").classList.add("hide");
   // 都道府県セレクトを動的生成
@@ -535,6 +548,7 @@ function search(){
   const filterActive=!!dateRange||month!==0;
   const pref=document.getElementById("sel-pref").value;
   const excludePast=document.getElementById("chk-future").checked;
+  const query=normalizeSearchText(document.getElementById("search-box").value.trim());
 
   let results=SHRINES.filter(s=>s.lat&&s.lng).map(s=>{
     const km=dist(originLat,originLng,s.lat,s.lng);
@@ -575,6 +589,7 @@ function search(){
   }).filter(s=>{
     if(s.km>range)return false;
     if(pref!=="all"&&s.pref!==pref)return false;
+    if(query&&!s._search.includes(query))return false;
     if(!filterActive)return true;
     // 月/日付範囲フィルタの判定はfests側で計算済みの_matchesFilter
     // （日付解決エンジンベース）を使う。「条件に合致する祭典を1つ以上持つ
@@ -723,6 +738,7 @@ document.querySelectorAll(".sort-btn").forEach(btn=>{
 document.getElementById("sel-range").addEventListener("change",search);
 document.getElementById("sel-pref").addEventListener("change",search);
 document.getElementById("chk-future").addEventListener("change",search);
+document.getElementById("search-box").addEventListener("input",search);
 
 // 月フィルタと日付範囲フィルタは「月ざっくり」「日付ピンポイント」で
 // 用途が異なるため両方残すが、同時指定はUIが煩雑になるため排他にする
